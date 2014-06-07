@@ -1,0 +1,124 @@
+
+On December 27th, 2013, I placed a pair of Raspberry Pi's with camera boards in a cottage in Ontario overlooking Georgian Bay.  About four months later, I picked the cameras up and found that they had performed wonderfully, capturing over 40,000 photos at two minute increments.  Though I had been planning the shoot for a few months, I hadn't really expected it to work: When we dropped off the cameras, the windows were quite frosted over, so I expected we would mainly see the back of an icy window.  But in fact, the windows stayed clear the entire winter, and we caught ice forming and dissolving on the lake, deer passing like ghosts, magnificent storms, and amazing sunrises.
+
+You can see the timelapse video at http://inventingsituations.net/winter-on-georgian-bay
+
+In this article, I'll give code snippets that you can use for making your own timelapse using Python and command line tools.  In particular, we'll see the `raspistill` program, Python Image Library (PIL), and `mencoder` for making the actual movie.
+
+My original code is on Github:
+
+https://github.com/sdenton4/pipic
+
+## Taking photos with `raspistill`
+
+The easiest way to use the Pi's camera board is via the `raspistill` command.  It has a timelapse option, which many people use to good effect.  For an extremely long timelapse, though, I needed finer control over the images than the automatic settings would provide.  As a result, I wrote a Python script to take photos at intervals, doing some math along the way to make sure that the images were of consistent quality.
+
+The two options that control the brightness of an image are shutter speed and ISO.  Shutter speed controls how long the camera collects light to create the image: A longer shutter speed will make for brighter images, but will be more likely to have motion blur if there's movement in the frame.  On the Pi, the shutter speed tops out at about 2.5 seconds; longer speeds will cause the camera to 'hang' and not take pictures until a reboot.  To be safe, I set my maximum shutter speed to two seconds.  Shutter speeds in Raspistill are measured in microseconds, so a shutter speed of 1000000 makes one second.
+
+ISO, on the other hand, controls the sensitivity of the sensor, on a range of 100 (low sensitivity) to 800 (high sensitivity).  When the ISO is high, we get brighter images, but they will also tend to be much more noisy.
+
+You can use raspistill to take a photo with a set shutter speed and ISO.  To do so, you should also avoid using any of the 'automatic' settings in raspistill.
+
+$ raspistill -n -t 10 -ss 1000000 -ISO 100 -o mypic.jpg
+
+Within Python, you can use raspistill by making a subprocess call.  Here's an example of how you might run `raspistill` from a Python script:
+
+    import subprocess
+
+    ss=1000000
+    iso=100
+    command='raspistill -n -t 10 '
+    command+='-ss '+str(ss)
+    command+=' -ISO '+str(iso)+' -o mypic.jpg'
+    subprocess.call(command , shell=True)
+
+My goal was to keep images at about the same brightness over the course of the day, so we wouldn't get pictures that were too dark or too bright.  To do this, I measured the brightness of each image, and then adjusted the shutter speed and ISO over time.  Since I wasn't worried about fast movements and wanted to keep the image quality high, I tried to keep the ISO at 100 as much as possible.
+
+The Python Imaging Library (PIL) is great for manipulating images in Python.  The following code snippet opens an image, and then uses its histogram to compute the average brightness of the image.  For a greyscale image, we have 256 possible pixel values: the histogram counts how many pixels there are for each value.  By adding up all of the pixel brightnesses and dividing by the number of pixels, we get an average brightness for the whole image.
+
+    import Image
+    im=Image.open('mypic.jpg')
+    pixels=(im.size[0]*im.size[1])
+    hist=im.convert('L').histogram()
+    br=float(sum([i*hist[i] for i in range(256)]))/pixels
+    print br
+
+For my timelapse, I wanted most of the images to have a brightness of about 128.  To get there, we take a picture, and find its brightness.  If the brightness is too high, we should lower the SS or ISO, and if it's too low, we should increase the SS or ISO.  Let's say I want to change the shutter speed.  I tend to change it by an amount proportional to how far off the brightness of the last image was, like so:
+
+    delta=128-br
+    ss=ss*(1 + delta/128)
+
+Notice that if `br==128`, the SS stays the same.  Otherwise, we get an adjustment that will make the image brighter or darker.  In practice, this moves pretty quickly to the right value for the shutter speed.
+
+To reduce flicker, I actually measure the 'current' brightness as an average over the last ten or twenty images.  This keeps the shutter speed from moving too quickly, so that the images seem more consistent.
+
+Because I didn't want to have photos of the night (maybe next time, if I pick up a Noir), I told the Pi not to store any images if the brightness was too far away from 128.
+
+Once my script is written and working well, I set up Cron to run it automatically when the Pi boots up.  Adding the following line to `/etc/crontab` makes my `timelapse.py` script run as soon as the Pi boots up.
+
+    @reboot    pi    python /home/pi/timelaspe.py
+
+## Making the movie File
+
+After running a long timelapse, you want to assemble the photos into a movie.  You can do this very easily with `mencoder`.  The following one-liner takes all of the jpg's in the current directory and assembles them into a movie:
+
+    $ mencoder "mf://*.jpg" -mf fps=18:type=jpg -ovc lavc -lavcopts vcodec=mpeg4:mbd=2:trell:vbitrate=3000 -vf scale=512:384 -oac copy -o movie.avi
+
+You can use this one-liner to add sound to your movie:
+
+    $ mencoder -ovc copy -audiofile MYMUSIC.mp3 -oac copy movie.avi -o movieWithMusic.avi
+
+## Post-processing
+
+I thought my initial movie looked a bit too grey.  To create more contrast, I used PIL's image manipulation capabilities.  First, let's take a look at the histograms of some images.
+
+Here's how to plot the (greyscale) histogram of a single image using matplotlib in Python:
+
+    from matplotlib import pyplot as plt
+    im=Image.open('mypic.jpg')
+    hist=im.convert('L').histogram()
+    plt.plot(hist)
+    plt.savefig('myhist.png')
+
+We can also use matplotlib to plot the histograms of many images at once.  Suppose `image_list` is a list of filenames with our timelapse images.  In the resulting image, each horizontal line of pixels is one image in the timelapse.  The brightness of a pixel tells us how many pixels in the original image have a given intensity.
+
+    import numpy as np
+    M=[]
+    for x in image_list: M.append(Image.open(x).convert('L').histogram())
+    plt.close()
+    plt.pcolormesh(np.array(M))
+    plt.savefig('mymanyhist.png')
+
+Our image is somewhat grey: there isn't very much contrast, because most of the pixel values are clustered in the middle of the histogram.  We have no completely black pixels, and only a few completely white pixels.  So we'll now take the histogram and stretch it out to fill the whole range from 0 to 256.  First we find bounds `a` and `b` so that 97% of the pixels are brighter than `a` and 97% are darker than `b`.
+
+    pixels=im.size[0]*im.size[1]
+    a=0
+    count=0
+    while count<0.03*pixels:
+        count+=hist[a]
+        a+=1
+    b=255
+    count=0
+    while count<0.05*pixels:
+        count+=hist[b]
+        b-=1
+
+Now we use `a` and `b` to stretch the historgram.  `Image.eval` applies a function to every pixel in the image:
+
+    im3=Image.eval(im2, lambda x: (x-a)*255/(b-a))
+
+If you haven't seen it before, the `lambda` is an easy way to make a simple function.  For example, the following snippet of code will print the number 12.
+
+    f=lambda x: x*3
+    print f(4)
+
+Here are the histograms for the original image (green) and the 'levelled' image plotted together:
+
+``doublehist.png``
+
+We can see that the histogram for the levelled image is quite spread out.  It's also very jagged, because the stretching removes many possible pixel values.  Fortunately, you usually can't really tell from the final image that the stretching has happened.
+
+In practice, I tend to choose my bounds `a` and `b` based on a rolling average from nearby pictures, so that we don't end up with really dramatic changes.
+
+
+
