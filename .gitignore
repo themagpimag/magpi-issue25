@@ -29,3 +29,6 @@ Thumbs.db
 ## C/C++/Fortran etc..
 *.o
 *.exe
+
+# Special for this Issue only
+BletchleyPark_IMG_9775_large.jpg
