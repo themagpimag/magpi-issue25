@@ -1,1 +1,59 @@
-Needs to be updated.  The Scribus file currently contains events from Issue 24
+Events i25 July
+
+--
+ Raspberry Jam Silicon Valley
+http://trivalleycoderdojo.wordpress.com/2014/04/17/raspberry-jam-silicon-valley/
+http://www.eventbrite.com/e/8469381147
+Computer History Museum, 1401 N. Shoreline Blvd., Mountain View, CA  94043
+July 19th 1.30pm to 4.30pm (PDT)
+Open to all and free to attend whether you are new or experienced with the Raspberry Pi.
+
+
+--
+http://www.eventbrite.co.uk/e/12001716457
+Raspberry Pi and DIY Gamer Bootcamp
+University of South Wales
+Treforest Campus
+Pontypridd
+
+CF37 1DL 
+United Kingdom
+
+Monday, 21 July 2014 at 09:30 - Tuesday, 22 July 2014 at 15:30 (BST)
+A two-day workshop for 11 to 19 year olds from www.technocamps.com.
+--
+
+http://www.eventbrite.com/e/12049459257
+Makery Bodega Pop Up, 195 Avenue C, New York, NY 10009, USA
+
+Wednesday, July 30, 2014 from 6:00 PM to 9:00 PM (EDT)
+
+At this workshop attendees can learn to construct a Cupcade (http://www.adafruit.com/product/1783) micro arcade cabinet for the Raspberry Pi.
+
+
+--
+
+http://www.eventbrite.co.uk/e/10496195403
+
+Media Innovation Studio, 4th Floor, Media Factory, Kirkham Street, Preston, PR1 2HE 
+
+
+Monday, 4 August 2014 from 19:00 to 21:00
+
+Come and see what others have done. Learn something new.
+
+--
+http://www.eventbrite.co.uk/e/11727761049
+2nd Peterborough Raspberry Jam
+Mike Mills
+Saturday, 9 August 2014 from 11:00 to 17:00 (BST)
+Peterborough, United Kingdom
+
+University Campus Peterborough
+UCP - University Campus Peterborough - Peterborough Regional College
+University Campus Peterborough, Park Crescent, Peterborough, PE1 4DZ 
+United Kingdom
+
+The full day programme includes classroom activities on Scratch and Python, a maker area and lecture talks.
+
+
