@@ -222,7 +222,7 @@
             <ITEXT CH="The robot revolution is coming. Robots are no longer just machines of science fiction. From self-driving cars, to flying drones, robots are on the march.  Over the next few years robots are going to be seen all over the place and will be increasingly used in agriculture, manufacture, medicine and education, as well as in our own homes. The amazing thing is that now almost anyone can become a roboticist and if you have a  Raspberry Pi you are already half way there."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="In this first part of a two part article, I will give an introduction to the exciting new world of robotics and will detail all the things you need to consider when embarking on building your own robot. As an example we will cover the building of the simplest robot possible, that I have called the Raspberry Pico Bot. Next time, in part 2 of the article, I will then cover more advanced robots and show how you can build and then program these robots to do some really interesting things."/>
+            <ITEXT CH="In the first part of this two part article, I will give an introduction to the exciting new world of robotics and will detail all the things you need to consider when embarking on building your own robot. As an example we will cover the building of the simplest robot possible, that I have called the Raspberry Pico Bot. Next time, in part 2 of the article, I will then cover more advanced robots and show how you can build and then program these robots to do some really interesting things."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Before we get into the what and how-to of any robotics, the first question may be why would you want to build a robot with a Raspberry Pi in the first place? Also, what kind of things will a Raspberry Pi robot be able to do?"/>
@@ -239,7 +239,9 @@
             <ITEXT CH="What makes a robot robotic?"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Wikipedia defines a robot as &quot;a machine capable of carrying out a complex series of actions automatically, especially one programmable by a computer&quot;. In addition to this requirement to perform complex actions, a proper robot should also have  autonomous ability. Autonomy allows a robot to act independently in the world and this makes them different from things like radio controlled vehicles (e.g. remote controlled cars) that are not able to function by themselves. The Raspberry Pi's processing ability (both CPU and GPU) along with its GPIO port gives it lots of potential for developing autonomous behaviour.  As a simple example let us take a look at the classic line following robot."/>
+            <ITEXT CH="Wikipedia defines a robot as &quot;"/>
+            <ITEXT FONT="FreeSans Oblique" CH="a machine capable of carrying out a complex series of actions automatically, especially one programmable by a computer"/>
+            <ITEXT CH="&quot;. In addition to this requirement to perform complex actions, a proper robot should also have  autonomous ability. Autonomy allows a robot to act independently in the world and this makes them different from things like radio controlled vehicles (e.g. remote controlled cars) that are not able to function by themselves. The Raspberry Pi's processing ability (both CPU and GPU) along with its GPIO port gives it lots of potential for developing autonomous behaviour.  As a simple example let us take a look at the classic line following robot."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="A line following robot has the ability to move forward, change direction and detect a line on the ground. This is a classic example of autonomous behaviour.  No matter where the line leads the robot is programmed to follow the line without the need for any external control.  "/>
@@ -273,38 +275,56 @@
             <ITEXT CH="The first hurdle to turning a Raspberry Pi into a robot is to untether it from all wires and cables and the first two tasks will cover this."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Remote Access"/>
+            <ITEXT CH="Remote access"/>
             <para PARENT="Body sub-title"/>
-            <ITEXT CH="Mosts people will be familiar with interfacing to a Raspberry Pi using a conventional monitor - keyboard - mouse, though this is just not going to work for a robot.  The best thing for connecting remotely will be a wireless dongle connected to the Raspberry Pi USB port.  I wont go into all the details for doing this here though if youd like a detailed guide please follow the link (xxxx) Another interesting thing to also note is that you can either connect wirelessly across an existing network though its also possible to turn the Raspberry Pi into a wireless hotspot and connecting to it via its own network. (see link for this)Rather than using the Raspian Desktop on the robot ,a terminal interface is going to be most suitable. With communication across the wireless network, a remote ssh terminal session is going to be the best way to start interfacing with the robot.  (For details of ssh please see this guide)."/>
+            <ITEXT CH="Most people will be familiar with interfacing to a Raspberry Pi using a conventional monitor,  keyboard and mouse, though this is just not going to work for a robot. The best thing for connecting remotely will be a wireless dongle connected to the Raspberry Pi USB port. I won't go into all the details for doing this here though if you would like a detailed guide please visit "/>
+            <ITEXT FCOLOR="Blue" CH="http://pihw.wordpress.com/guides/guide-to-remot e-connections/"/>
+            <ITEXT CH=". Another interesting thing to note is that you can either connect wirelessly across an existing network or you could turn the Raspberry Pi into a wireless hotspot and connecting to it via its own network. See The Magpi issue 11, page 10 ("/>
+            <ITEXT FCOLOR="Blue" CH="http://www.themagpi. com/issue/issue-11/article/turn-your-raspberry-pi -into-a-wireless-access-point"/>
+            <ITEXT CH=") for details. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Portable Robot Power"/>
+            <ITEXT CH="Rather than using the Raspbian Desktop on the robot, a terminal interface is going to be more suitable. With communication across the wireless network, a remote SSH terminal session is going to be the best way to start interfacing with the robot.  Details are in the previously mentioned guide to remote connections."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Portable robot power"/>
             <para PARENT="Body sub-title"/>
-            <ITEXT CH="The next essentials for the robot is to get the Raspberry Pi running on portable electrical power.  This topic has been covered before in the MagPi so I wont go into how to do this here. If you do want tips and a guide for doing this please see the following:  PiJuice.com/powering-a-raspberry-pi-from-batteries"/>
+            <ITEXT CH="The next essential for the robot is to get the Raspberry Pi running on portable electrical power. The simplist way to do this is to use a backup USB mobile phone charger. Personally I opted for a basic 4 x AA battery pack with a 5V voltage regulator, to keep the Raspberry Pi happy. If you are using a Model B then a 8 x AA battery pack may be preferable to get a longer running time."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Building a Robot Chassis"/>
+            <ITEXT CH="Building a robot chassis"/>
             <para PARENT="Body sub-title"/>
-            <ITEXT CH="Whilst its possible to use some kind of existing chassis to build your robot, it can also be fun to make your own.  Even some simple cardboard can be used for this. Below shows some pictures for a basic design.  See xxx for more examples."/>
+            <ITEXT CH="While it is possible to use some kind of existing chassis to build your robot, it can also be fun to make your own.  Even some simple cardboard can be used for this. Below shows some pictures for a basic design.  See xxx for more examples."/>
             <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Making your Robot Move"/>
+            <ITEXT CH="Making your robot move"/>
             <para PARENT="Body sub-title"/>
-            <ITEXT CH="Now that youve successfully untethered your Raspberry Pi and you can connect to the Raspberry Pi remotely, finally we can give it some robot powers - motion! The simplest and probably cheapest way to give your Raspberry Pi motion is by connecting a couple of continuous rotation servos.  Normally servos can are designed to turn just 90 degrees though modified versions exist that give full rotation to be able to drive wheels.  Whilst it is possible to modify a low cost servo to do continuous rotation (see this guide here) they can also be bought pre-modified (see link).  If you want to be really inventive you can also make your own wheels and see here for a nice collection of these.   Alternatively purpose made wheels are also available ( see here.)  With two wheels left and right a third wheel or ball bearing roller can be used at the back.  See pictureNow that youve connected servos to your Raspberry Pi the next task will be to learn to control them.  See this guide for the code detailed explanation for doing this.  (www.pibot.org/)"/>
+            <ITEXT CH="Now that you have successfully untethered your Raspberry Pi and can connect to it remotely, we can give it some robot powers - motion! The simplest and probably cheapest way to give your Raspberry Pico Bot motion is by connecting a couple of "/>
+            <ITEXT FONT="FreeSans Bold" CH="continuous rotation"/>
+            <ITEXT CH=" servos. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Making Your Robot Sensational"/>
+            <ITEXT CH="Normally servos are designed to turn just 90 or 180 degrees though modified versions exist that give full rotation to be able to drive wheels. Adafruit show how to modify a low cost servo to do continuous rotation ("/>
+            <ITEXT FCOLOR="Blue" CH="https://learn.adafruit.com/ modifying-servos-for-continuous-rotation"/>
+            <ITEXT CH="). If you want to be really inventive you can also make your own wheels and see here for a nice collection of these. "/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Alternatively purpose made wheels are also available ( see here.) With two wheels, left and right, a castor or ball bearing roller can be used at the back. See picture."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Now that you have connected servos to your Raspberry Pico Bot the next task is to learn to control them. Sample Python code is presented below, but see ???? for a detailed explanation."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Making your robot sensational"/>
             <para PARENT="Body sub-title"/>
-            <ITEXT CH="As we discussed earlier giving a robot sensors gives information that the robot can then act upon.  For our MVB we can now connect a light sensor and see if."/>
+            <ITEXT CH="As we discussed earlier, sensors provide information that the robot can then act upon. Possible sensors include microphones (sound), PIR sensors (movement), ultrasound sensors (distance) and a camera (vision). For our Raspberry Pico Bot we will add an IR sensor (light)."/>
             <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Moving Beyond Simple Robots"/>
+            <ITEXT CH="Moving beyond simple robots"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Whilst the MVP hopefully shows how simple and affordable to create a robot this kind of robot is actually pretty limited.  Comparison to an arduino robot.See pibot.org/minimum-robot/ for the full details and code for building a minimum possible robot.Building is actually pretty involved and, I hope though this initial article, it has given you a good idea about whats involved and that you may be encouraged to giving it ago.   The next article will build on this and give lots of details for some amazing further features you can give to a robot:Making your robot talk,Making your robot dance Giving your robot Artificial Intelligence.You to can become a roboticist.  http://www.raspberrypi.org/education-fund/http://www.teachsecondary.com/"/>
+            <ITEXT CH="With building a Raspberry Pico Bot I hope you can see that building your own robot is actually pretty simple, affordable and can also be a lot of fun. I hope it will encourage you to give it a go and unleash some of the Raspberry Pi’s innate robotic powers. "/>
             <para PARENT="Body text"/>
-            <ITEXT CH=" "/>
-            <trail/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Next month we will look at some more capable and useful robots. Applications we will cover include making your robot talk, giving your robot lights and connecting to many other sensors. You to can become a roboticist."/>
+            <trail PARENT="Body text"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086614173" YPOS="956.505590555119" WIDTH="538.588346456693" HEIGHT="730.994409444881" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="45" BACKITEM="30">
@@ -401,11 +421,164 @@
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.34708661126" YPOS="2720.28448818921" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="45">
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.347091674805" YPOS="2720.28442382812" WIDTH="538.588317871094" HEIGHT="251.52685546875" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 251.527 538.588 251.527 538.588 251.527 538.588 251.527 0 251.527 0 251.527 0 251.527 0 251.527 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 251.527 538.588 251.527 538.588 251.527 538.588 251.527 0 251.527 0 251.527 0 251.527 0 251.527 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="45">
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="128.347091674805" YPOS="1428.66144808071" WIDTH="257.277282714844" HEIGHT="179.056060791016" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="CineonLog M " EPROF="" IRENDER="0" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.277 0 257.277 0 257.277 0 257.277 0 257.277 179.056 257.277 179.056 257.277 179.056 257.277 179.056 0 179.056 0 179.056 0 179.056 0 179.056 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.277 0 257.277 0 257.277 0 257.277 0 257.277 179.056 257.277 179.056 257.277 179.056 257.277 179.056 0 179.056 0 179.056 0 179.056 0 179.056 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="129" YPOS="1603.5" WIDTH="170.410217285156" HEIGHT="255.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="-90" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.246257539429417" LOCALSCY="0.246257539429417" LOCALX="0" LOCALY="138.130788240276" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="robotPath.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 170.41 0 170.41 0 170.41 0 170.41 0 170.41 255.75 170.41 255.75 170.41 255.75 170.41 255.75 0 255.75 0 255.75 0 255.75 0 255.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 170.41 0 170.41 0 170.41 0 170.41 0 170.41 255.75 170.41 255.75 170.41 255.75 170.41 255.75 0 255.75 0 255.75 0 255.75 0 255.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="128.347091674805" YPOS="2337" WIDTH="257.152923583984" HEIGHT="231" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="CineonLog M " EPROF="" IRENDER="0" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 231 257.153 231 257.153 231 257.153 231 0 231 0 231 0 231 0 231 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 231 257.153 231 257.153 231 257.153 231 0 231 0 231 0 231 0 231 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="411" YPOS="2100.07677165354" WIDTH="255.935440063477" HEIGHT="163.5" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="CineonLog M " EPROF="" IRENDER="0" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 163.5 255.935 163.5 255.935 163.5 255.935 163.5 0 163.5 0 163.5 0 163.5 0 163.5 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 163.5 255.935 163.5 255.935 163.5 255.935 163.5 0 163.5 0 163.5 0 163.5 0 163.5 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="411" YPOS="2338.5" WIDTH="255.935440063477" HEIGHT="168.114807128906" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="CineonLog M " EPROF="" IRENDER="0" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 168.115 255.935 168.115 255.935 168.115 255.935 168.115 0 168.115 0 168.115 0 168.115 0 168.115 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 168.115 255.935 168.115 255.935 168.115 255.935 168.115 0 168.115 0 168.115 0 168.115 0 168.115 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="2" XPOS="128.347091674805" YPOS="2893.5" WIDTH="257.952758789062" HEIGHT="45" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="CineonLog M " EPROF="" IRENDER="0" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.953 0 257.953 0 257.953 0 257.953 0 257.953 45 257.953 45 257.953 45 257.953 45 0 45 0 45 0 45 0 45 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.953 0 257.953 0 257.953 0 257.953 0 257.953 45 257.953 45 257.953 45 257.953 45 0 45 0 45 0 45 0 45 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.347091674805" YPOS="2988" WIDTH="538.588317871094" HEIGHT="467.25" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 467.25 538.588 467.25 538.588 467.25 538.588 467.25 0 467.25 0 467.25 0 467.25 0 467.25 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 467.25 538.588 467.25 538.588 467.25 538.588 467.25 0 467.25 0 467.25 0 467.25 0 467.25 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT CH="  import RPi.GPIO as GPIO "/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  import RPIO"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  from RPIO import PWM"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  import time"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  ## Setup GPIO for reading line sensor"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  GPIO.setmode(GPIO.BCM)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  GPIO.setup(18, GPIO.IN)"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  ## Set servo status"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  move_state = 0"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  ## constants for move_state"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  FORWARD = 2"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  TURN_RIGHT = 3"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  TURN_LEFT = 4"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  STOP = 5"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  ## set up PWM for servos"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  servo = PWM.Servo()"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  def turn_forward():"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="    global move_state"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="    if (move_state != FORWARD): "/>
+            <para PARENT="Code"/>
+            <ITEXT CH="      servo.set_servo(14, 1440)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="      servo.set_servo(15, 1600)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="      ## Reset the move_state        "/>
+            <para PARENT="Code"/>
+            <ITEXT CH="      move_state = FORWARD "/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  def turn_right():"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="    global move_state"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="    if (move_state != TURN_RIGHT): "/>
+            <para PARENT="Code"/>
+            <ITEXT CH="      servo.set_servo(14, 1520)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="      servo.set_servo(15, 1120)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="      ## Reset the move_state  "/>
+            <para PARENT="Code"/>
+            <ITEXT CH="      move_state = TURN_RIGHT"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="def turn_left():"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  global move_state"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  if (move_state != TURN_LEFT):"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="    servo.set_servo(14, 1520)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="    servo.set_servo(15, 1600)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="    ## Reset the move_state  "/>
+            <para PARENT="Code"/>
+            <ITEXT CH="    move_state = TURN_LEFT"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="def stop():"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  global move_state"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  if (move_state != STOP):"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="    servo.set_servo(14, 1520)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="    servo.set_servo(15, 1520)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="    ## Reset the move_state"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="    move_state = STOP"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="def check_on_line():"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  on_line = True"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  ## if sensor is low input"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  if GPIO.input(18) == GPIO.LOW:"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="    on_line = True"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  else:"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="    on_line = False"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  return on_line"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="while 1:"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  ## line following algorithm"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  if(check_on_line()):"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="    turn_forward()"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="    time.sleep(0.1)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="    turn_left()"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="    time.sleep(0.1)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  else:"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="    turn_right()"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="    time.sleep(0.1)"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
     </DOCUMENT>
