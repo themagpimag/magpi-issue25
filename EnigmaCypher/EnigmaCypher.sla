@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SCRIBUSUTF8NEW Version="1.4.3">
-    <DOCUMENT ANZPAGES="10" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" PRESET="0" BleedTop="8.50393700787402" BleedLeft="8.50393700787402" BleedRight="8.50393700787402" BleedBottom="8.50393700787402" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="3.881" UNITS="1" DFONT="Bitstream Charter Bold" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="3" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="CineonLog M " DPPr="Fogra27L CMYK Coated Press" DPIn="CineonLog M " DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="CineonLog M " DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="12" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="1" SHOWLAYERM="1" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="0" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.019" dispY="0.019" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
+    <DOCUMENT ANZPAGES="10" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" PRESET="0" BleedTop="8.50393700787402" BleedLeft="8.50393700787402" BleedRight="8.50393700787402" BleedBottom="8.50393700787402" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="3.881" UNITS="1" DFONT="Bitstream Charter Bold" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="3" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="CineonLog M " DPPr="Fogra27L CMYK Coated Press" DPIn="CineonLog M " DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="CineonLog M " DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="6" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="1" SHOWLAYERM="1" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="0" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.019" dispY="0.019" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
         <CheckProfile Name="PDF 1.3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
         <CheckProfile Name="PDF 1.4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
         <CheckProfile Name="PDF 1.5" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
@@ -193,942 +193,916 @@
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614174" YPOS="359.080708665355" WIDTH="538.588346456693" HEIGHT="446.419291334645" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 446.419 538.588 446.419 538.588 446.419 538.588 446.419 0 446.419 0 446.419 0 446.419 0 446.419 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 446.419 538.588 446.419 538.588 446.419 538.588 446.419 0 446.419 0 446.419 0 446.419 0 446.419 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="39" BACKITEM="-1">
             <ITEXT CH="What is the Pocket Enigma Cypher Machine?"/>
-            <para PARENT="Body title"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="Quite simply, it is a toy - a superbly designed toy that tries to demonstrate the principles of the Enigma cypher as used during WW2 by the German armed forces. I obtained mine from Bletchley Park, but unfortunately it no longer seems to be available to buy.  Of-course, as it is made only of plastic and cardboard, it is substantially simpler, when compared to a real Enigma cypher machine! On the other hand, if you enjoy codes and cyphers you will get a kick out of this, and it is not too difficult to understand."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="Warning: The Pocket Enigma Cypher Machine is not even close to an unbreakable cypher – it is a trivial cypher to break but it is fun."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="I would encourage you to visit http://www.savory.de/pocket_enigma.html for a full review of the Pocket Enigma, including a detailed description, a cryptanalysis and further reading."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
+            <para/>
             <ITEXT CH="How does it work?"/>
-            <para PARENT="Body title"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="At a very basic level, each plaintext character is substituted for another character, the cyphertext character, according to the connection printed on the chosen wheel."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
+            <ITEXT CH="At a very basic level, each plaintext character is substituted for another character, the cypher text character, according to the connection printed on the chosen wheel."/>
+            <para/>
+            <para/>
+            <para/>
+            <para/>
+            <para/>
+            <para/>
+            <para/>
+            <para/>
+            <para/>
+            <para/>
+            <para/>
+            <para/>
+            <para/>
             <ITEXT CH="The encoding algorithm, in more detail:"/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH="1. The cypher wheel (I or II) is chosen. This must be pre-shared with the message recipient."/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH="2. The Key character is chosen. This must be pre-shared with the message recipient."/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH="3. The start character is chosen."/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH="4. The wheel is set to the Key character and the start character is encoded."/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH="5. The wheel is moved to the start character and the first message character is encoded."/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH="6. The wheel is incremented by 1 position, and the next message character is encoded."/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH="7. Repeat step 6 until the entire message is encoded."/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH="8. The encoded message is arranged with the encoded start character separated from encoded message which is arranged in blocks of, typically, 5 characters."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="Now for the limitations:"/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH="1. Only upper case characters can be encoded."/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="2. No punctuation can be encoded, apart from full-stops which are traditionally substituted with “X”s."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="2. No punctuation can be encoded, apart from full-stops which are traditionally substituted with ???"/>
+            <para/>
+            <para/>
             <ITEXT CH="With a bit of imagination the encoding algorithm can easily be modified. For example, more wheels could be used, or the increment could be varied or even reversed."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="Implementing the Pocket Enigma in Python"/>
-            <para PARENT="Body title"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="What do I want to achieve? At this stage a text interface allowing me to set up the wheel and key and then encrypt and decrypt messages would be nice. Perhaps, later, a GUI could be created."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="Step 1. Analysis of those Wheels."/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH="The wheels have no characters on them, just a lot of connections. One position has an arrow, or pointer, and is taken as the starting position (actually position 0). It can be seen that the connections simply connect from one position to another, thus substituting, or encoding, one character as another and is symmetrical."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="Wheel I can be summarised:"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="WHEEL1 = [-1,3,-5,7,-3,2,3,-2,4,-3,-7,6,-4,1,-1,6,3,-6,2,-3,-2,-6,2,5,-2,1]"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="So if the character at the pointer is “A”, it would become “A-1”, or “Z” - modulo 26 maths at work!"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
+            <ITEXT CH="So if the character at the pointer is ???? it would become ???? or ??? - modulo 26 maths at work!"/>
+            <para/>
+            <para/>
             <ITEXT CH="Similarly for Wheel II:"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="WHEEL2 = [2,2,-2,-2,-8,3,9,5,-3,1,-1,2,-5,-2,2,-9,-2,8,2,2,-2,-2,8,1,-1,-8]"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Again if the character at the pointer is “A”, with wheel II it would become “A+2”, or “C”."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
+            <ITEXT CH="Again if the character at the pointer is ??? with wheel II it would become ??? or ???"/>
+            <para/>
+            <para/>
             <ITEXT CH="Step 2. Those Wheels move!"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="FUNCTION – def transform_char(char, wheel, pointer):"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="FUNCTION ???? def transform_char(char, wheel, pointer):"/>
+            <para/>
+            <para/>
             <ITEXT CH="The algorithm clearly states that the wheel is incremented (moved 1 position clockwise) after each message character is encoded. In simple terms this means that a repeated character in the message does not get encoded to the same character."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="Getting the wheel to turn is not so difficult, again thanks to modulo 26 maths. Although, technically this function does not perform the turn, it does take the turning into consideration."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="char_num = ord(char)-65 #Convert the character from ASCII to a base number, A=0, B=1, etc."/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="offset = WHEEL1[(char_num – pointer)%26] #Use MOD26 maths to turn the wheel."/>
-            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="offset = WHEEL1[(char_num ?? pointer)%26] #Use MOD26 maths to turn the wheel."/>
+            <para/>
             <ITEXT CH="char = chr(65 + (char_num + offset)%26) #Derive the encoded character."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="So if the pointer was pointing to “C”, then the pointer value would be 2."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Next, if the character to be encoded was “F”, then the character number would be 5, and the calculated offset would be WHEEL1[3] = 7."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Thus the encoded character is 5 + 7 = 12 =&gt; “M”."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
+            <ITEXT CH="So if the pointer was pointing to ??? then the pointer value would be 2."/>
+            <para/>
+            <para/>
+            <ITEXT CH="Next, if the character to be encoded was ??? then the character number would be 5, and the calculated offset would be WHEEL1[3] = 7."/>
+            <para/>
+            <para/>
+            <ITEXT CH="Thus the encoded character is 5 + 7 = 12 =&gt; ????"/>
+            <para/>
+            <para/>
             <ITEXT CH="Step 3. More than 1 Character Please."/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="FUNCTION – def encrypt(plaintext):"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="FUNCTION ???? def encrypt(plaintext):"/>
+            <para/>
+            <para/>
             <ITEXT CH="It is likely that a message of more than 1 character will be used. Thus, a way to repeatedly encode a single character and move the wheel is needed. That sounds like a loop to me:"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="9" CH="for o_char in plaintext: #Step through each character in the message"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    if o_char == '.':"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        o_char = 'X' #Substitute periods for X's. It is what was often done."/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    e_char = transform_char(o_char, wheel, pointer) #Encrypt each letter in the plaintext."/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    if len(e_char) &gt; 0: #Do something if the character was encrypted ok."/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        block += 1 #Increment the block character count"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        if block &gt; blocksize: #Add a space after a block of blocksize characters."/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            Cypher += ' ' #Add a space to the result."/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            block = 1 #Remembering the character that was blocksize+1."/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        cypher += e_char #Add the character to the result."/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        pointer = (pointer + increment)%26 #Turn the wheel."/>
-            <para PARENT="Code"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Notice the extra code to replace full stops with “X” characters before encoding, and how the output is formed into nice blocks of blocksize."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Step 4. Now Reverse. Can we Decrypt Too?"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="FUNCTION – def decrypt(cypher):"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="The connection on the wheels are bi-directional. So if a character is encoded as an “F”, then with the wheel in the same position encoding an “F” would return you the original character. Consequently, we can use the same encryption routine to decrypt. We just need a slightly different loop to feed it characters to decrypt."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="for e_char in cypher[1:]: #Step through each character in the cyphertext"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="    o_char = transform_char(e_char, wheel, pointer) #Decrypt each letter in the cypher."/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="    if len(o_char) &gt; 0: #Do something if the character was decrypted ok."/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="        plaintext += o_char #Add the character to the result."/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
+            <ITEXT CH="for o_char in plaintext: #Step through each character in the message"/>
+            <para/>
+            <ITEXT CH="    if o_char == '.':"/>
+            <para/>
+            <ITEXT CH="        o_char = 'X' #Substitute periods for X's. It is what was often done."/>
+            <para/>
+            <ITEXT CH="    e_char = transform_char(o_char, wheel, pointer) #Encrypt each letter in the plaintext."/>
+            <para/>
+            <ITEXT CH="    if len(e_char) &gt; 0: #Do something if the character was encrypted ok."/>
+            <para/>
+            <ITEXT CH="        block += 1 #Increment the block character count"/>
+            <para/>
+            <ITEXT CH="        if block &gt; blocksize: #Add a space after a block of blocksize characters."/>
+            <para/>
+            <ITEXT CH="            Cypher += ' ' #Add a space to the result."/>
+            <para/>
+            <ITEXT CH="            block = 1 #Remembering the character that was blocksize+1."/>
+            <para/>
+            <ITEXT CH="        cypher += e_char #Add the character to the result."/>
+            <para/>
             <ITEXT CH="        pointer = (pointer + increment)%26 #Turn the wheel."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Yes, you will find that a lot is lost in the encryption/decryption process, specifically all spacing and punctuation. It is up to you to put that back, replacing “X” characters that do not make sense with full stops."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
+            <ITEXT CH="Notice the extra code to replace full stops with ???? characters before encoding, and how the output is formed into nice blocks of blocksize."/>
+            <para/>
+            <para/>
+            <ITEXT CH="Step 4. Now Reverse. Can we Decrypt Too?"/>
+            <para/>
+            <ITEXT CH="FUNCTION – def decrypt(cypher):"/>
+            <para/>
+            <para/>
+            <ITEXT CH="The connection on the wheels are bi-directional. So if a character is encoded as an “F”, then with the wheel in the same position encoding an “F” would return you the original character. Consequently, we can use the same encryption routine to decrypt. We just need a slightly different loop to feed it characters to decrypt."/>
+            <para/>
+            <para/>
+            <ITEXT CH="for e_char in cypher[1:]: #Step through each character in the cypher text"/>
+            <para/>
+            <ITEXT CH="    o_char = transform_char(e_char, wheel, pointer) #Decrypt each letter in the cypher."/>
+            <para/>
+            <ITEXT CH="    if len(o_char) &gt; 0: #Do something if the character was decrypted ok."/>
+            <para/>
+            <ITEXT CH="        plaintext += o_char #Add the character to the result."/>
+            <para/>
+            <ITEXT CH="        pointer = (pointer + increment)%26 #Turn the wheel."/>
+            <para/>
+            <para/>
+            <ITEXT CH="Yes, you will find that a lot is lost in the encryption/decryption process, specifically all spacing and punctuation. It is up to you to put that back, replacing ???? characters that do not make sense with full stops."/>
+            <para/>
+            <para/>
             <ITEXT CH="Step 5. What about a Menu to wrap it all up."/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="FUNCTION – def main():"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="FUNCTION – def show_menu(min, max, quit):"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="FUNCTION – def get_choice(min, max, quit):"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="FUNCTION  ?? def main():"/>
+            <para/>
+            <ITEXT CH="FUNCTION  ?? def show_menu(min, max, quit):"/>
+            <para/>
+            <ITEXT CH="FUNCTION  ?? def get_choice(min, max, quit):"/>
+            <para/>
+            <para/>
             <ITEXT CH="That is easy to say, but actually accounts for a lot of the Python code. The menu also allows other things to be set, like the wheel number and starting key etc."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="First we have to print the menu, then get the User choice, and then perform the action. This section of code ties all that together. Notice that it is basically a big IF statement, dependant upon the User choice – restricting the User choice to numbers helps with this:"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="9" CH="    while not prg_quit:"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        show_menu(menu_min, menu_max, menu_quit) #Show the Menu."/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        user_choice = get_choice(menu_min, menu_max, menu_quit) #Get the User Choice."/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        #Take action as per selected menu-option."/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        if user_choice == menu_quit:"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            prg_quit = True"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        elif user_choice == 1:"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            wheel = prg_choice1()"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        elif user_choice == 2:"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            pointer_l = prg_choice2()"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            pointer_n = ord(pointer_l)-65"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        elif user_choice == 3:"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            code_start_l = prg_choice3()"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            code_start_n = ord(code_start_l )-65"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        elif user_choice == 4:"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            increment = prg_choice4()"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        elif user_choice == 5:"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            blocksize = prg_choice5()"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        elif user_choice == 6:"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            prg_choice6()"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        elif user_choice == 7:"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            prg_choice7()"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        elif user_choice == 8:"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            prg_choice6()"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        elif user_choice == 9:"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            prg_choice7()"/>
-            <para PARENT="Code"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
+            <ITEXT CH="First we have to print the menu, then get the User choice, and then perform the action. This section of code ties all that together. Notice that it is basically a big IF statement, dependant upon the User choice ??? restricting the User choice to numbers helps with this:"/>
+            <para/>
+            <para/>
+            <ITEXT CH="    while not prg_quit:"/>
+            <para/>
+            <ITEXT CH="        show_menu(menu_min, menu_max, menu_quit) #Show the Menu."/>
+            <para/>
+            <ITEXT CH="        user_choice = get_choice(menu_min, menu_max, menu_quit) #Get the User Choice."/>
+            <para/>
+            <ITEXT CH="        #Take action as per selected menu-option."/>
+            <para/>
+            <ITEXT CH="        if user_choice == menu_quit:"/>
+            <para/>
+            <ITEXT CH="            prg_quit = True"/>
+            <para/>
+            <ITEXT CH="        elif user_choice == 1:"/>
+            <para/>
+            <ITEXT CH="            wheel = prg_choice1()"/>
+            <para/>
+            <ITEXT CH="        elif user_choice == 2:"/>
+            <para/>
+            <ITEXT CH="            pointer_l = prg_choice2()"/>
+            <para/>
+            <ITEXT CH="            pointer_n = ord(pointer_l)-65"/>
+            <para/>
+            <ITEXT CH="        elif user_choice == 3:"/>
+            <para/>
+            <ITEXT CH="            code_start_l = prg_choice3()"/>
+            <para/>
+            <ITEXT CH="            code_start_n = ord(code_start_l )-65"/>
+            <para/>
+            <ITEXT CH="        elif user_choice == 4:"/>
+            <para/>
+            <ITEXT CH="            increment = prg_choice4()"/>
+            <para/>
+            <ITEXT CH="        elif user_choice == 5:"/>
+            <para/>
+            <ITEXT CH="            blocksize = prg_choice5()"/>
+            <para/>
+            <ITEXT CH="        elif user_choice == 6:"/>
+            <para/>
+            <ITEXT CH="            prg_choice6()"/>
+            <para/>
+            <ITEXT CH="        elif user_choice == 7:"/>
+            <para/>
+            <ITEXT CH="            prg_choice7()"/>
+            <para/>
+            <ITEXT CH="        elif user_choice == 8:"/>
+            <para/>
+            <ITEXT CH="            prg_choice6()"/>
+            <para/>
+            <ITEXT CH="        elif user_choice == 9:"/>
+            <para/>
+            <ITEXT CH="            prg_choice7()"/>
+            <para/>
+            <para/>
             <ITEXT CH="Step 6. The Other Functions..."/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="FUNCTION – def welcome(message):"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="FUNCTION – def prg_choice1() → def prg_choice7:"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="FUNCTION – def prg_choice8() → def prg_choice9:"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="FUNCTION ??? def welcome(message):"/>
+            <para/>
+            <ITEXT CH="FUNCTION ??? def prg_choice1() ??? def prg_choice7:"/>
+            <para/>
+            <ITEXT CH="FUNCTION ??? def prg_choice8() ??? def prg_choice9:"/>
+            <para/>
+            <para/>
             <ITEXT CH="These functions are pretty self explanatory!"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="So what do we have:"/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH="First we have the Menu:"/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH="Py-Enigma - The Pocket Enigma Cypher Machine"/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH="   Version, v1.0.0 , 05/05/2014"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="------------------------------"/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH="      P y - E N I G M A"/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH="      M A I N - M E N U"/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH="------------------------------"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH=" 1. Set Wheel      = 1"/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH=" 2. Set Pointer    = D"/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH=" 3. Set Code Start = J"/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH=" 4. Set Increment  = 1"/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH=" 5. Set Block Size = 5"/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH=" 6. Encrypt a Message"/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH=" 7. Decrypt a Message"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH=" 0. Exit program"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="------------------------------"/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH="Enter choice [1-7]: "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="Let encrypt a really important message:"/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH="------------------------------"/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH="Enter choice [1-7]: 6"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="Enter Plaintext: ATTACK AT DAWN"/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH="Encryption: ATTACK AT DAWN =&gt; M UQXZI MGAZE DK"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="------------------------------"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="Now we have just received a message, lets decrypt it:"/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH="------------------------------"/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH="Enter choice [1-7]: 7"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="Enter Cypher: M UQXZI MGAZE DK"/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH="Plaintext: M UQXZI MGAZE DK =&gt; ATTACKATDAWN"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="------------------------------"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="What next?"/>
-            <para PARENT="Body title"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="Well that depends... let me know what you think. All/any feedback is appreciated."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="9" CH="#!/usr/bin/python"/>
+            <para/>
+            <para/>
+            <para/>
+            <para/>
+            <para/>
+            <para/>
+            <para/>
+            <para/>
+            <ITEXT CH=" #!/usr/bin/python"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="#Filename: Py-Enigma.py"/>
+            <ITEXT CH=" # A Python implementation of the pocket Enigma cypher machine."/>
             <para PARENT="Code"/>
+            <ITEXT CH=" #Ian Neill (c)2014"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="#A Python implementation of the Pocket Enigma Cypher Machine."/>
+            <ITEXT CH=" # - Works with Python v2.7"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="#Ian Neill (c)2014"/>
+            <ITEXT CH=" import random"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="# - Works with Python v2.7"/>
             <para PARENT="Code"/>
+            <ITEXT CH=" VERSION = &quot;v1.0.0&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="import random"/>
+            <ITEXT CH=" BUILDDATE = &quot;01/06/2014&quot;"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="VERSION = &quot;v1.0.0&quot;"/>
+            <ITEXT CH=" # Wheel definitions"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="BUILDDATE = &quot;01/06/2014&quot;"/>
+            <ITEXT CH=" WHEEL1 = [-1,3,-5,7,-3,2,3,-2,4,-3,-7,6,-4,1,-1,6,3,-6,2,-3,-2,-6,2,5,-2,1]"/>
             <para PARENT="Code"/>
+            <ITEXT CH=" WHEEL2 = [2,2,-2,-2,-8,3,9,5,-3,1,-1,2,-5,-2,2,-9,-2,8,2,2,-2,-2,8,1,-1,-8]"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="#WHEEL DEFINITIONS"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="WHEEL1 = [-1,3,-5,7,-3,2,3,-2,4,-3,-7,6,-4,1,-1,6,3,-6,2,-3,-2,-6,2,5,-2,1]"/>
+            <ITEXT CH=" # Global variables with starting values"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="WHEEL2 = [2,2,-2,-2,-8,3,9,5,-3,1,-1,2,-5,-2,2,-9,-2,8,2,2,-2,-2,8,1,-1,-8]"/>
+            <ITEXT CH=" wheel = 1"/>
             <para PARENT="Code"/>
+            <ITEXT CH=" pointer_l = 'D'"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="#GLOBAL VARIABLES WITH STARTING VALUES"/>
+            <ITEXT CH=" pointer_n = ord(pointer_l)-65"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="wheel = 1"/>
+            <ITEXT CH=" code_start_l = 'J'"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="pointer_l = 'D'"/>
+            <ITEXT CH=" code_start_n = ord(code_start_l)-65"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="pointer_n = ord(pointer_l)-65"/>
+            <ITEXT CH=" increment = 1"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="code_start_l = 'J'"/>
+            <ITEXT CH=" blocksize = 5"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="code_start_n = ord(code_start_l)-65"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="increment = 1"/>
+            <ITEXT CH=" DEFAULT_MESSAGE = &quot;ATTACK AT DAWN&quot; #And why not? They will never expect it..."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="blocksize = 5"/>
             <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" # Encrypt or decrypt a single character"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="DEFAULT_MESSAGE = &quot;ATTACK AT DAWN&quot; #And why not? They will never expect it..."/>
+            <ITEXT FONTSIZE="9" CH=" def transform_char(character, wheel, pointer):"/>
             <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   character = character.upper()  # Ensure that the character is Upper Case."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="#MAIN PROGRAM"/>
+            <ITEXT FONTSIZE="9" CH="   if(65 &lt;= ord(character) &lt;= 90):  # Only characters A-Z can be encrypted or decrypted.    "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="def main():"/>
+            <ITEXT FONTSIZE="9" CH="     char_num = ord(character) - 65  # Convert ASCII to alphabetical position of the character."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    global wheel, pointer_l, pointer_n, code_start_l, code_start_n, increment, blocksize"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    welcome(&quot;Py-Enigma - The Pocket Enigma Cypher Machine&quot;)"/>
+            <ITEXT FONTSIZE="9" CH="     # Choose the wheel one or two offset.  Then use the pointer value."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    menu_min = 1"/>
+            <ITEXT FONTSIZE="9" CH="     if (wheel == 1):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    menu_max = 7"/>
+            <ITEXT FONTSIZE="9" CH="       offset = WHEEL1[(char_num - pointer)%26]  # Use mod with 26 to stay within circle"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    menu_quit = 0"/>
+            <ITEXT FONTSIZE="9" CH="     else:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    prg_quit = False"/>
+            <ITEXT FONTSIZE="9" CH="       offset = WHEEL2[(char_num - pointer)%26]  # Use mod with 26 to stay within circle"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    while not prg_quit:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        #Show the Menu."/>
+            <ITEXT FONTSIZE="9" CH="     # Convert alphabetical position of the character back to ASCII"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        show_menu(menu_min, menu_max, menu_quit)"/>
+            <ITEXT FONTSIZE="9" CH="     character = chr(65 + (char_num + offset)%26)  # Convert position back to ASCII character"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        #Get the User Choice."/>
+            <ITEXT FONTSIZE="9" CH="   else:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        user_choice = get_choice(menu_min, menu_max, menu_quit)"/>
+            <ITEXT FONTSIZE="9" CH="     character = ''  # Ensure that nothing is returned if the character is not A-Z."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        #Take action as per selected menu-option."/>
+            <ITEXT FONTSIZE="9" CH="   return character"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        if user_choice == menu_quit:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            prg_quit = True"/>
+            <ITEXT CH=" # Encrypt a string"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        elif user_choice == 1:"/>
+            <ITEXT CH=" def encrypt(plaintext):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            wheel = prg_choice1()"/>
+            <ITEXT CH="   pointer = pointer_n  # Set the wheel to the key character."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        elif user_choice == 2:"/>
+            <ITEXT CH="   cypher = ''"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            pointer_l = prg_choice2()"/>
+            <ITEXT CH="   cypher += transform_char(code_start_l, wheel, pointer)  # Encrypt the Alpha Start character."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            pointer_n = ord(pointer_l)-65"/>
+            <ITEXT CH="   cypher += ' '"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        elif user_choice == 3:"/>
+            <ITEXT CH="   #Set the wheel to the Alpha Start character."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            code_start_l = prg_choice3()"/>
+            <ITEXT CH="   pointer = code_start_n"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            code_start_n = ord(code_start_l )-65"/>
+            <ITEXT CH="   block = 0"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        elif user_choice == 4:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            increment = prg_choice4()"/>
+            <ITEXT CH="   # Encrypt each letter in the plaintext string"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        elif user_choice == 5:"/>
+            <ITEXT CH="   for o_char in plaintext:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            blocksize = prg_choice5()"/>
+            <ITEXT CH="     # Substitute '.' with 'X'"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        elif user_choice == 6:"/>
+            <ITEXT CH="     if o_char == '.':"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            prg_choice6()"/>
+            <ITEXT CH="       o_char = 'X'"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        elif user_choice == 7:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            prg_choice7()"/>
+            <ITEXT CH="     # Encrypt this character"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        elif user_choice == 8:"/>
+            <ITEXT CH="     e_char = transform_char(o_char, wheel, pointer)"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            prg_choice6()"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        elif user_choice == 9:"/>
+            <ITEXT CH="     # Do something if the character was encrypted ok."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            prg_choice7()"/>
+            <ITEXT CH="     if len(e_char) &gt; 0:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print &quot;\nGoodbye.\n&quot;"/>
+            <ITEXT CH="       block += 1"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    return"/>
+            <ITEXT CH="       if block &gt; blocksize:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    #End"/>
+            <ITEXT CH="         cypher += ' ' # Add a space after a block of blocksize characters."/>
             <para PARENT="Code"/>
+            <ITEXT CH="         block = 1   # Remembering the character that was blocksize+1."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="#FUNCTIONS"/>
+            <ITEXT CH="         "/>
             <para PARENT="Code"/>
+            <ITEXT CH="       cypher += e_char  # Add the character to the result."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="#Welcome Function"/>
+            <ITEXT CH="       pointer = (pointer + increment)%26  # Turn the wheel, using mod 26 to return to zero"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="def welcome(message):"/>
+            <ITEXT CH="   return cypher"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print message"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print &quot;   Version,&quot;, str(VERSION), &quot;,&quot;, str(BUILDDATE)"/>
+            <ITEXT CH=" # Decrypt a string"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print"/>
+            <ITEXT CH=" def decrypt(cypher):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    return"/>
+            <ITEXT CH="   pointer = pointer_n  # Set the wheel to the key character."/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="#Show Menu"/>
+            <ITEXT CH="   # Extract and decrypt the Alpha Start character."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="def show_menu(min, max, quit):"/>
+            <ITEXT CH="   pointer = ord(transform_char(cypher[:1], wheel, pointer))-65"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print (30 * '-')"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print &quot;      P y - E N I G M A&quot;"/>
+            <ITEXT CH="   plaintext = ''"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print &quot;      M A I N - M E N U&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print (30 * '-')"/>
+            <ITEXT CH="   # Decrypt each letter in the cypher."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print"/>
+            <ITEXT CH="   for e_char in cypher[1:]:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    if (min &lt;= 1 &lt;= max):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        print &quot; 1. Set Wheel      =&quot;, wheel"/>
+            <ITEXT CH="     # Decrypt this character"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    if (min &lt;= 2 &lt;= max):"/>
+            <ITEXT CH="     o_char = transform_char(e_char, wheel, pointer)"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        print &quot; 2. Set Pointer    =&quot;, pointer_l"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    if (min &lt;= 3 &lt;= max):"/>
+            <ITEXT CH="     # Do something if the character was decrypted ok."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        print &quot; 3. Set Code Start =&quot;, code_start_l"/>
+            <ITEXT CH="     if len(o_char) &gt; 0:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    if (min &lt;= 4 &lt;= max):"/>
+            <ITEXT CH="       plaintext += o_char   # Add the character to the result."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        print &quot; 4. Set Increment  =&quot;, increment"/>
+            <ITEXT CH="       pointer = (pointer + increment)%26   # Turn the wheel, using mod 26 to return to zero"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    if (min &lt;= 5 &lt;= max):"/>
+            <ITEXT CH="   return plaintext"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        print &quot; 5. Set Block Size =&quot;, blocksize"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    if (min &lt;= 6 &lt;= max):"/>
+            <ITEXT CH="#MAIN PROGRAM"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        print &quot; 6. Encrypt a Message&quot;"/>
+            <ITEXT CH="def main():"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    if (min &lt;= 7 &lt;= max):"/>
+            <ITEXT CH="    global wheel, pointer_l, pointer_n, code_start_l, code_start_n, increment, blocksize"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        print &quot; 7. Decrypt a Message&quot;"/>
+            <ITEXT CH="    welcome(&quot;Py-Enigma - The Pocket Enigma Cypher Machine&quot;)"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    if (min &lt;= 8 &lt;= max):"/>
+            <ITEXT CH="    menu_min = 1"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        print &quot; 8. Nothing Yet&quot;"/>
+            <ITEXT CH="    menu_max = 7"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    if (min &lt;= 9 &lt;= max):"/>
+            <ITEXT CH="    menu_quit = 0"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        print &quot; 9. Nothing Yet&quot;"/>
+            <ITEXT CH="    prg_quit = False"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print"/>
+            <ITEXT CH="    while not prg_quit:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print &quot; &quot; + str(quit) + &quot;. Exit program&quot;"/>
+            <ITEXT CH="        #Show the Menu."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print"/>
+            <ITEXT CH="        show_menu(menu_min, menu_max, menu_quit)"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print (30 * '-')"/>
+            <ITEXT CH="        #Get the User Choice."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    return"/>
+            <ITEXT CH="        user_choice = get_choice(menu_min, menu_max, menu_quit)"/>
             <para PARENT="Code"/>
+            <ITEXT CH="        #Take action as per selected menu-option."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="#Get User Choice"/>
+            <ITEXT CH="        if user_choice == menu_quit:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="def get_choice(min, max, quit):"/>
+            <ITEXT CH="            prg_quit = True"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    #Wait for valid choice in while...not."/>
+            <ITEXT CH="        elif user_choice == 1:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    choice_is_valid=False"/>
+            <ITEXT CH="            wheel = prg_choice1()"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    while not choice_is_valid:"/>
+            <ITEXT CH="        elif user_choice == 2:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        try:"/>
+            <ITEXT CH="            pointer_l = prg_choice2()"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            choice = int(raw_input(&quot;Enter choice [&quot; + str(min) + &quot;-&quot; + str(max) + &quot;]: &quot;))"/>
+            <ITEXT CH="            pointer_n = ord(pointer_l)-65"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            if (min &lt;= choice &lt;= max or choice == quit):"/>
+            <ITEXT CH="        elif user_choice == 3:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="                #A valid choice will terminate the while...not loop."/>
+            <ITEXT CH="            code_start_l = prg_choice3()"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="                choice_is_valid = True"/>
+            <ITEXT CH="            code_start_n = ord(code_start_l )-65"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            else:"/>
+            <ITEXT CH="        elif user_choice == 4:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="                print&quot;Error! Only numbers &quot; + str(min) + &quot;-&quot; + str(max) + &quot; or &quot; + str(quit) + &quot; are valid.&quot;"/>
+            <ITEXT CH="            increment = prg_choice4()"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        except ValueError as e:"/>
+            <ITEXT CH="        elif user_choice == 5:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            print (&quot;Error! %s is not a valid choice.&quot; % e.args[0].split(&quot;: &quot;)[1])"/>
+            <ITEXT CH="            blocksize = prg_choice5()"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    return(choice)"/>
+            <ITEXT CH="        elif user_choice == 6:"/>
             <para PARENT="Code"/>
+            <ITEXT CH="            prg_choice6()"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="#Option 1"/>
+            <ITEXT CH="        elif user_choice == 7:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="def prg_choice1():"/>
+            <ITEXT CH="            prg_choice7()"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print"/>
+            <ITEXT CH="        elif user_choice == 8:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    #Wait for valid choice in while...not."/>
+            <ITEXT CH="            prg_choice6()"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    choice_is_valid=False"/>
+            <ITEXT CH="        elif user_choice == 9:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    while not choice_is_valid:"/>
+            <ITEXT CH="            prg_choice7()"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        try:"/>
+            <ITEXT CH="    print &quot;\nGoodbye.\n&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            choice = int(raw_input(&quot;Enter Coding Wheel [1 or 2]: &quot;))"/>
+            <ITEXT CH="    return"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            if (1 &lt;= choice &lt;= 2):"/>
+            <ITEXT CH="    #End"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="                #A valid choice will terminate the while...not loop."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="                choice_is_valid = True"/>
+            <ITEXT CH="#FUNCTIONS"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            else:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="                print&quot;Error! Only numbers 1 or 2 are valid.&quot;"/>
+            <ITEXT CH=" # Print a welcome message"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        except ValueError as e:"/>
+            <ITEXT CH=" def welcome(message):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            print (&quot;Error! %s is not a valid choice.&quot; % e.args[0].split(&quot;: &quot;)[1])"/>
+            <ITEXT CH="   print message"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print"/>
+            <ITEXT CH="   print &quot;   Version,&quot;, str(VERSION), &quot;,&quot;, str(BUILDDATE)"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    return(choice)"/>
+            <ITEXT CH="   print"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="#Option 2"/>
+            <ITEXT CH=" # Show Menu"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="def prg_choice2():"/>
+            <ITEXT CH=" def show_menu(min, max, quit):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print"/>
+            <ITEXT CH="   print (30 * '-')"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    #Wait for valid choice in while...not."/>
+            <ITEXT CH="   print &quot;      P y - E N I G M A&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    choice_is_valid=False"/>
+            <ITEXT CH="   print &quot;      M A I N - M E N U&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    while not choice_is_valid:"/>
+            <ITEXT CH="   print (30 * '-')"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        try:"/>
+            <ITEXT CH="   print"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            choice = raw_input(&quot;Enter Pointer Position [A to Z]: &quot;).upper()"/>
+            <ITEXT CH="   if (min &lt;= 1 &lt;= max):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            if (65 &lt;= ord(choice) &lt;= 90):"/>
+            <ITEXT CH="        print &quot; 1. Set Wheel      =&quot;, wheel"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="                #A valid choice will terminate the while...not loop."/>
+            <ITEXT CH="   if (min &lt;= 2 &lt;= max):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="                choice_is_valid = True"/>
+            <ITEXT CH="        print &quot; 2. Set Pointer    =&quot;, pointer_l"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            else:"/>
+            <ITEXT CH="   if (min &lt;= 3 &lt;= max):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="                print&quot;Error! Only letters A to Z are valid.&quot;"/>
+            <ITEXT CH="        print &quot; 3. Set Code Start =&quot;, code_start_l"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        except ValueError as e:"/>
+            <ITEXT CH="   if (min &lt;= 4 &lt;= max):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            print (&quot;Error! %s is not a valid choice.&quot; % e.args[0].split(&quot;: &quot;)[1])"/>
+            <ITEXT CH="        print &quot; 4. Set Increment  =&quot;, increment"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print"/>
+            <ITEXT CH="   if (min &lt;= 5 &lt;= max):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    return(choice)"/>
+            <ITEXT CH="        print &quot; 5. Set Block Size =&quot;, blocksize"/>
             <para PARENT="Code"/>
+            <ITEXT CH="   if (min &lt;= 6 &lt;= max):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="#Option 3"/>
+            <ITEXT CH="        print &quot; 6. Encrypt a Message&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="def prg_choice3():"/>
+            <ITEXT CH="    if (min &lt;= 7 &lt;= max):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print"/>
+            <ITEXT CH="        print &quot; 7. Decrypt a Message&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    #Wait for valid choice in while...not."/>
+            <ITEXT CH="    if (min &lt;= 8 &lt;= max):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    choice_is_valid=False"/>
+            <ITEXT CH="        print &quot; 8. Nothing Yet&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    while not choice_is_valid:"/>
+            <ITEXT CH="    if (min &lt;= 9 &lt;= max):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        try:"/>
+            <ITEXT CH="        print &quot; 9. Nothing Yet&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            choice = raw_input(&quot;Enter Coding Start Position [A to Z]: &quot;).upper()"/>
+            <ITEXT CH="    print"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            if (65 &lt;= ord(choice) &lt;= 90):"/>
+            <ITEXT CH="    print &quot; &quot; + str(quit) + &quot;. Exit program&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="                #A valid choice will terminate the while...not loop."/>
+            <ITEXT CH="    print"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="                choice_is_valid = True"/>
+            <ITEXT CH="    print (30 * '-')"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            else:"/>
+            <ITEXT CH="    return"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="                print&quot;Error! Only letters A to Z are valid.&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        except ValueError as e:"/>
+            <ITEXT CH="#Get User Choice"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            print (&quot;Error! %s is not a valid choice.&quot; % e.args[0].split(&quot;: &quot;)[1])"/>
+            <ITEXT CH="def get_choice(min, max, quit):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print"/>
+            <ITEXT CH="    #Wait for valid choice in while...not."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    return(choice)"/>
+            <ITEXT CH="    choice_is_valid=False"/>
             <para PARENT="Code"/>
+            <ITEXT CH="    while not choice_is_valid:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="#Option 4"/>
+            <ITEXT CH="        try:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="def prg_choice4():"/>
+            <ITEXT CH="            choice = int(raw_input(&quot;Enter choice [&quot; + str(min) + &quot;-&quot; + str(max) + &quot;]: &quot;))"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print"/>
+            <ITEXT CH="            if (min &lt;= choice &lt;= max or choice == quit):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    #Wait for valid choice in while...not."/>
+            <ITEXT CH="                #A valid choice will terminate the while...not loop."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    choice_is_valid=False"/>
+            <ITEXT CH="                choice_is_valid = True"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    while not choice_is_valid:"/>
+            <ITEXT CH="            else:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        try:"/>
+            <ITEXT CH="                print&quot;Error! Only numbers &quot; + str(min) + &quot;-&quot; + str(max) + &quot; or &quot; + str(quit) + &quot; are valid.&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            choice = int(raw_input(&quot;Enter Increment [-1, 0 or 1]: &quot;))"/>
+            <ITEXT CH="        except ValueError as e:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            if (-1 &lt;= choice &lt;= 1):"/>
+            <ITEXT CH="            print (&quot;Error! %s is not a valid choice.&quot; % e.args[0].split(&quot;: &quot;)[1])"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="                #A valid choice will terminate the while...not loop."/>
+            <ITEXT CH="    return(choice)"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="                choice_is_valid = True"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            else:"/>
+            <ITEXT CH="#Option 1"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="                print&quot;Error! Only numbers -1, 0 and 1 are valid.&quot;"/>
+            <ITEXT CH="def prg_choice1():"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        except ValueError as e:"/>
+            <ITEXT CH="    print"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            print (&quot;Error! %s is not a valid choice.&quot; % e.args[0].split(&quot;: &quot;)[1])"/>
+            <ITEXT CH="    #Wait for valid choice in while...not."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print"/>
+            <ITEXT CH="    choice_is_valid=False"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    return(choice)"/>
+            <ITEXT CH="    while not choice_is_valid:"/>
             <para PARENT="Code"/>
+            <ITEXT CH="        try:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="#Option 5"/>
+            <ITEXT CH="            choice = int(raw_input(&quot;Enter Coding Wheel [1 or 2]: &quot;))"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="def prg_choice5():"/>
+            <ITEXT CH="            if (1 &lt;= choice &lt;= 2):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print"/>
+            <ITEXT CH="                #A valid choice will terminate the while...not loop."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    #Wait for valid choice in while...not."/>
+            <ITEXT CH="                choice_is_valid = True"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    choice_is_valid=False"/>
+            <ITEXT CH="            else:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    while not choice_is_valid:"/>
+            <ITEXT CH="                print&quot;Error! Only numbers 1 or 2 are valid.&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        try:"/>
+            <ITEXT CH="        except ValueError as e:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            choice = int(raw_input(&quot;Enter Block Size [1 to 10]: &quot;))"/>
+            <ITEXT CH="            print (&quot;Error! %s is not a valid choice.&quot; % e.args[0].split(&quot;: &quot;)[1])"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            if (1 &lt;= choice &lt;= 10):"/>
+            <ITEXT CH="    print"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="                #A valid choice will terminate the while...not loop."/>
+            <ITEXT CH="    return(choice)"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="                choice_is_valid = True"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            else:"/>
+            <ITEXT CH="#Option 2"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="                print&quot;Error! Only numbers 1 to 10 are valid.&quot;"/>
+            <ITEXT CH="def prg_choice2():"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        except ValueError as e:"/>
+            <ITEXT CH="    print"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            print (&quot;Error! %s is not a valid choice.&quot; % e.args[0].split(&quot;: &quot;)[1])"/>
+            <ITEXT CH="    #Wait for valid choice in while...not."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print"/>
+            <ITEXT CH="    choice_is_valid=False"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    return(choice)"/>
+            <ITEXT CH="    while not choice_is_valid:"/>
             <para PARENT="Code"/>
+            <ITEXT CH="        try:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="#Option 6"/>
+            <ITEXT CH="            choice = raw_input(&quot;Enter Pointer Position [A to Z]: &quot;).upper()"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="def prg_choice6():"/>
+            <ITEXT CH="            if (65 &lt;= ord(choice) &lt;= 90):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print"/>
+            <ITEXT CH="                #A valid choice will terminate the while...not loop."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    plaintext = raw_input(&quot;Enter Plaintext: &quot;)"/>
+            <ITEXT CH="                choice_is_valid = True"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print &quot;Encryption:&quot;, plaintext, &quot;=&gt;&quot;, encrypt(plaintext)"/>
+            <ITEXT CH="            else:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print"/>
+            <ITEXT CH="                print&quot;Error! Only letters A to Z are valid.&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    return"/>
+            <ITEXT CH="        except ValueError as e:"/>
             <para PARENT="Code"/>
+            <ITEXT CH="            print (&quot;Error! %s is not a valid choice.&quot; % e.args[0].split(&quot;: &quot;)[1])"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="#Option 7"/>
+            <ITEXT CH="    print"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="def prg_choice7():"/>
+            <ITEXT CH="    return(choice)"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    cypher = raw_input(&quot;Enter Cypher: &quot;)"/>
+            <ITEXT CH="#Option 3"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print &quot;Plaintext:&quot;, cypher, &quot;=&gt;&quot;, decrypt(cypher)"/>
+            <ITEXT CH="def prg_choice3():"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print"/>
+            <ITEXT CH="    print"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    return"/>
+            <ITEXT CH="    #Wait for valid choice in while...not."/>
             <para PARENT="Code"/>
+            <ITEXT CH="    choice_is_valid=False"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="#Option 8"/>
+            <ITEXT CH="    while not choice_is_valid:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="def prg_choice8():"/>
+            <ITEXT CH="        try:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    return"/>
+            <ITEXT CH="            choice = raw_input(&quot;Enter Coding Start Position [A to Z]: &quot;).upper()"/>
             <para PARENT="Code"/>
+            <ITEXT CH="            if (65 &lt;= ord(choice) &lt;= 90):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="#Option 9"/>
+            <ITEXT CH="                #A valid choice will terminate the while...not loop."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="def prg_choice9():"/>
+            <ITEXT CH="                choice_is_valid = True"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    return"/>
+            <ITEXT CH="            else:"/>
             <para PARENT="Code"/>
+            <ITEXT CH="                print&quot;Error! Only letters A to Z are valid.&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="#Encrypt a string"/>
+            <ITEXT CH="        except ValueError as e:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="def encrypt(plaintext):"/>
+            <ITEXT CH="            print (&quot;Error! %s is not a valid choice.&quot; % e.args[0].split(&quot;: &quot;)[1])"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    #Set the wheel to the key character."/>
+            <ITEXT CH="    print"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    pointer = pointer_n"/>
+            <ITEXT CH="    return(choice)"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    cypher = ''"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    #Encrypt the Alpha Start character."/>
+            <ITEXT CH="#Option 4"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    cypher += transform_char(code_start_l, wheel, pointer)"/>
+            <ITEXT CH="def prg_choice4():"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    cypher += ' '"/>
+            <ITEXT CH="    print"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    #Set the wheel to the Alpha Start character."/>
+            <ITEXT CH="    #Wait for valid choice in while...not."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    pointer = code_start_n"/>
+            <ITEXT CH="    choice_is_valid=False"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    block = 0"/>
+            <ITEXT CH="    while not choice_is_valid:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    for o_char in plaintext:"/>
+            <ITEXT CH="        try:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        #Substitute periods with X's."/>
+            <ITEXT CH="            choice = int(raw_input(&quot;Enter Increment [-1, 0 or 1]: &quot;))"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        if o_char == '.':"/>
+            <ITEXT CH="            if (-1 &lt;= choice &lt;= 1):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            o_char = 'X'"/>
+            <ITEXT CH="                #A valid choice will terminate the while...not loop."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        #Encrypt each letter in the plaintext."/>
+            <ITEXT CH="                choice_is_valid = True"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        e_char = transform_char(o_char, wheel, pointer)"/>
+            <ITEXT CH="            else:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        #Do something if the character was encrypted ok."/>
+            <ITEXT CH="                print&quot;Error! Only numbers -1, 0 and 1 are valid.&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        if len(e_char) &gt; 0:"/>
+            <ITEXT CH="        except ValueError as e:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            block += 1"/>
+            <ITEXT CH="            print (&quot;Error! %s is not a valid choice.&quot; % e.args[0].split(&quot;: &quot;)[1])"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            #Add a space after a block of blocksize characters."/>
+            <ITEXT CH="    print"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            if block &gt; blocksize:"/>
+            <ITEXT CH="    return(choice)"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="                cypher += ' '"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="                block = 1 #Remembering the character that was blocksize+1."/>
+            <ITEXT CH="#Option 5"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            #Add the character to the result."/>
+            <ITEXT CH="def prg_choice5():"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            cypher += e_char"/>
+            <ITEXT CH="    print"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            #Turn the wheel."/>
+            <ITEXT CH="    #Wait for valid choice in while...not."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            pointer = (pointer + increment)%26"/>
+            <ITEXT CH="    choice_is_valid=False"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    return(cypher)"/>
+            <ITEXT CH="    while not choice_is_valid:"/>
             <para PARENT="Code"/>
+            <ITEXT CH="        try:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="#Decrypt a string"/>
+            <ITEXT CH="            choice = int(raw_input(&quot;Enter Block Size [1 to 10]: &quot;))"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="def decrypt(cypher):"/>
+            <ITEXT CH="            if (1 &lt;= choice &lt;= 10):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    #Set the wheel to the key character."/>
+            <ITEXT CH="                #A valid choice will terminate the while...not loop."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    pointer = pointer_n"/>
+            <ITEXT CH="                choice_is_valid = True"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    #Extract and decrypt the Alpha Start character."/>
+            <ITEXT CH="            else:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    pointer = ord(transform_char(cypher[:1], wheel, pointer))-65"/>
+            <ITEXT CH="                print&quot;Error! Only numbers 1 to 10 are valid.&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    plaintext = ''"/>
+            <ITEXT CH="        except ValueError as e:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    for e_char in cypher[1:]:"/>
+            <ITEXT CH="            print (&quot;Error! %s is not a valid choice.&quot; % e.args[0].split(&quot;: &quot;)[1])"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        #Decrypt each letter in the cypher."/>
+            <ITEXT CH="    print"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        o_char = transform_char(e_char, wheel, pointer)"/>
+            <ITEXT CH="    return(choice)"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        #Do something if the character was decrypted ok."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        if len(o_char) &gt; 0:"/>
+            <ITEXT CH="#Option 6"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            #Add the character to the result."/>
+            <ITEXT CH="def prg_choice6():"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            plaintext += o_char"/>
+            <ITEXT CH="    print"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            #Turn the wheel."/>
+            <ITEXT CH="    plaintext = raw_input(&quot;Enter Plaintext: &quot;)"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            pointer = (pointer + increment)%26"/>
+            <ITEXT CH="    print &quot;Encryption:&quot;, plaintext, &quot;=&gt;&quot;, encrypt(plaintext)"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    return(plaintext)"/>
+            <ITEXT CH="    print"/>
             <para PARENT="Code"/>
+            <ITEXT CH="    return"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="#Encrypt/Decrypt a single character"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="def transform_char(char, wheel, pointer):"/>
+            <ITEXT CH="#Option 7"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    #Ensure that the character is Upper Case."/>
+            <ITEXT CH="def prg_choice7():"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    char = char.upper()"/>
+            <ITEXT CH="    print"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    #Only characters A-Z can be encrypted or decrypted."/>
+            <ITEXT CH="    cypher = raw_input(&quot;Enter Cypher: &quot;)"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    if(65 &lt;= ord(char) &lt;= 90):"/>
+            <ITEXT CH="    print &quot;Plaintext:&quot;, cypher, &quot;=&gt;&quot;, decrypt(cypher)"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        #ASCII =&gt; Alphabetical position of the character."/>
+            <ITEXT CH="    print"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        char_num = ord(char)-65"/>
+            <ITEXT CH="    return"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        if (wheel == 1):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            #Get the Wheel1 Offset for this character with this pointer."/>
+            <ITEXT CH="#Option 8"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            #Uses MOD maths to turn the Wheel1 List into a circle."/>
+            <ITEXT CH="def prg_choice8():"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            offset = WHEEL1[(char_num - pointer)%26]"/>
+            <ITEXT CH="    return"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        else:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            #Get the Wheel2 Offset for this character with this pointer."/>
+            <ITEXT CH="#Option 9"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            #Uses MOD maths to turn the Wheel2 List into a circle."/>
+            <ITEXT CH="def prg_choice9():"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            offset = WHEEL2[(char_num - pointer)%26]"/>
+            <ITEXT CH="    return"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        #Transformed alphabetical position of the character =&gt; ASCII."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        #Uses MOD maths to turn the alphabet into a circle."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        char = chr(65 + (char_num + offset)%26)"/>
+            <ITEXT FONTSIZE="9" CH=" if __name__ == '__main__':"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    else:"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        #Ensure nothing is returned if the character is not A-Z."/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        char = ''"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    return(char)"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="#Run the program if it is the primary module"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="if __name__ == '__main__':"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    main()"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="#EOF"/>
+            <ITEXT FONTSIZE="9" CH="   main()  #Run the program if it is the primary module"/>
             <trail PARENT="Code"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
