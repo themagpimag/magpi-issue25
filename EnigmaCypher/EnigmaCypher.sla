@@ -30,13 +30,13 @@
         <COLOR NAME="pale python green" RGB="#e7ebad" Spot="0" Register="0"/>
         <COLOR NAME="python green" RGB="#8c7529" Spot="0" Register="0"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <STYLE NAME="Default Paragraph Style" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
         <STYLE NAME="TOC_Title_Style" FONT="FreeSans Bold" LANGUAGE="English"/>
         <STYLE NAME="Body text" ALIGN="3" LINESP="15" FONTSIZE="11" LANGUAGE="English"/>
         <STYLE NAME="Body title" LINESP="16" FONT="FreeSans Bold" FONTSIZE="14" FEATURES="" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" LANGUAGE="English"/>
         <STYLE NAME="Code" LINESP="11" FONT="Monaco Regular" FONTSIZE="9" LANGUAGE="English"/>
         <STYLE NAME="Body sub-title" FONT="FreeSans Bold Oblique" FONTSIZE="13" LANGUAGE="English"/>
-        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <CHARSTYLE CNAME="Default Character Style" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <LAYERS NUMMER="1" LEVEL="0" NAME="Header" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
         <LAYERS NUMMER="9" LEVEL="3" NAME="Effect:Header_bottom_bar" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00ff00"/>
         <LAYERS NUMMER="10" LEVEL="1" NAME="Effect : Header_Fade" SICHTBAR="0" DRUCKEN="0" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
@@ -210,53 +210,83 @@
             <ITEXT CH="How does it work?"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Each plaintext character is replaced with another character called the cypher text character.  The cypher text character is chosen according to the connection between characters printed on the wheel, where there are two wheels to choose from."/>
+            <ITEXT FONTSIZE="11" CH="Each plaintext character is replaced with another character called the cypher text character.  The cypher text character is chosen according to the connection between characters printed on the wheel, where there are two wheels to choose from."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="In more detail, the algorithm follows:"/>
+            <ITEXT FONTSIZE="11" CH="In more detail, the algorithm follows:"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="1. Cypher wheel (1 or 2) is chosen.  "/>
+            <ITEXT FONTSIZE="11" CH="1. Cypher wheel (1 or 2) is chosen.  "/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="2. The key character is chosen."/>
+            <ITEXT FONTSIZE="11" CH="2. The key character is chosen."/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="3. The start character is chosen."/>
+            <ITEXT FONTSIZE="11" CH="3. The start character is chosen."/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="4. The wheel is set to the key character and the start character is encoded."/>
+            <ITEXT FONTSIZE="11" CH="4. The wheel is set to the key character and the start character is encoded."/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="5. The wheel is moved to the start character and the first message character is encoded."/>
+            <ITEXT FONTSIZE="11" CH="5. The wheel is moved to the start character and the first message character is encoded."/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="6. The wheel is incremented by 1 position, and the next message character is encoded."/>
+            <ITEXT FONTSIZE="11" CH="6. The wheel is incremented by 1 position, and the next message character is encoded."/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="7. Repeat step 6 until the entire message is encoded."/>
+            <ITEXT FONTSIZE="11" CH="7. Repeat step 6 until the entire message is encoded."/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="8. The encoded message is arranged such that the encoded start character is separated from encoded message.  (The encoded message is arranged in blocks of, typically, five characters."/>
-            <ITEXT CH=")"/>
+            <ITEXT FONTSIZE="11" CH="8. The encoded message is arranged such that the encoded start character is separated from encoded message.  (The encoded message is arranged in blocks of, typically, five characters.)"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="For the message to be successfully decoded by the person that receives the message, they must be given the number of the wheel that was used to encrypt the message and the key character that was chosen."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="Now for the limitations:"/>
+            <ITEXT FONTSIZE="11" CH="Now for the limitations:"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="1. Only upper case characters can be encoded."/>
+            <ITEXT FONTSIZE="11" CH="1. Only upper case characters can be encoded."/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="2. No punctuation can be encoded, apart from full-stops which are traditionally substituted with "/>
-            <ITEXT CH="X."/>
+            <ITEXT FONTSIZE="11" CH="2. No punctuation can be encoded, apart from full-stops which are traditionally substituted with X."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="With a bit of imagination the encoding algorithm can easily be modified.  For example, more wheels could be used, or the increment could be varied or even reversed."/>
+            <ITEXT CH="With a bit of imagination the encoding algorithm can easily be modified.  For example, more wheels could be used, or the increment could be varied or even reversed."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Python Pocket Enigma"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Use a text editor such as nano or emacs to create a new Python file called Py-Enigma.py."/>
+            <ITEXT CH="Use a text editor such as nano or emacs to create a new Python file called Py-Enigma.py.  Then add:"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" #!/usr/bin/python"/>
+            <para PARENT="Code"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" import random"/>
+            <para PARENT="Code"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" VERSION = &quot;v1.0.0&quot;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" BUILDDATE = &quot;01/06/2014&quot;"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" # Global variables with starting values"/>
+            <para PARENT="Code"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" wheel = 1"/>
+            <para PARENT="Code"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" pointer_l = 'D'"/>
+            <para PARENT="Code"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" pointer_n = ord(pointer_l)-65"/>
+            <para PARENT="Code"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" code_start_l = 'J'"/>
+            <para PARENT="Code"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" code_start_n = ord(code_start_l)-65"/>
+            <para PARENT="Code"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" increment = 1"/>
+            <para PARENT="Code"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" blocksize = 5"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" DEFAULT_MESSAGE = &quot;ATTACK AT DAWN&quot; # And why not? They will never expect it..."/>
+            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="to the top of the file.  65 is substracted since the integer value of A is 65.  Therefore, ord('A')-65 is zero.  The wheel setting is used to select which wheel is used, pointer_I is the initial wheel settings and code_start_I is the starting character."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="1. Analysis of the wheels"/>
             <para PARENT="Body sub-title"/>
             <para PARENT="Body text"/>
             <ITEXT CH="The wheels have no characters on them, just a lot of connections.  One position has an arrow, or pointer, and is taken as the starting position (actually position 0).  Looking at the pictures on the first page of this article, it is clear that he connections simply connect from one position to another.  These connections indicate how one character should be substituted for another."/>
+            <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="The first wheel can be summarised using a Python list:"/>
@@ -274,11 +304,15 @@
             <ITEXT CH=" WHEEL2 = [2,2,-2,-2,-8,3,9,5,-3,1,-1,2,-5,-2,2,-9,-2,8,2,2,-2,-2,8,1,-1,-8]"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Again if the character at the pointer is ??? with wheel II it would become ??? or ???"/>
+            <ITEXT CH="Again if the character at the pointer is ??? with wheel II it would become ??? or ???.  Add these two lines to the end of the Python file."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="2. Those Wheels move!"/>
+            <ITEXT CH="2. Encrypting or decrypting a character"/>
             <para PARENT="Body sub-title"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="12" CH="The algorithm clearly states that the wheel is incremented (moved 1 position clockwise) after each message character is encoded. In simple terms this means that a repeated character in the message does not get encoded to the same character."/>
+            <ITEXT CH="  Append the code below to the end of the Python file."/>
+            <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" # Encrypt or decrypt a single character"/>
             <para PARENT="Code"/>
@@ -313,13 +347,7 @@
             <ITEXT FONTSIZE="9" CH="   return character"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="FUNCTION ???? def transform_char(char, wheel, pointer):"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="The algorithm clearly states that the wheel is incremented (moved 1 position clockwise) after each message character is encoded. In simple terms this means that a repeated character in the message does not get encoded to the same character."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="Getting the wheel to turn is not so difficult, again thanks to modulo 26 maths. Although, technically this function does not perform the turn, it does take the turning into consideration."/>
+            <ITEXT CH="Getting the wheel to turn is not so difficult, again thanks to modulo 26 maths. Although, technically this function does not perform the turn, it does take the turning into consideration."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="12" CH="char_num = ord(char)-65 #Convert the character from ASCII to a base number, A=0, B=1, etc."/>
@@ -329,21 +357,79 @@
             <ITEXT FONTSIZE="12" CH="char = chr(65 + (char_num + offset)%26) #Derive the encoded character."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="So if the pointer was pointing to ??? then the pointer value would be 2."/>
+            <ITEXT CH="So if the pointer was pointing to ??? then the pointer value would be 2."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="Next, if the character to be encoded was ??? then the character number would be 5, and the calculated offset would be WHEEL1[3] = 7."/>
+            <ITEXT CH="Next, if the character to be encoded was ??? then the character number would be 5, and the calculated offset would be WHEEL1[3] = 7."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="Thus the encoded character is 5 + 7 = 12 =&gt; ????"/>
+            <ITEXT CH="Thus the encoded character is 5 + 7 = 12 =&gt; ????"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="Step 3. More than 1 Character Please."/>
+            <ITEXT CH="3. Encrypting a string"/>
+            <para PARENT="Body sub-title"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="FUNCTION ???? def encrypt(plaintext):"/>
+            <ITEXT FONTSIZE="12" CH="It is likely that a message of more than 1 character will be used. Thus, a way to repeatedly encode a single character and move the wheel is needed. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="It is likely that a message of more than 1 character will be used. Thus, a way to repeatedly encode a single character and move the wheel is needed. That sounds like a loop to me:"/>
+            <ITEXT CH=" # Encrypt a string"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" def encrypt(plaintext):"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   pointer = pointer_n  # Set the wheel to the key character."/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   cypher = ''"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   cypher += transform_char(code_start_l, wheel, pointer)  # Encrypt the Alpha Start character."/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   cypher += ' '"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   #Set the wheel to the Alpha Start character."/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   pointer = code_start_n"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   block = 0"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   # Encrypt each letter in the plaintext string"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   for o_char in plaintext:"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     # Substitute '.' with 'X'"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     if o_char == '.':"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="       o_char = 'X'"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     # Encrypt this character"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     e_char = transform_char(o_char, wheel, pointer)"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     # Do something if the character was encrypted ok."/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     if len(e_char) &gt; 0:"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="       block += 1"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="       if block &gt; blocksize:"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="         cypher += ' ' # Add a space after a block of blocksize characters."/>
+            <para PARENT="Code"/>
+            <ITEXT CH="         block = 1   # Remembering the character that was blocksize+1."/>
+            <para PARENT="Code"/>
+            <ITEXT CH="         "/>
+            <para PARENT="Code"/>
+            <ITEXT CH="       cypher += e_char  # Add the character to the result."/>
+            <para PARENT="Code"/>
+            <ITEXT CH="       pointer = (pointer + increment)%26  # Turn the wheel, using mod 26 to return to zero"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   return cypher"/>
+            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="12" CH="That sounds like a loop to me:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="12" CH="for o_char in plaintext: #Step through each character in the message"/>
@@ -372,10 +458,45 @@
             <ITEXT FONTSIZE="12" CH="Notice the extra code to replace full stops with ???? characters before encoding, and how the output is formed into nice blocks of blocksize."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="Step 4. Now Reverse. Can we Decrypt Too?"/>
+            <ITEXT FONTSIZE="12" CH="4. "/>
+            <ITEXT CH="Decrypting a string"/>
+            <para PARENT="Body sub-title"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="FUNCTION – def decrypt(cypher):"/>
-            <para PARENT="Body text"/>
+            <ITEXT CH=" # Decrypt a string"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" def decrypt(cypher):"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   pointer = pointer_n  # Set the wheel to the key character."/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   # Extract and decrypt the Alpha Start character."/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   pointer = ord(transform_char(cypher[:1], wheel, pointer))-65"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   plaintext = ''"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   # Decrypt each letter in the cypher."/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   for e_char in cypher[1:]:"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     # Decrypt this character"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     o_char = transform_char(e_char, wheel, pointer)"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     # Do something if the character was decrypted ok."/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     if len(o_char) &gt; 0:"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="       plaintext += o_char   # Add the character to the result."/>
+            <para PARENT="Code"/>
+            <ITEXT CH="       pointer = (pointer + increment)%26   # Turn the wheel, using mod 26 to return to zero"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   return plaintext"/>
+            <para PARENT="Code"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="12" CH="The connection on the wheels are bi-directional. So if a character is encoded as an “F”, then with the wheel in the same position encoding an “F” would return you the original character. Consequently, we can use the same encryption routine to decrypt. We just need a slightly different loop to feed it characters to decrypt."/>
             <para PARENT="Body text"/>
@@ -526,9 +647,7 @@
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="12" CH="Encryption: ATTACK AT DAWN =&gt; M UQXZI MGAZE DK"/>
             <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
             <ITEXT FONTSIZE="12" CH="------------------------------"/>
-            <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="12" CH="Now we have just received a message, lets decrypt it:"/>
             <para PARENT="Body text"/>
@@ -541,159 +660,14 @@
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="12" CH="Plaintext: M UQXZI MGAZE DK =&gt; ATTACKATDAWN"/>
             <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
             <ITEXT FONTSIZE="12" CH="------------------------------"/>
-            <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="12" CH="What next?"/>
             <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
             <ITEXT FONTSIZE="12" CH="Well that depends... let me know what you think. All/any feedback is appreciated."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH=" #!/usr/bin/python"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="12" CH=" # A Python implementation of the pocket Enigma cypher machine."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="12" CH=" #Ian Neill (c)2014"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="12" CH=" # - Works with Python v2.7"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="12" CH=" import random"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="12" CH=" VERSION = &quot;v1.0.0&quot;"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="12" CH=" BUILDDATE = &quot;01/06/2014&quot;"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="12" CH=" # Wheel definitions"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="12" CH=" WHEEL1 = [-1,3,-5,7,-3,2,3,-2,4,-3,-7,6,-4,1,-1,6,3,-6,2,-3,-2,-6,2,5,-2,1]"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="12" CH=" WHEEL2 = [2,2,-2,-2,-8,3,9,5,-3,1,-1,2,-5,-2,2,-9,-2,8,2,2,-2,-2,8,1,-1,-8]"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="12" CH=" # Global variables with st"/>
-            <ITEXT CH="arting values"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" wheel = 1"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" pointer_l = 'D'"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" pointer_n = ord(pointer_l)-65"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" code_start_l = 'J'"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" code_start_n = ord(code_start_l)-65"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" increment = 1"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" blocksize = 5"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" DEFAULT_MESSAGE = &quot;ATTACK AT DAWN&quot; #And why not? They will never expect it..."/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" # Encrypt a string"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" def encrypt(plaintext):"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   pointer = pointer_n  # Set the wheel to the key character."/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   cypher = ''"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   cypher += transform_char(code_start_l, wheel, pointer)  # Encrypt the Alpha Start character."/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   cypher += ' '"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   #Set the wheel to the Alpha Start character."/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   pointer = code_start_n"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   block = 0"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   # Encrypt each letter in the plaintext string"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   for o_char in plaintext:"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="     # Substitute '.' with 'X'"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="     if o_char == '.':"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="       o_char = 'X'"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="     # Encrypt this character"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="     e_char = transform_char(o_char, wheel, pointer)"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="     # Do something if the character was encrypted ok."/>
-            <para PARENT="Code"/>
-            <ITEXT CH="     if len(e_char) &gt; 0:"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="       block += 1"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="       if block &gt; blocksize:"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="         cypher += ' ' # Add a space after a block of blocksize characters."/>
-            <para PARENT="Code"/>
-            <ITEXT CH="         block = 1   # Remembering the character that was blocksize+1."/>
-            <para PARENT="Code"/>
-            <ITEXT CH="         "/>
-            <para PARENT="Code"/>
-            <ITEXT CH="       cypher += e_char  # Add the character to the result."/>
-            <para PARENT="Code"/>
-            <ITEXT CH="       pointer = (pointer + increment)%26  # Turn the wheel, using mod 26 to return to zero"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   return cypher"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" # Decrypt a string"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" def decrypt(cypher):"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   pointer = pointer_n  # Set the wheel to the key character."/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   # Extract and decrypt the Alpha Start character."/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   pointer = ord(transform_char(cypher[:1], wheel, pointer))-65"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   plaintext = ''"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   # Decrypt each letter in the cypher."/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   for e_char in cypher[1:]:"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="     # Decrypt this character"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="     o_char = transform_char(e_char, wheel, pointer)"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="     # Do something if the character was decrypted ok."/>
-            <para PARENT="Code"/>
-            <ITEXT CH="     if len(o_char) &gt; 0:"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="       plaintext += o_char   # Add the character to the result."/>
-            <para PARENT="Code"/>
-            <ITEXT CH="       pointer = (pointer + increment)%26   # Turn the wheel, using mod 26 to return to zero"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   return plaintext"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
             <ITEXT CH="#MAIN PROGRAM"/>
@@ -1415,6 +1389,26 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="397.638425193937" YPOS="673" WIDTH="268.6529134" HEIGHT="133.00000004252" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 268.653 0 268.653 0 268.653 0 268.653 0 268.653 133 268.653 133 268.653 133 268.653 133 0 133 0 133 0 133 0 133 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 268.653 0 268.653 0 268.653 0 268.653 0 268.653 133 268.653 133 268.653 133 268.653 133 0 133 0 133 0 133 0 133 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.34708661126" YPOS="1323" WIDTH="538.5883179" HEIGHT="165" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="pale python green" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 165 538.588 165 538.588 165 538.588 165 0 165 0 165 0 165 0 165 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 165 538.588 165 538.588 165 538.588 165 0 165 0 165 0 165 0 165 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="128.347115170867" YPOS="1858" WIDTH="538.5883179" HEIGHT="23.0157479929192" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="pale python green" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 23.0157 538.588 23.0157 538.588 23.0157 538.588 23.0157 0 23.0157 0 23.0157 0 23.0157 0 23.0157 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 23.0157 538.588 23.0157 538.588 23.0157 538.588 23.0157 0 23.0157 0 23.0157 0 23.0157 0 23.0157 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="128.347115170867" YPOS="1944.03937007906" WIDTH="538.5883179" HEIGHT="23.01574799" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="pale python green" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 23.0157 538.588 23.0157 538.588 23.0157 538.588 23.0157 0 23.0157 0 23.0157 0 23.0157 0 23.0157 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 23.0157 538.588 23.0157 538.588 23.0157 538.588 23.0157 0 23.0157 0 23.0157 0 23.0157 0 23.0157 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="128.34711517126" YPOS="2105.61417322992" WIDTH="538.5883179" HEIGHT="196.913385825194" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="pale python green" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 196.913 538.588 196.913 538.588 196.913 538.588 196.913 0 196.913 0 196.913 0 196.913 0 196.913 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 196.913 538.588 196.913 538.588 196.913 538.588 196.913 0 196.913 0 196.913 0 196.913 0 196.913 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="128.34711517126" YPOS="2743.40944877082" WIDTH="538.5883179" HEIGHT="326.590551229175" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="pale python green" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 326.591 538.588 326.591 538.588 326.591 538.588 326.591 0 326.591 0 326.591 0 326.591 0 326.591 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 326.591 538.588 326.591 538.588 326.591 538.588 326.591 0 326.591 0 326.591 0 326.591 0 326.591 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
