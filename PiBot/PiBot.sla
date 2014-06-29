@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SCRIBUSUTF8NEW Version="1.4.1.svn">
-    <DOCUMENT ANZPAGES="4" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" PRESET="0" BleedTop="8.50393700787402" BleedLeft="8.50393700787402" BleedRight="8.50393700787402" BleedBottom="8.50393700787402" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="3.881" UNITS="1" DFONT="Bitstream Charter Bold" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="3" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="CineonLog M " DPPr="Fogra27L CMYK Coated Press" DPIn="CineonLog M " DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="CineonLog M " DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="8" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="1" SHOWLAYERM="1" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="1" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.019" dispY="0.019" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
+    <DOCUMENT ANZPAGES="4" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" PRESET="0" BleedTop="8.50393700787402" BleedLeft="8.50393700787402" BleedRight="8.50393700787402" BleedBottom="8.50393700787402" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="3.881" UNITS="1" DFONT="Bitstream Charter Bold" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="4" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="CineonLog M " DPPr="Fogra27L CMYK Coated Press" DPIn="CineonLog M " DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="CineonLog M " DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="6" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="1" SHOWLAYERM="1" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="1" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.019" dispY="0.019" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
         <CheckProfile Name="PDF 1.3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
         <CheckProfile Name="PDF 1.4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
         <CheckProfile Name="PDF 1.5" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
@@ -29,10 +29,10 @@
         <HYPHEN/>
         <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
         <STYLE NAME="TOC_Title_Style" FONT="FreeSans Bold" LANGUAGE="English"/>
-        <STYLE NAME="Body text" ALIGN="3" LANGUAGE="English"/>
+        <STYLE NAME="Body text" ALIGN="3" FONTSIZE="11" LANGUAGE="English"/>
         <STYLE NAME="Body sub-title" FONT="FreeSans Bold Oblique" FONTSIZE="13" LANGUAGE="English"/>
         <STYLE NAME="Body title" FONT="FreeSans Bold" FONTSIZE="14" LANGUAGE="English"/>
-        <STYLE NAME="Code" LINESP="13" FONT="Monaco Regular" FONTSIZE="10" LANGUAGE="English"/>
+        <STYLE NAME="Code" LINESP="11" FONT="Monaco Regular" FONTSIZE="9" LANGUAGE="English"/>
         <STYLE NAME="New Style" LANGUAGE="English"/>
         <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <LAYERS NUMMER="1" LEVEL="0" NAME="Header" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
@@ -50,8 +50,17 @@
         <LAYERS NUMMER="12" LEVEL="4" NAME="Background" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff6470"/>
         <LAYERS NUMMER="13" LEVEL="8" NAME="Image" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ffaa00"/>
         <Printer firstUse="1" toFile="1" useAltPrintCommand="1" outputSeparations="0" useSpotColors="0" useColor="1" mirrorH="1" mirrorV="0" useICC="0" doGCR="1" doClip="1" setDevParam="0" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="0" colorMarks="0" includePDFMarks="1" PSLevel="3" PDLanguage="3" markOffset="3.74231782764791e-308" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
-        <PDF firstUse="1" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
-            <LPI Color="" Frequency="0" Angle="0" SpotFunction="0"/>
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+            <Subset Name="FreeSans Bold"/>
+            <Subset Name="FreeSans Bold Oblique"/>
+            <Subset Name="FreeSans Oblique"/>
+            <Subset Name="FreeSans Regular"/>
+            <Subset Name="Monaco Regular"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <LPI Color="" Frequency="10" Angle="0" SpotFunction="0"/>
             <LPI Color="Black" Frequency="133" Angle="45" SpotFunction="3"/>
             <LPI Color="Cyan" Frequency="133" Angle="105" SpotFunction="3"/>
             <LPI Color="Magenta" Frequency="133" Angle="75" SpotFunction="3"/>
@@ -85,8 +94,9 @@
         <PAGE PAGEXPOS="100.00062992126" PAGEYPOS="901.890708661418" PAGEWIDTH="595.28125984252" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" NUM="1" NAM="" MNAM="Normal" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="19.8425 575.433 " HorizontalGuides="19.8425 822.047 " AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
         <PAGE PAGEXPOS="100.00062992126" PAGEYPOS="1783.78015748032" PAGEWIDTH="595.28125984252" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" NUM="2" NAM="" MNAM="Normal" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="19.8425 575.433 " HorizontalGuides="19.8425 822.047 " AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
         <PAGE PAGEXPOS="100.00062992126" PAGEYPOS="2665.66960629921" PAGEWIDTH="595.28125984252" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" NUM="3" NAM="" MNAM="Normal" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="19.8425 575.433 " HorizontalGuides="19.8425 822.047 " AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
-        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="91.4995275590553" YPOS="48.8739526562759" WIDTH="612.283464566929" HEIGHT="166.191314259943" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="20% Gray" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Polygon141" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 166.191 612.283 166.191 612.283 166.191 612.283 166.191 0 166.191 0 166.191 0 166.191 0 166.191 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 166.191 612.283 166.191 612.283 166.191 612.283 166.191 0 166.191 0 166.191 0 166.191 0 166.191 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="1" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="91.4995275590553" YPOS="48.8739526562759" WIDTH="612.283464566929" HEIGHT="166.191314259943" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="20% Gray" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.15" LOCALSCY="0.15" LOCALX="-1096.06299212598" LOCALY="-94.488188976378" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Polygon141" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="banner8.jpg" PFILE2="" PFILE3="" PRFILE="Embedded sRGB IEC61966-2.1" EPROF="Embedded sRGB IEC61966-2.1" IRENDER="0" EMBEDDED="1" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 166.191 612.283 166.191 612.283 166.191 612.283 166.191 0 166.191 0 166.191 0 166.191 0 166.191 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 166.191 612.283 166.191 612.283 166.191 612.283 166.191 0 166.191 0 166.191 0 166.191 0 166.191 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="1" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
+            <ImageEffect Code="3" Param="22"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="91.4995275834644" YPOS="217.009132354393" WIDTH="612.283464566929" HEIGHT="8.50394" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1.01423506122473" PCOLOR="Black" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 8.50394 612.283 8.50394 612.283 8.50394 612.283 8.50394 0 8.50394 0 8.50394 0 8.50394 0 8.50394 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 8.50394 612.283 8.50394 612.283 8.50394 612.283 8.50394 0 8.50394 0 8.50394 0 8.50394 0 8.50394 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="5.66929133216499" gWidth="612.283464566929" gHeight="14.173231332165" LAYER="9" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
@@ -164,7 +174,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="514.688031496064" YPOS="134.367464074479" WIDTH="145.825511811024" HEIGHT="126.549921259843" RADRECT="8.50393700787402" FRTYPE="2" CLIPEDIT="0" PWIDTH="1.41732283464567" PCOLOR="Black" PCOLOR2="20% Gray" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Polygon2440" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="8.50394 0 8.50394 0 137.322 0 137.322 0 137.322 0 142.018 0 145.826 8.50394 145.826 3.80734 145.826 8.50394 145.826 8.50394 145.826 118.046 145.826 118.046 145.826 118.046 145.826 122.743 137.322 126.55 142.018 126.55 137.322 126.55 137.322 126.55 8.50394 126.55 8.50394 126.55 8.50394 126.55 3.80734 126.55 0 118.046 0 122.743 0 118.046 0 118.046 0 8.50394 0 8.50394 0 8.50394 0 3.80734 8.50394 0 3.80734 0 " NUMCO="16" COCOOR="0 0 0 0 145.826 0 145.826 0 145.826 0 145.826 0 145.826 126.55 145.826 126.55 145.826 126.55 145.826 126.55 0 126.55 0 126.55 0 126.55 0 126.55 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="10.6742936251852" gYpos="10.9549523533976" gWidth="153" gHeight="193.248031453543" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="514.688031496064" YPOS="134.367464074479" WIDTH="145.825511811024" HEIGHT="126.549921259843" RADRECT="8.50393700787402" FRTYPE="2" CLIPEDIT="0" PWIDTH="1.41732283464567" PCOLOR="Black" PCOLOR2="20% Gray" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.23" LOCALSCY="0.23" LOCALX="-295.789113317357" LOCALY="-221.841834988018" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Polygon2440" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="harry gee.jpg" PFILE2="" PFILE3="" PRFILE="Embedded sRGB IEC61966-2.1" EPROF="Embedded sRGB IEC61966-2.1" IRENDER="0" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="8.50394 0 8.50394 0 137.322 0 137.322 0 137.322 0 142.018 0 145.826 8.50394 145.826 3.80734 145.826 8.50394 145.826 8.50394 145.826 118.046 145.826 118.046 145.826 118.046 145.826 122.743 137.322 126.55 142.018 126.55 137.322 126.55 137.322 126.55 8.50394 126.55 8.50394 126.55 8.50394 126.55 3.80734 126.55 0 118.046 0 122.743 0 118.046 0 118.046 0 8.50394 0 8.50394 0 8.50394 0 3.80734 8.50394 0 3.80734 0 " NUMCO="16" COCOOR="0 0 0 0 145.826 0 145.826 0 145.826 0 145.826 0 145.826 126.55 145.826 126.55 145.826 126.55 145.826 126.55 0 126.55 0 126.55 0 126.55 0 126.55 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="10.6742936251852" gYpos="10.9549523533976" gWidth="153" gHeight="193.248031453543" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -198,17 +208,18 @@
             <trail LINESP="28"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="360.080708665355" WIDTH="538.588346456693" HEIGHT="447.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="27" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347091674805" YPOS="360.080718994141" WIDTH="538.588317871094" HEIGHT="450.786712646484" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 450.787 538.588 450.787 538.588 450.787 538.588 450.787 0 450.787 0 450.787 0 450.787 0 450.787 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 450.787 538.588 450.787 538.588 450.787 538.588 450.787 0 450.787 0 450.787 0 450.787 0 450.787 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="27" BACKITEM="-1">
             <ITEXT CH="Introduction"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
             <ITEXT CH="The robot revolution is coming. Robots are no longer just machines from science fiction. From self-driving cars, to flying drones, robots are on the march. Over the next few years robots are going to be seen all over the place and will be increasingly used in agriculture, manufacture, medicine and education, as well as in our own homes. The amazing thing is that now almost anyone can become a roboticist and if you have a  Raspberry Pi you are already half way there."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="In the first part of this two part article, I will give you an introduction to the exciting new world of robotics and will detail all the things you need to consider when embarking on building your own robot. As an example we will cover the building of the simplest robot possible, that I have called &quot;TiddlyBot&quot;. Next time, in part 2 of the article, I will cover more advanced robots and show how you can build and then program these robots to do some really interesting things."/>
+            <ITEXT CH="In the first part of this two part article, I will give you an introduction to the exciting new world of robotics and will detail all the things you need to consider when embarking on building your own robot. As an example we will cover the building of the simplest robot possible for the Raspberry Pi. Next time, in part 2 of the article, I will cover more advanced robots and show how you can build and then program these robots to do some really interesting things."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Before we get into the what and how-to of any robotics, the first question may be why would you want to build a robot with a Raspberry Pi in the first place? Also, what kind of things will a Raspberry Pi robot be able to do?"/>
+            <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="I first got interested in Raspberry Pi robots when I realised how good they can be for learning about technology and also the teaching of technology to others. The great thing about robots is that they are physical and immersive. Instead of providing output to pixels on a screen, a robot is in your personal space and its movements, lights and sounds go way beyond the limits of a screen. With the Raspberry Pi and some low cost hardware, not only can you make a robot move, you can make a robot that can speak, dance and a whole lot more besides! Why wouldn't you want to turn a Raspberry Pi into a robot?"/>
             <para PARENT="Body text"/>
@@ -216,7 +227,7 @@
             <ITEXT CH="What makes the Raspberry Pi so good for robotics (as well as so many other projects)  is its special GPIO port (General Purpose Input Output). This allows the Raspberry Pi to connect to all kinds of electronics and hardware. The fundamental requirements for the most interesting robots are the ability to both sense and interact with their environment, and it is the GPIO port of the Raspberry Pi that makes this possible. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Before going into further details for building the &quot;TiddlyBot&quot; let's first consider some robot fundamentals."/>
+            <ITEXT CH="Before going into further details for building a simple robot, let's first consider some robot fundamentals."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="What makes a robot robotic?"/>
@@ -227,18 +238,18 @@
             <ITEXT CH="&quot;. In addition to this requirement to perform physical actions, a proper robot should also have an autonomous ability. Autonomy allows a robot to act independently in the world and this makes them different from things like radio controlled vehicles  that are not able to function by themselves. The Raspberry Pi's processing ability (both CPU and GPU), along with its GPIO port, gives it lots of potential for developing autonomous behaviour.  As a simple example let's take a look at the classic line following robot."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="A line following robot has the ability to move forward, change direction and detect a line on the ground. This is a classic example of autonomous behaviour.  No matter where the line leads, the robot is programmed to follow the line without the need for any external control.  "/>
+            <ITEXT CH="A line following robot has the ability to move forward, change direction and detect a line on the ground. This is a classic example of autonomous behaviour. No matter where the line leads, the robot is programmed to follow the line without the need for any external control.  "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The &quot;TiddlyBot&quot; has an infrared (IR) sensor that detects a change in reflectivity on the ground. The reflectivity changes when the &quot;TiddlyBot&quot; moves off the line. When this happens it changes direction to get back on the line."/>
+            <ITEXT CH="For our simple robot we are going to add an infrared (IR) sensor that detects a change in reflectivity. The reflectivity of the ground changes when the robot moves off the line. When this happens it changes direction to get back on the line."/>
             <para PARENT="Body text"/>
             <ITEXT CH="While autonomous behavior can be very useful in a robot it can also be a lot of fun to control it directly. Some of the most interesting applications happen when a robot combines the two.  Imagine a flying robot that can fly around at your command but can also be programmed never to crash into walls and other obstacles."/>
+            <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Anatomy of a Raspberry Pi robot"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Let us go through all the things you need to build your own robot using a Raspberry Pi. I will detail a minimal possible Raspberry Pi robot step by step. These basic steps are:"/>
-            <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="  • Remote access to the Raspberry Pi"/>
             <para PARENT="Body text"/>
@@ -251,18 +262,18 @@
             <ITEXT CH="  • Adding sensors"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The first hurdle to turning a Raspberry Pi into a robot is to untether it from all wires and cables. The first two tasks will cover this."/>
+            <ITEXT CH="The first hurdle to turning a Raspberry Pi into a robot is to untether it from all wires and cables. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Remote access"/>
             <para PARENT="Body sub-title"/>
             <ITEXT CH="Most people will be familiar with interfacing a Raspberry Pi to a monitor/TV, keyboard and mouse, but this is just not going to work for a robot. The best thing for connecting remotely is a wireless dongle connected to the Raspberry Pi USB port. I won't go into all the details for doing this here. Instead, visit "/>
-            <ITEXT FCOLOR="Blue" CH="http://pihw.wordpress. com/guides/guide-to-remote-connections/"/>
+            <ITEXT FCOLOR="Blue" CH="http://pihw.wordpress.com/guides/guide-to-remote-connections/"/>
             <ITEXT CH=". "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Another interesting thing to note is that you can either connect wirelessly across an existing network or you could turn your Raspberry Pi into a wireless hotspot and connect to it via its own network. See Issue 11 of The MagPi, page 10 ("/>
-            <ITEXT FCOLOR="Blue" CH="http://www.themagpi.com/issue/issue11/article/ turn-your-raspberry-pi-into-a-wireless-access-point"/>
+            <ITEXT FCOLOR="Blue" CH="http://www.themagpi.com/issue /issue11/article/turn-your-raspberry-pi-into-a-wireless -access-point"/>
             <ITEXT CH=") for details. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
@@ -276,17 +287,20 @@
             <para PARENT="Body text"/>
             <ITEXT CH="Building a robot chassis"/>
             <para PARENT="Body sub-title"/>
-            <ITEXT CH="While it is possible to use some kind of existing chassis to build your robot, it can also be fun to make your own.  Even some stiff cardboard can be used for this. Below shows  a basic design.  "/>
+            <ITEXT CH="While it is possible to use some kind of existing chassis to build your robot, it can also be fun to make your own.  Even some stiff cardboard can be used for this. The photo overleaf shows  a basic design.  "/>
             <para PARENT="Body text"/>
+            <para PARENT="Body sub-title"/>
+            <para PARENT="Body sub-title"/>
             <ITEXT CH="Making the robot move"/>
             <para PARENT="Body sub-title"/>
-            <ITEXT CH="Now that you have successfully untethered your Raspberry Pi and can connect to it remotely, we can give it some robot powers - motion! The simplest and probably cheapest way to give your &quot;TiddlyBot&quot; motion is by connecting two "/>
+            <ITEXT CH="Now that you have successfully untethered your Raspberry Pi and can connect to it remotely, we can give it some robot powers - motion! The simplest and probably cheapest way to give your robot motion is by connecting two "/>
             <ITEXT FONT="FreeSans Bold" CH="continuous rotation"/>
             <ITEXT CH=" servos. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Normally servos are designed to turn just 90 or 180 degrees though modified versions exist that provide continuous rotation to be able to drive wheels. Adafruit show how to modify a low cost servo for continuous rotation "/>
-            <ITEXT FCOLOR="Blue" CH="(http://learn.adafruit .com/modifying-servos-for-continuous-rotation"/>
+            <ITEXT FCOLOR="Black" CH="("/>
+            <ITEXT FCOLOR="Blue" CH="http://learn.adafruit.com/ modifying-servos-for-continuous-rotation"/>
             <ITEXT CH="). If you want to be really inventive you can also make your own wheels. In the photo above, two large bottle tops are being used for wheels."/>
             <para PARENT="Body text"/>
             <ITEXT CH=" "/>
@@ -294,41 +308,45 @@
             <ITEXT CH="With two wheels to drive the robot a third wheel is usually required for support. It is positioned in the middle towards the back of the chassis. Ball bearing castors or furniture wheels can work well but to keep things really simple a smooth sliding support can be made using a paperclip."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Now that the robot has wheels the next important step is to connect the servos to the GPIO port.  As a hack I made up a simple circuit."/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="This connects the data pins of the servos and the IR sensor to the GPIO and also connects the positive and negative power pins of the servo to regulated power."/>
+            <ITEXT CH="Now that the robot has wheels the next important step is to connect the servos to the GPIO port.  As a hack I made up a simple circuit. This connects the data pins of the servos and the IR sensor to the GPIO and also connects the positive and negative power pins of the servo to a 5V voltage regulator. The circuit is shown on the right."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
+            <para PARENT="Body sub-title"/>
+            <para PARENT="Body sub-title"/>
             <ITEXT CH="Making your robot sensational"/>
             <para PARENT="Body sub-title"/>
-            <ITEXT CH="To keep things simple we will only add an IR sensor to &quot;TiddlyBot&quot;. The way this works is that it has one LED that is an IR emitter and one that is an IR receiver. The receiver measures the light reflected from the ground and the amount received will depend of the reflectivity of the surface. A line that has a different reflectivity to the ground around it can be measured by the sensor so it knows whether it is on or off the line. An example sensor can be obtained from "/>
+            <ITEXT CH="To keep things simple we will only add an IR sensor to our robot. The way this works is that it has one LED that is an IR emitter and one that is an IR receiver. The receiver measures the light reflected from the ground and the amount received will depend of the reflectivity of the surface. A line that has a different reflectivity to the ground around it can be measured by the sensor so it knows whether it is on or off the line. "/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="A suitable sensor can be obtained from "/>
             <ITEXT FCOLOR="Blue" CH="http://www.banggood.com"/>
-            <ITEXT CH=" (search for LM393 IR)"/>
+            <ITEXT CH=" (search for LM393 IR)."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Coding autonomous behaviour"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Now that we have the hardware of the robot sorted, it is time for the code. The Python script shown below is all that is required to create autonomous line-following behaviour. A detailed explanation of the code is available at "/>
-            <ITEXT FCOLOR="Blue" CH="http://pibot .frazerbarnes.co.uk/index/php/docs/tiddly-bot-code"/>
+            <ITEXT CH="Now that we have the hardware of the robot sorted, it is time for the code. The Python script shown on the next page is all that is required to add autonomous line-following behaviour to our robot. A detailed explanation of the code is available at "/>
+            <ITEXT FCOLOR="Blue" CH="http://www.pibot.org/tiddlybot/code"/>
             <ITEXT CH="."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Beyond the basics"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Next month we will look at some more capable robots with features like speech, voice recognition and environment mapping. We will also discuss adding more hardware via an Arduino microcontroller interface. "/>
+            <ITEXT CH="Next month we will look at some more capable robots with features like speech, voice recognition and environment mapping. We will also discuss adding more hardware via an Arduino interface. "/>
             <para PARENT="Body text"/>
-            <ITEXT CH="While this this first part has been fairly involved I hope you agree that buildng robots with the Raspberry Pi is not only affordable and practical, it is also a whole lot of fun. "/>
+            <ITEXT CH="In this first part I hope you've become more familiar with the basics of building a robot and hope you agree that building robots with the Raspberry Pi is affordable and fun. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="If you would like a guided way of learning more about robotics, &quot;TiddlyBot&quot; is available as a "/>
+            <ITEXT CH="To help make it easier for Raspberry Pi users to get into building robots I have now developed the &quot;TiddlyBot&quot;. This brings the ideas described in this article to an easier &quot;build-your-own&quot; robot kit.  For &quot;TiddlyBot&quot; I have also added some exciting software as well as things like line drawing capabilities. To find out more and to support the &quot;TiddlyBot&quot; project, please see our "/>
             <ITEXT FONT="FreeSans Bold" CH="Kick"/>
             <ITEXT FONT="FreeSans Bold" FCOLOR="KS Green" CH="starter"/>
-            <ITEXT CH=" project ("/>
+            <ITEXT CH=" ("/>
             <ITEXT FCOLOR="Blue" CH="http://kck.st/1pOgU1J"/>
-            <ITEXT CH=") until  26 July 2014. Please support the project with a pledge. I really believe that anyone can now be a roboticist and that by building one you can learn and have fun at the same time."/>
+            <ITEXT CH=") until 26 July 2014. "/>
             <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="With the Raspberry Pi anyone can now be a roboticist and I hope this helps people to both learn and have fun!"/>
             <para PARENT="Body text"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -408,212 +426,271 @@
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.347091674805" YPOS="2720.28442382812" WIDTH="538.588317871094" HEIGHT="194.215576171875" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 194.216 538.588 194.216 538.588 194.216 538.588 194.216 0 194.216 0 194.216 0 194.216 0 194.216 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 194.216 538.588 194.216 538.588 194.216 538.588 194.216 0 194.216 0 194.216 0 194.216 0 194.216 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="39">
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.347091674805" YPOS="2720.28442382812" WIDTH="538.588317871094" HEIGHT="139.465576171875" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 139.466 538.588 139.466 538.588 139.466 538.588 139.466 0 139.466 0 139.466 0 139.466 0 139.466 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 139.466 538.588 139.466 538.588 139.466 538.588 139.466 0 139.466 0 139.466 0 139.466 0 139.466 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="39">
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="129" YPOS="1563.81496062992" WIDTH="170.410217285156" HEIGHT="255.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="-90" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.246257539429417" LOCALSCY="0.246257539429417" LOCALX="0" LOCALY="138.130788240276" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="robotPath.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 170.41 0 170.41 0 170.41 0 170.41 0 170.41 255.75 170.41 255.75 170.41 255.75 170.41 255.75 0 255.75 0 255.75 0 255.75 0 255.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 170.41 0 170.41 0 170.41 0 170.41 0 170.41 255.75 170.41 255.75 170.41 255.75 170.41 255.75 0 255.75 0 255.75 0 255.75 0 255.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="128.347086614173" YPOS="1452.75" WIDTH="152.888656616211" HEIGHT="255.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="-90" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.220937365052328" LOCALSCY="0.220937365052328" LOCALX="0" LOCALY="205.281395919244" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="robotPath.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 152.889 0 152.889 0 152.889 0 152.889 0 152.889 255.75 152.889 255.75 152.889 255.75 152.889 255.75 0 255.75 0 255.75 0 255.75 0 255.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 152.889 0 152.889 0 152.889 0 152.889 0 152.889 255.75 152.889 255.75 152.889 255.75 152.889 255.75 0 255.75 0 255.75 0 255.75 0 255.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="128.347086614173" YPOS="1990.82677165354" WIDTH="257.152923583984" HEIGHT="225.174499452728" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.165691316742258" LOCALSCY="0.165691316742258" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="homeMade1.jpg" PFILE2="" PFILE3="" PRFILE="Embedded sRGB IEC61966-2.1" EPROF="Embedded sRGB IEC61966-2.1" IRENDER="0" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 225.174 257.153 225.174 257.153 225.174 257.153 225.174 0 225.174 0 225.174 0 225.174 0 225.174 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 225.174 257.153 225.174 257.153 225.174 257.153 225.174 0 225.174 0 225.174 0 225.174 0 225.174 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="128.347086614173" YPOS="1837.75590551181" WIDTH="257.152923583984" HEIGHT="225.174499452728" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.165691316742258" LOCALSCY="0.165691316742258" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="homeMade1.jpg" PFILE2="" PFILE3="" PRFILE="Embedded sRGB IEC61966-2.1" EPROF="Embedded sRGB IEC61966-2.1" IRENDER="0" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 225.174 257.153 225.174 257.153 225.174 257.153 225.174 0 225.174 0 225.174 0 225.174 0 225.174 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 225.174 257.153 225.174 257.153 225.174 257.153 225.174 0 225.174 0 225.174 0 225.174 0 225.174 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="411" YPOS="2361.17716535433" WIDTH="135.75" HEIGHT="117.900519031142" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.469723183391003" LOCALSCY="0.469723183391003" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="ir1.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 135.75 0 135.75 0 135.75 0 135.75 0 135.75 117.901 135.75 117.901 135.75 117.901 135.75 117.901 0 117.901 0 117.901 0 117.901 0 117.901 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 135.75 0 135.75 0 135.75 0 135.75 0 135.75 117.901 135.75 117.901 135.75 117.901 135.75 117.901 0 117.901 0 117.901 0 117.901 0 117.901 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="411.000064661726" YPOS="2174.08969408834" WIDTH="255.93512392032" HEIGHT="117.900390844607" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="0" PCOLOR="None" PCOLOR2="Black" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Group3" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="1" groupsLastItem="2" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 117.9 255.935 117.9 255.935 117.9 255.935 117.9 0 117.9 0 117.9 0 117.9 0 117.9 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 117.9 255.935 117.9 255.935 117.9 255.935 117.9 0 117.9 0 117.9 0 117.9 0 117.9 0 0 0 0 " NUMGROUP="1" GROUPS="3 " startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.347091674805" YPOS="2925.75" WIDTH="538.588317871094" HEIGHT="538.5" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="KS Green" PCOLOR2="None" TXTFILL="Black" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 538.5 538.588 538.5 538.588 538.5 538.588 538.5 0 538.5 0 538.5 0 538.5 0 538.5 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 538.5 538.588 538.5 538.588 538.5 538.588 538.5 0 538.5 0 538.5 0 538.5 0 538.5 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="import RPi.GPIO as GPIO"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="import RPIO"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="from RPIO import PWM"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="import time"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="import curses"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="import sys"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH=" "/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="left_motor = 14"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="right_motor = 15"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="line_sensor = 18"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH=" "/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="GPIO.setmode(GPIO.BCM)"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="GPIO.setup(line_sensor, GPIO.IN)"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH=" "/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="servo = PWM.Servo()"/>
-            <para PARENT="Code" LINESP="11"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="def display_input(stdscr, text):"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="  stdscr.clear()"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="  stdscr.addstr(text)"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="  stdscr.refresh()"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="  stdscr.move(0, 0)"/>
-            <para PARENT="Code" LINESP="11"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="def turn_movement_servos(left_speed, right_speed):"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="  servo.set_servo(left_motor, 1520 + (-1 * left_speed))"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="  servo.set_servo(right_motor, 1520 + (1 * right_speed))"/>
-            <para PARENT="Code" LINESP="11"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="def check_on_line():"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="  if GPIO.input(line_sensor) == GPIO.LOW:"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="    on_line = True"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="  else:"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="    on_line = False"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="  return on_line"/>
-            <para PARENT="Code" LINESP="11"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="## Main loop - get a  key input &amp; execute"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="k = 0"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="in_line_follow = False"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="try:"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="  stdscr.nodelay(1)"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="  while True:"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="    c = stdscr.getch()"/>
-            <para PARENT="Code" LINESP="11"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="## Remote control button actions"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="    if (c != -1) and (in_line_follow == False):"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="      if (c == 261) and (c != k): # right"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        k = c"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        turn_movement_servos(0, 80)"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        display_input(stdscr, &quot;Right&quot;)"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="      elif (c == 260) and (c != k): # left"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        k = c"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        turn_movement_servos(80, 0)"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        display_input(stdscr, &quot;Left&quot;)"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="      elif (c == 259) and (c != k): # up"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        k = c   "/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        turn_movement_servos(100, 100)"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        display_input(stdscr, &quot;Forwards&quot;)"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="      elif (c == 258) and (c != k): # down"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        k = c"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        turn_movement_servos(-100, -100)"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        display_input(stdscr, &quot;Backwards&quot;)"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="      elif (c == 10) and (c != k): # enter"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        k = c"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        turn_movement_servos(0, 0)"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        display_input(stdscr, &quot;Stopped&quot;)"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="      elif (c == 113) and (c != k): # quit"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        display_input(stdscr, &quot;QUITING!&quot;)"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        time.sleep(0.5)"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        RPIO.cleanup()"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        sys.exit()"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="      elif (c == 32) and (c != k): # space"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        k = c"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        in_line_follow = True"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        line_following()  # line follower code"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="         display_input(stdscr,&quot;Line Following&quot;)"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="      else:"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        if k != c:"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="          d = &quot;ASCII &quot;+ str(c) +&quot; not valid!&quot;"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="          display_input(stdscr, d)"/>
-            <para PARENT="Code" LINESP="11"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="## Line following button actions"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="    elif c == 32:"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="      in_line_follow = False"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="      stop()  # stop wheels turning"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="      display_input(stdscr, &quot;Stopped&quot;)"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="    elif c == 113:"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="      display_input(stdscr, &quot;QUITING!&quot;)"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="      time.sleep(0.5)"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="      RPIO.cleanup()"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="      sys.exit()"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="    else:"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="      if in_line_follow:"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        line_following()  # line follow code"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        display_input(stdscr,&quot;Line Following&quot;)"/>
-            <para PARENT="Code" LINESP="11"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="except curses.error:"/>
-            <para PARENT="Code" LINESP="11"/>
-            <ITEXT FONTSIZE="9" FCOLOR="Black" CH="        curses.wrapper(kbinput)"/>
-            <para PARENT="Code" LINESP="11"/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="411" YPOS="1931.97244094488" WIDTH="255.935424804688" HEIGHT="167.269912719727" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.228" LOCALSCY="0.228" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="gpio.jpg" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 167.27 255.935 167.27 255.935 167.27 255.935 167.27 0 167.27 0 167.27 0 167.27 0 167.27 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 167.27 255.935 167.27 255.935 167.27 255.935 167.27 0 167.27 0 167.27 0 167.27 0 167.27 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="411" YPOS="2174.09055118111" WIDTH="135.75" HEIGHT="117.900519031142" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.469723183391003" LOCALSCY="0.469723183391003" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="ir1.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 135.75 0 135.75 0 135.75 0 135.75 0 135.75 117.901 135.75 117.901 135.75 117.901 135.75 117.901 0 117.901 0 117.901 0 117.901 0 117.901 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 135.75 0 135.75 0 135.75 0 135.75 0 135.75 117.901 135.75 117.901 135.75 117.901 135.75 117.901 0 117.901 0 117.901 0 117.901 0 117.901 0 0 0 0 " NUMGROUP="1" GROUPS="3 " startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="255.935432434082" gHeight="117.900519031142" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="544.5" YPOS="2362.04777082308" WIDTH="122.435432434082" HEIGHT="116.87939453125" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.359048188956252" LOCALSCY="0.359048188956252" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="ir2.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 122.435 0 122.435 0 122.435 0 122.435 0 122.435 116.879 122.435 116.879 122.435 116.879 122.435 116.879 0 116.879 0 116.879 0 116.879 0 116.879 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 122.435 0 122.435 0 122.435 0 122.435 0 122.435 116.879 122.435 116.879 122.435 116.879 122.435 116.879 0 116.879 0 116.879 0 116.879 0 116.879 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="544.5" YPOS="2174.96115664986" WIDTH="122.435432434082" HEIGHT="116.87939453125" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.359048188956252" LOCALSCY="0.359048188956252" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="ir2.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 122.435 0 122.435 0 122.435 0 122.435 0 122.435 116.879 122.435 116.879 122.435 116.879 122.435 116.879 0 116.879 0 116.879 0 116.879 0 116.879 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 122.435 0 122.435 0 122.435 0 122.435 0 122.435 116.879 122.435 116.879 122.435 116.879 122.435 116.879 0 116.879 0 116.879 0 116.879 0 116.879 0 0 0 0 " NUMGROUP="1" GROUPS="3 " startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="133.5" gYpos="0.87060546875" gWidth="255.935432434082" gHeight="117.900519031142" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.347091674805" YPOS="2857.75390625" WIDTH="538.588317871094" HEIGHT="601.99609375" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="KS Green" PCOLOR2="None" TXTFILL="Black" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 601.996 538.588 601.996 538.588 601.996 538.588 601.996 0 601.996 0 601.996 0 601.996 0 601.996 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 601.996 538.588 601.996 538.588 601.996 538.588 601.996 0 601.996 0 601.996 0 601.996 0 601.996 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <para PARENT="Code"/>
+            <ITEXT CH=" import RPi.GPIO as GPIO"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" from RPIO import PWM"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" import time"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" import curses"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" import sys"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" "/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" left_motor = 14"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" right_motor = 15"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" line_sensor = 18"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" "/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" GPIO.setmode(GPIO.BCM)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" GPIO.setup(line_sensor, GPIO.IN)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" "/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" servo = PWM.Servo()"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" def display_input(stdscr, kboutput):"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   stdscr.clear()"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   stdscr.addstr(kboutput)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   stdscr.refresh()"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   stdscr.move(0, 0)"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" def turn_movement_servos(left_speed,  "/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" right_speed):"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   servo.set_servo(left_motor, 1520 + (-1 *  "/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" left_speed))"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   servo.set_servo(right_motor, 1520 + (1 * "/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" right_speed))"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" def check_on_line():"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   if GPIO.input(line_sensor) == GPIO.LOW:"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     on_line = True"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   else:"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     on_line = False"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   return on_line"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" def kb_input(stdscr):"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   k = 0"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   in_line_follow = False"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   try:"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     stdscr.nodelay(1)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     while True:"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="       c = stdscr.getch()"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="       ## Remote control button actions"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="       if (c != -1) and (in_line_follow is "/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" False):"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="         if (c == 261) and (c != k): # right"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="           k = c"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="           turn_movement_servos(0, 80)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="           display_input(stdscr, &quot;Right&quot;)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="         elif (c == 260) and (c != k): # left"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="           k = c"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="           turn_movement_servos(80, 0)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="           display_input(stdscr, &quot;Left&quot;)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="        "/>
+            <para PARENT="Code"/>
+            <ITEXT CH="        elif (c == 259) and (c != k): # up"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="          k = c   "/>
+            <para PARENT="Code"/>
+            <ITEXT CH="          turn_movement_servos(100, 100)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="          display_input(stdscr, &quot;Forwards&quot;)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="        elif (c == 258) and (c != k): # down"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="          k = c"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="          turn_movement_servos(-100, -100)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="          display_input(stdscr, &quot;Backwards&quot;)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="        elif (c == 10) and (c != k): # enter"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="          k = c"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="          turn_movement_servos(0, 0)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="          display_input(stdscr, &quot;Stopped&quot;)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="        elif (c == 113) and (c != k): # quit"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="          display_input(stdscr, &quot;QUITING!&quot;)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="          time.sleep(0.5)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="          RPIO.cleanup()"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="          sys.exit()"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="        elif (c == 32) and (c != k): # space"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="          k = c"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="          in_line_follow = True"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="          line_following()"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="          display_input(stdscr,&quot;Follow Line&quot;)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="        else:"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="        if k != c:"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="          d = &quot;ASCII &quot;+ str(c) +&quot; not valid!&quot;"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="          display_input(stdscr, d)"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="      ## Line following button actions"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="      elif c == 32:"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="        in_line_follow = False"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="        stop()  # stop wheels turning"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="        display_input(stdscr, &quot;Stopped&quot;)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="      elif c == 113:"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="        display_input(stdscr, &quot;QUITING!&quot;)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="        time.sleep(0.5)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="        RPIO.cleanup()"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="        sys.exit()"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="      else:"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="        if in_line_follow:"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="          line_following()"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="          display_input(stdscr,&quot;Follow Line&quot;)"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  except curses.error:"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="    curses.wrapper(kb_input)"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="def line_following():"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  if check_on_line():"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="    turn_movement_servos(100, 40)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  else:"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="    turn_movement_servos(40, 100)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="  time.sleep(0.1)"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="## Start program"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="curses.wrapper(kb_input)"/>
+            <trail PARENT="Code"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="411" YPOS="1838.42913385826" WIDTH="255.935424804688" HEIGHT="167.269912719727" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.228" LOCALSCY="0.228" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="gpio.jpg" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 167.27 255.935 167.27 255.935 167.27 255.935 167.27 0 167.27 0 167.27 0 167.27 0 167.27 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 167.27 255.935 167.27 255.935 167.27 255.935 167.27 0 167.27 0 167.27 0 167.27 0 167.27 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="409.5" YPOS="1193.85925292969" WIDTH="257.435424804688" HEIGHT="29.3907871246338" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://pihw.wordpress.com/guides/guide-to-remote-connections/" ANZIEL="1" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text55" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.435 0 257.435 0 257.435 0 257.435 0 257.435 29.3908 257.435 29.3908 257.435 29.3908 257.435 29.3908 0 29.3908 0 29.3908 0 29.3908 0 29.3908 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.435 0 257.435 0 257.435 0 257.435 0 257.435 29.3908 257.435 29.3908 257.435 29.3908 257.435 29.3908 0 29.3908 0 29.3908 0 29.3908 0 29.3908 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="409.5" YPOS="1299.75" WIDTH="257.435424804688" HEIGHT="42" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://www.themagpi.com/issue/issue11/article/turn-your-raspberry-pi-into-a-wireless-access-point" ANZIEL="1" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text56" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.435 0 257.435 0 257.435 0 257.435 0 257.435 42 257.435 42 257.435 42 257.435 42 0 42 0 42 0 42 0 42 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.435 0 257.435 0 257.435 0 257.435 0 257.435 42 257.435 42 257.435 42 257.435 42 0 42 0 42 0 42 0 42 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="266.25" YPOS="2247.75" WIDTH="118.5" HEIGHT="14.25" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://learn.adafruit.com/modifying-servos-for-continuous-rotation" ANZIEL="2" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text57" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 118.5 0 118.5 0 118.5 0 118.5 0 118.5 14.25 118.5 14.25 118.5 14.25 118.5 14.25 0 14.25 0 14.25 0 14.25 0 14.25 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 118.5 0 118.5 0 118.5 0 118.5 0 118.5 14.25 118.5 14.25 118.5 14.25 118.5 14.25 0 14.25 0 14.25 0 14.25 0 14.25 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.347091674805" YPOS="2263.5" WIDTH="192.755905151367" HEIGHT="12.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://learn.adafruit.com/modifying-servos-for-continuous-rotation" ANZIEL="2" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text58" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 192.756 0 192.756 0 192.756 0 192.756 0 192.756 12.75 192.756 12.75 192.756 12.75 192.756 12.75 0 12.75 0 12.75 0 12.75 0 12.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 192.756 0 192.756 0 192.756 0 192.756 0 192.756 12.75 192.756 12.75 192.756 12.75 192.756 12.75 0 12.75 0 12.75 0 12.75 0 12.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="409.5" YPOS="2308.18969726562" WIDTH="127.5" HEIGHT="17.5603942871094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://www.banggood.com" ANZIEL="2" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text59" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 127.5 0 127.5 0 127.5 0 127.5 0 127.5 17.5604 127.5 17.5604 127.5 17.5604 127.5 17.5604 0 17.5604 0 17.5604 0 17.5604 0 17.5604 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 127.5 0 127.5 0 127.5 0 127.5 0 127.5 17.5604 127.5 17.5604 127.5 17.5604 127.5 17.5604 0 17.5604 0 17.5604 0 17.5604 0 17.5604 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="409.5" YPOS="2444.25268554688" WIDTH="169.555755615234" HEIGHT="16.4974021911621" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://www.pibot.org/tiddlybot/code" ANZIEL="2" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text60" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 169.556 0 169.556 0 169.556 0 169.556 0 169.556 16.4974 169.556 16.4974 169.556 16.4974 169.556 16.4974 0 16.4974 0 16.4974 0 16.4974 0 16.4974 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 169.556 0 169.556 0 169.556 0 169.556 0 169.556 16.4974 169.556 16.4974 169.556 16.4974 169.556 16.4974 0 16.4974 0 16.4974 0 16.4974 0 16.4974 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="556.378601074219" YPOS="2765.32677165354" WIDTH="110.556846618652" HEIGHT="12" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://kck.st/1pOgU1J" ANZIEL="3" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text61" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 110.557 0 110.557 0 110.557 0 110.557 0 110.557 12 110.557 12 110.557 12 110.557 12 0 12 0 12 0 12 0 12 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 110.557 0 110.557 0 110.557 0 110.557 0 110.557 12 110.557 12 110.557 12 110.557 12 0 12 0 12 0 12 0 12 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
