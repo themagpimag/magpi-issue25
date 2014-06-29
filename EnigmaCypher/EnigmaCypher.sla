@@ -30,13 +30,13 @@
         <COLOR NAME="pale python green" RGB="#e7ebad" Spot="0" Register="0"/>
         <COLOR NAME="python green" RGB="#8c7529" Spot="0" Register="0"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
         <STYLE NAME="TOC_Title_Style" FONT="FreeSans Bold" LANGUAGE="English"/>
         <STYLE NAME="Body text" ALIGN="3" LINESP="15" FONTSIZE="11" LANGUAGE="English"/>
         <STYLE NAME="Body title" LINESP="16" FONT="FreeSans Bold" FONTSIZE="14" FEATURES="" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" LANGUAGE="English"/>
         <STYLE NAME="Code" LINESP="11" FONT="Monaco Regular" FONTSIZE="9" LANGUAGE="English"/>
         <STYLE NAME="Body sub-title" FONT="FreeSans Bold Oblique" FONTSIZE="13" LANGUAGE="English"/>
-        <CHARSTYLE CNAME="Default Character Style" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <LAYERS NUMMER="1" LEVEL="0" NAME="Header" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
         <LAYERS NUMMER="9" LEVEL="3" NAME="Effect:Header_bottom_bar" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00ff00"/>
         <LAYERS NUMMER="10" LEVEL="1" NAME="Effect : Header_Fade" SICHTBAR="0" DRUCKEN="0" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
@@ -515,7 +515,9 @@
             <ITEXT FONTSIZE="12" CH="Yes, you will find that a lot is lost in the encryption/decryption process, specifically all spacing and punctuation. It is up to you to put that back, replacing ???? characters that do not make sense with full stops."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="Step 5. What about a Menu to wrap it all up."/>
+            <ITEXT CH="5. Adding a menu"/>
+            <para PARENT="Body sub-title"/>
+            <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="12" CH="FUNCTION  ?? def main():"/>
             <para PARENT="Body text"/>
@@ -779,109 +781,107 @@
             <para PARENT="Code"/>
             <ITEXT CH="   if (min &lt;= 1 &lt;= max):"/>
             <para PARENT="Code"/>
-            <ITEXT CH="        print &quot; 1. Set Wheel      =&quot;, wheel"/>
+            <ITEXT CH="     print &quot; 1. Set Wheel      =&quot;, wheel"/>
             <para PARENT="Code"/>
             <ITEXT CH="   if (min &lt;= 2 &lt;= max):"/>
             <para PARENT="Code"/>
-            <ITEXT CH="        print &quot; 2. Set Pointer    =&quot;, pointer_l"/>
+            <ITEXT CH="     print &quot; 2. Set Pointer    =&quot;, pointer_l"/>
             <para PARENT="Code"/>
             <ITEXT CH="   if (min &lt;= 3 &lt;= max):"/>
             <para PARENT="Code"/>
-            <ITEXT CH="        print &quot; 3. Set Code Start =&quot;, code_start_l"/>
+            <ITEXT CH="     print &quot; 3. Set Code Start =&quot;, code_start_l"/>
             <para PARENT="Code"/>
             <ITEXT CH="   if (min &lt;= 4 &lt;= max):"/>
             <para PARENT="Code"/>
-            <ITEXT CH="        print &quot; 4. Set Increment  =&quot;, increment"/>
+            <ITEXT CH="     print &quot; 4. Set Increment  =&quot;, increment"/>
             <para PARENT="Code"/>
             <ITEXT CH="   if (min &lt;= 5 &lt;= max):"/>
             <para PARENT="Code"/>
-            <ITEXT CH="        print &quot; 5. Set Block Size =&quot;, blocksize"/>
+            <ITEXT CH="     print &quot; 5. Set Block Size =&quot;, blocksize"/>
             <para PARENT="Code"/>
             <ITEXT CH="   if (min &lt;= 6 &lt;= max):"/>
             <para PARENT="Code"/>
-            <ITEXT CH="        print &quot; 6. Encrypt a Message&quot;"/>
+            <ITEXT CH="     print &quot; 6. Encrypt a Message&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT CH="    if (min &lt;= 7 &lt;= max):"/>
+            <ITEXT CH="   if (min &lt;= 7 &lt;= max):"/>
             <para PARENT="Code"/>
-            <ITEXT CH="        print &quot; 7. Decrypt a Message&quot;"/>
+            <ITEXT CH="     print &quot; 7. Decrypt a Message&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT CH="    if (min &lt;= 8 &lt;= max):"/>
+            <ITEXT CH="   if (min &lt;= 8 &lt;= max):"/>
             <para PARENT="Code"/>
-            <ITEXT CH="        print &quot; 8. Nothing Yet&quot;"/>
+            <ITEXT CH="     print &quot; 8. Nothing Yet&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT CH="    if (min &lt;= 9 &lt;= max):"/>
+            <ITEXT CH="   if (min &lt;= 9 &lt;= max):"/>
             <para PARENT="Code"/>
-            <ITEXT CH="        print &quot; 9. Nothing Yet&quot;"/>
+            <ITEXT CH="     print &quot; 9. Nothing Yet&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT CH="    print"/>
+            <ITEXT CH="   print"/>
             <para PARENT="Code"/>
-            <ITEXT CH="    print &quot; &quot; + str(quit) + &quot;. Exit program&quot;"/>
+            <ITEXT CH="   print &quot; &quot; + str(quit) + &quot;. Exit program&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT CH="    print"/>
+            <ITEXT CH="   print"/>
             <para PARENT="Code"/>
-            <ITEXT CH="    print (30 * '-')"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="    return"/>
+            <ITEXT CH="   print (30 * '-')"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT CH="#Get User Choice"/>
+            <ITEXT CH=" #Get User Choice"/>
             <para PARENT="Code"/>
-            <ITEXT CH="def get_choice(min, max, quit):"/>
+            <ITEXT CH=" def get_choice(min, max, quit):"/>
             <para PARENT="Code"/>
-            <ITEXT CH="    #Wait for valid choice in while...not."/>
+            <ITEXT CH="   #Wait for valid choice in while...not."/>
             <para PARENT="Code"/>
-            <ITEXT CH="    choice_is_valid=False"/>
+            <ITEXT CH="   choice_is_valid=False"/>
             <para PARENT="Code"/>
-            <ITEXT CH="    while not choice_is_valid:"/>
+            <ITEXT CH="   while not choice_is_valid:"/>
             <para PARENT="Code"/>
-            <ITEXT CH="        try:"/>
+            <ITEXT CH="     try:"/>
             <para PARENT="Code"/>
-            <ITEXT CH="            choice = int(raw_input(&quot;Enter choice [&quot; + str(min) + &quot;-&quot; + str(max) + &quot;]: &quot;))"/>
+            <ITEXT CH="       choice = int(raw_input(&quot;Enter choice [&quot; + str(min) + &quot;-&quot; + str(max) + &quot;]: &quot;))"/>
             <para PARENT="Code"/>
-            <ITEXT CH="            if (min &lt;= choice &lt;= max or choice == quit):"/>
+            <ITEXT CH="       if (min &lt;= choice &lt;= max or choice == quit):"/>
             <para PARENT="Code"/>
-            <ITEXT CH="                #A valid choice will terminate the while...not loop."/>
+            <ITEXT CH="         #A valid choice will terminate the while...not loop."/>
             <para PARENT="Code"/>
-            <ITEXT CH="                choice_is_valid = True"/>
+            <ITEXT CH="         choice_is_valid = True"/>
             <para PARENT="Code"/>
-            <ITEXT CH="            else:"/>
+            <ITEXT CH="       else:"/>
             <para PARENT="Code"/>
-            <ITEXT CH="                print&quot;Error! Only numbers &quot; + str(min) + &quot;-&quot; + str(max) + &quot; or &quot; + str(quit) + &quot; are valid.&quot;"/>
+            <ITEXT CH="         print&quot;Error! Only numbers &quot;+str(min)+&quot;-&quot;+str(max)+&quot;or&quot;+str(quit)+&quot; are valid.&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT CH="        except ValueError as e:"/>
+            <ITEXT CH="     except ValueError as e:"/>
             <para PARENT="Code"/>
-            <ITEXT CH="            print (&quot;Error! %s is not a valid choice.&quot; % e.args[0].split(&quot;: &quot;)[1])"/>
+            <ITEXT CH="       print(&quot;Error! %s is not a valid choice.&quot; % e.args[0].split(&quot;: &quot;)[1])"/>
             <para PARENT="Code"/>
-            <ITEXT CH="    return(choice)"/>
+            <ITEXT CH="   return choice"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT CH="#Option 1"/>
+            <ITEXT CH=" #Option 1"/>
             <para PARENT="Code"/>
-            <ITEXT CH="def prg_choice1():"/>
+            <ITEXT CH=" def prg_choice1():"/>
             <para PARENT="Code"/>
-            <ITEXT CH="    print"/>
+            <ITEXT CH="   print"/>
             <para PARENT="Code"/>
-            <ITEXT CH="    #Wait for valid choice in while...not."/>
+            <ITEXT CH="   #Wait for valid choice in while...not."/>
             <para PARENT="Code"/>
-            <ITEXT CH="    choice_is_valid=False"/>
+            <ITEXT CH="   choice_is_valid=False"/>
             <para PARENT="Code"/>
-            <ITEXT CH="    while not choice_is_valid:"/>
+            <ITEXT CH="   while not choice_is_valid:"/>
             <para PARENT="Code"/>
-            <ITEXT CH="        try:"/>
+            <ITEXT CH="     try:"/>
             <para PARENT="Code"/>
-            <ITEXT CH="            choice = int(raw_input(&quot;Enter Coding Wheel [1 or 2]: &quot;))"/>
+            <ITEXT CH="       choice = int(raw_input(&quot;Enter Coding Wheel [1 or 2]: &quot;))"/>
             <para PARENT="Code"/>
-            <ITEXT CH="            if (1 &lt;= choice &lt;= 2):"/>
+            <ITEXT CH="       if (1 &lt;= choice &lt;= 2):"/>
             <para PARENT="Code"/>
-            <ITEXT CH="                #A valid choice will terminate the while...not loop."/>
+            <ITEXT CH="         #A valid choice will terminate the while...not loop."/>
             <para PARENT="Code"/>
-            <ITEXT CH="                choice_is_valid = True"/>
+            <ITEXT CH="         choice_is_valid = True"/>
             <para PARENT="Code"/>
-            <ITEXT CH="            else:"/>
+            <ITEXT CH="       else:"/>
             <para PARENT="Code"/>
-            <ITEXT CH="                print&quot;Error! Only numbers 1 or 2 are valid.&quot;"/>
+            <ITEXT CH="         print&quot;Error! Only numbers 1 or 2 are valid.&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT CH="        except ValueError as e:"/>
+            <ITEXT CH="     except ValueError as e:"/>
             <para PARENT="Code"/>
             <ITEXT CH="            print (&quot;Error! %s is not a valid choice.&quot; % e.args[0].split(&quot;: &quot;)[1])"/>
             <para PARENT="Code"/>
@@ -1058,21 +1058,6 @@
             <ITEXT CH="    print"/>
             <para PARENT="Code"/>
             <ITEXT CH="    return"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="#Option 8"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="def prg_choice8():"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="    return"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="#Option 9"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="def prg_choice9():"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="    return"/>
-            <para PARENT="Code"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH=" if __name__ == '__main__':"/>
