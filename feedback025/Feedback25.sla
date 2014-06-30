@@ -124,81 +124,42 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="158.400724275844" YPOS="289.767716295137" WIDTH="481.560546875" HEIGHT="409.232283704863" RADRECT="14.17322835" FRTYPE="0" CLIPEDIT="0" PWIDTH="0.9760832327" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="3" COLGAP="17.00787402" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="14" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Regular" ISIZE="10" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 481.561 0 481.561 0 481.561 0 481.561 0 481.561 409.232 481.561 409.232 481.561 409.232 481.561 409.232 0 409.232 0 409.232 0 409.232 0 409.232 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 481.561 0 481.561 0 481.561 0 481.561 0 481.561 409.232 481.561 409.232 481.561 409.232 481.561 409.232 0 409.232 0 409.232 0 409.232 0 409.232 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="2" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="The MagPi was recently at PiCymru Raspberry Jam in Cardiff where we received a very warm welcome. It was really encouraging to see all of the great things people of all ages are doing with their Raspberry Pi's. Here's some feedback we received:"/>
-            <para ALIGN="3" LINESP="14"/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="White" CH="The MagPi has given us some great ideas to try out at school."/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="White" CH="A Teacher "/>
+            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="It's been a busy month at the MagPi but it's always great to get your feedback and any questions:"/>
+            <para ALIGN="4" LINESP="14"/>
+            <para/>
+            <ITEXT CH="I am a KS3 and KS4 teacher of Computer Science at a school in the West Midlands ..."/>
+            <para/>
+            <ITEXT CH="Keep up the good work, the magazine has become essential reading for pupils at our school!"/>
+            <para/>
             <para ALIGN="2" LINESP="14"/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Cyan" FSHADE="100" CH="A robot arm... that grabs sweets. Brilliant!"/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Cyan" FSHADE="100" CH="Anon"/>
-            <para ALIGN="2" LINESP="14"/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT CH="Is The MagPi suitable for young children? [Ed: Yes, absolutely - we cover a wide range of topics of varying complexity and it is a great project resource to work through with your kids]."/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="Anon"/>
-            <para ALIGN="2" LINESP="14"/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT FONTSIZE="10" FCOLOR="Cyan" FSHADE="100" CH="Thanks for Volumes 1 and 2. I'm looking forward to Volume 3 in print as well."/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT FONTSIZE="10" FCOLOR="Cyan" FSHADE="100" CH="Anon"/>
-            <para ALIGN="2" LINESP="14"/>
-            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="Our recent Kickstarter campaign for Volume 2 also generated some great feedback:"/>
-            <para ALIGN="3" LINESP="14"/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT CH="I really love The MagPi and hope that I get the skills and find the time to build something amazing that can be published as well."/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT CH="Henner"/>
-            <para ALIGN="2" LINESP="14"/>
-            <para ALIGN="2" LINESP="14"/>
-            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="Keep up the good work, and make sure you keep the simple type in code each issue."/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="Allan"/>
-            <para ALIGN="2" LINESP="14"/>
+            <ITEXT CH="Scott"/>
+            <para ALIGN="2"/>
+            <para ALIGN="4" LINESP="14"/>
+            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="I have just received my Pi and started to play a few days ago, in part because of your mag. I was aware of the Pi from other sources, but your mag is a rich source of info in areas I like and I am trying to encourage my son (12) to get interested, and my wife (a Science Teacher) to also take an active interest."/>
+            <para ALIGN="4" LINESP="14"/>
+            <para ALIGN="4" LINESP="14"/>
+            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="Love your work guys."/>
             <para ALIGN="0" LINESP="14"/>
-            <ITEXT CH="Can't wait to get my copy. Printed versions are so much easier to use."/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT CH="Roger"/>
+            <para ALIGN="4" LINESP="14"/>
+            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="Andrew"/>
             <para ALIGN="2" LINESP="14"/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="I buy this for my son...he loves his RasPi and *really* loves your publication!"/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="Daniel"/>
+            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="(Australia)"/>
             <para ALIGN="2" LINESP="14"/>
+            <para ALIGN="4" LINESP="14"/>
+            <para ALIGN="4" LINESP="14"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="Just one word for issue 24 &quot;Excellent&quot; This is a high standard indeed."/>
+            <para ALIGN="4" LINESP="14"/>
             <para ALIGN="2" LINESP="14"/>
-            <ITEXT CH="Love the mag - long may it continue!"/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT CH="Paul"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="Nigel"/>
             <para ALIGN="2" LINESP="14"/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="I like that you have a wide range of technical-ness in the articles"/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="Rebecca"/>
-            <para ALIGN="2" LINESP="14"/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT CH="This is the first time I'm going to read The MagPi. I'm hoping to find lots of cool stuff and learn a lot from it."/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT CH="Victor"/>
-            <para ALIGN="2" LINESP="14"/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Cyan" FSHADE="100" CH="I really enjoy the magazine with my 10 year old daughter!"/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Cyan" FSHADE="100" CH="David"/>
-            <para ALIGN="2" LINESP="14"/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="Loving The MagPi magazine. Is it possible to submit articles to The MagPi to be considered for publication?"/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="Darren"/>
             <para ALIGN="2" LINESP="14"/>
             <para ALIGN="2" LINESP="14"/>
             <ITEXT FONTSIZE="10" FCOLOR="Cyan" FSHADE="100" CH="If you are interested in writing for The MagPi, would like to request an article or would like to join the team involved in the production of the magazine, then please get in touch by emailing the editor at:"/>
             <para ALIGN="3" LINESP="14"/>
             <para ALIGN="3" LINESP="14"/>
             <ITEXT FONTSIZE="10" FCOLOR="Cyan" FSHADE="100" CH="editor@themagpi.com"/>
-            <trail ALIGN="3" LINESP="14"/>
+            <para ALIGN="3" LINESP="14"/>
+            <para ALIGN="3" LINESP="14"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="270.599395761727" YPOS="792.585475287725" WIDTH="251" HEIGHT="17" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="Bitstream Charter Bold" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://creativecommons.org/licenses/by-nc-sa/3.0/" ANZIEL="0" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 251 0 251 0 251 0 251 0 251 17 251 17 251 17 251 17 0 17 0 17 0 17 0 17 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 251 0 251 0 251 0 251 0 251 17 251 17 251 17 251 17 0 17 0 17 0 17 0 17 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="2" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
