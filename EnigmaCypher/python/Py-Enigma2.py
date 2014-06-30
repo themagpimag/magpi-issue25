@@ -93,43 +93,39 @@ def decrypt(cypher):
 #---------------------------------------
 # Welcome message
 def welcome(message):
-  print message
-  print "   Version,", str(VERSION), ",", str(BUILDDATE)
-  print
+  print(message)
+  print("   Version, %s, %s\n" % (VERSION, BUILDDATE))
 #---------------------------------------
 # Print the available menu options
-def show_menu(min, max, quit):
-  print (30 * '-')
-  print "      P y - E N I G M A"
-  print "      M A I N - M E N U"
-  print (30 * '-')
-  print
+def showMenu(min, max, quit):
+  print(30 * '-')
+  print("      P y - E N I G M A")
+  print("      M A I N - M E N U")
+  print(30 * '-'+"\n")
   for i in xrange(min,max+1):
     if i == 1:
-      print " 1. Set Wheel      =", selectedWheel
+      print(" 1. Set Wheel      = %d" % selectedWheel)
     elif i == 2:
-      print " 2. Set Pointer    =", pointerChar
+      print(" 2. Set Pointer    = %s" % pointerChar)
     elif i == 3:
-      print " 3. Set Code Start =", codeStartChar
+      print(" 3. Set Code Start = %s" % codeStartChar)
     elif i == 4:
-      print " 4. Set Increment  =", increment
+      print(" 4. Set Increment  = %d" % increment)
     elif i == 5:
-      print " 5. Set Block Size =", blocksize
+      print(" 5. Set Block Size = %d" % blocksize)
     elif i == 6:
-      print " 6. Encrypt a Message"
+      print(" 6. Encrypt a Message")
     elif i == 7:
-      print " 7. Decrypt a Message"
+      print(" 7. Decrypt a Message")
     elif i == 8:
-      print " 8. Nothing Yet"
+      print(" 8. Nothing Yet")
     elif i == 9:
-      print " 9. Nothing Yet"
+      print(" 9. Nothing Yet")
     else:
         continue
     
-  print
-  print " " + str(quit) + ". Exit program"
-  print
-  print (30 * '-')
+  print("\n %d. Exit program\n\n" % quit)
+  print(30 * '-')
 #---------------------------------------
 def getValue(request="Enter choice: "):
   while 1:
@@ -166,7 +162,7 @@ def getCharacter(min,max,request):
 #---------------------------------------
 # Main function
 def main():
-  global wheel, pointerChar, pointerInt, codeStartChar, codeStartInt, increment, blocksize
+  global selectedWheel, pointerChar, pointerInt, codeStartChar, codeStartInt, increment, blocksize
   welcome("Py-Enigma - The Pocket Enigma Cypher Machine")
   menuMin = 1
   menuMax = 7
@@ -176,13 +172,13 @@ def main():
     showMenu(menuMin, menuMax, menuQuit) # Show the menu
 
     # Get the user choice, without checking the range
-    userChoice = getInteger(0,0,"Enter choice [%d--%d]: " % (menu_min, menu_max),False)
+    userChoice = getInteger(0,0,"Enter choice [%d--%d]: " % (menuMin, menuMax),False)
     
     # Take action as per selected menu-option.
     if userChoice == menuQuit:
       break # Leave the while loop
     elif userChoice == 1:
-      wheel = getInteger(1,2,"Enter Coding Wheel [1 or 2]: ")
+      selectedWheel = getInteger(1,2,"Enter Coding Wheel [1 or 2]: ")
     elif userChoice == 2:
       pointerChar = getCharacter('A','Z',"Enter Pointer Position [A to Z]: ")
       pointerInt = ord(pointerChar)-65
@@ -195,14 +191,14 @@ def main():
       blocksize = getInteger(1,10,"Enter Block Size [1 to 10]: ")
     elif userChoice == 6:
       plaintext = getValue("Enter Plaintext: ")
-      print "Encryption:", plaintext, "=>", encrypt(plaintext)
+      print("Encryption: %s => %s" % (plaintext,encrypt(plaintext)))
     elif userChoice == 7:
       cypher = getValue("Enter Cypher: ")
-      print "Plaintext:", cypher, "=>", decrypt(cypher)
+      print("Plaintext: %s => %s" % (cypher,decrypt(cypher)))
     else:
-      print "Error: \"%d\" is not a valid choice" % userChoice
+      print("Error: \"%d\" is not a valid choice" % userChoice)
 
-  print "\nGoodbye.\n"
+  print("\nGoodbye.\n")
 
 #--------------------------------------- 
 
