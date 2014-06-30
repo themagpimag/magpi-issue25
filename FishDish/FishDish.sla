@@ -98,7 +98,7 @@
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The circuit board has three LEDs, one buzzer and a switch.  There is a Python program available from the internet, but for children, Scratch is better.  I only had normal Scratch on my Raspberry Pi, but it will not use the GPIO pins.  I  downloaded "/>
-            <ITEXT FONTSIZE="10" CH="ScratchGPIO,  as  introduced  in  Issue  9  and  10  of  the MagPi and documented at"/>
+            <ITEXT FONTSIZE="10" CH="ScratchGPIO,  as  introduced  in  issue  9  and  10  of  the MagPi and documented at"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="   "/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="http://cymplecy.wordpress.com/scratchgpio/scratch-raspberrypi-gpio/"/>
             <ITEXT CH=" . "/>
@@ -150,7 +150,7 @@
             <para PARENT="Body text"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The Berryclip "/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Blue" CH="https://www.modmypi.com/berry-clip-raspberry-pi-add-on-board?filter_name=berryclip"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" is nearly the same as the Fish Dish, but you cannot add extra LEDs.  However, it is £3 cheaper and it comes with more LEDs.  I recommend the Fish Dish for Children aged 6+, who are learning about Scratch GPIO, but it should cost less."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" is nearly the same as the Fish Dish, but you cannot add extra LEDs.  However, it is £3 cheaper and it comes with more LEDs.  I recommend the Fish Dish for children aged 6+, who are learning about Scratch GPIO, but it should cost less."/>
             <para PARENT="Body text"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
