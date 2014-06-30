@@ -1,71 +1,94 @@
-What is the Pocket Enigma Cypher Machine?
+The Pocket Enigma Cypher Machine is a superbly designed toy that tries to demonstrate the principles of the Enigma cypher as found on the cover of this Issue.  The Enigma Cypher machine was used during World War two by the German armed forces, to send secrete messages to submarines and solders.  I obtained my Pocket version from Bletchley Park [ http://www.bletchleypark.org.uk/ ], but unfortunately it no longer appears to be on sale.  It is made only of plastic and cardboard and is substantially simpler when compared with a real Enigma cypher machine!  On the other hand, if you enjoy encryption and cyphers you will get a kick out of the Pocket Enigma.  It is not too difficult to understand either.   
 
-Quite simply, it is a toy - a superbly designed toy that tries to demonstrate the principles of the Enigma cypher as used during WW2 by the German armed forces. I obtained mine from Bletchley Park, but unfortunately it no longer seems to be available to buy.  Of-course, as it is made only of plastic and cardboard, it is substantially simpler, when compared to a real Enigma cypher machine! On the other hand, if you enjoy codes and cyphers you will get a kick out of this, and it is not too difficult to understand.
-
-Warning: The Pocket Enigma Cypher Machine is not even close to an unbreakable cypher â€“ it is a trivial cypher to break but it is fun.
-
-I would encourage you to visit http://www.savory.de/pocket_enigma.html for a full review of the Pocket Enigma, including a detailed description, a cryptanalysis and further reading.
-
+The Pocket Enigma Cypher Machine is not even close to an unbreakable cypher â€“ it is a trivial cypher to break but it is fun.  Therefore, do not use it to encrypt sensitive information.  A full review of the Pocket Enigma machine, including a detailed description and further reading, can be found at:
+ http://www.savory.de/pocket_enigma.html
 
 How does it work?
 
-At a very basic level, each plaintext character is substituted for another character, the cypher text character, according to the connection printed on the chosen wheel.
+Each plaintext character is replaced with another character called the cypher text character.  The cypher text character is chosen according to the connection between characters printed on the wheel, where there are two wheels to choose from.
 
-
-
-
-
-
-
-
-
-
-
-
-The encoding algorithm, in more detail:
-1. The cypher wheel (I or II) is chosen. This must be pre-shared with the message recipient.
-2. The Key character is chosen. This must be pre-shared with the message recipient.
+In more detail, the algorithm follows:
+1. Cypher wheel (1 or 2) is chosen.  
+2. The key character is chosen.
 3. The start character is chosen.
-4. The wheel is set to the Key character and the start character is encoded.
+4. The wheel is set to the key character and the start character is encoded.
 5. The wheel is moved to the start character and the first message character is encoded.
 6. The wheel is incremented by 1 position, and the next message character is encoded.
 7. Repeat step 6 until the entire message is encoded.
-8. The encoded message is arranged with the encoded start character separated from encoded message which is arranged in blocks of, typically, 5 characters.
+8. The encoded message is arranged such that the encoded start character is separated from encoded message.  (The encoded message is arranged in blocks of, typically, five characters.)
+
+For the message to be successfully decoded by the person that receives the message, they must be given the number of the wheel that was used to encrypt the message and the key character that was chosen.
 
 Now for the limitations:
 1. Only upper case characters can be encoded.
-2. No punctuation can be encoded, apart from full-stops which are traditionally substituted with ???
+2. No punctuation can be encoded, apart from full-stops which are traditionally substituted with X.
 
-With a bit of imagination the encoding algorithm can easily be modified. For example, more wheels could be used, or the increment could be varied or even reversed.
+With a bit of imagination the encoding algorithm can easily be modified.  For example, more wheels could be used, or the increment could be varied or even reversed.
 
-Implementing the Pocket Enigma in Python
+Python Pocket Enigma
 
-What do I want to achieve? At this stage a text interface allowing me to set up the wheel and key and then encrypt and decrypt messages would be nice. Perhaps, later, a GUI could be created.
+Use a text editor such as nano or emacs to create a new Python file called Py-Enigma.py.  Then add:
 
-Step 1. Analysis of those Wheels.
-The wheels have no characters on them, just a lot of connections. One position has an arrow, or pointer, and is taken as the starting position (actually position 0). It can be seen that the connections simply connect from one position to another, thus substituting, or encoding, one character as another and is symmetrical.
+ #!/usr/bin/python
+ import random
+ VERSION = "v1.0.0"
+ BUILDDATE = "01/06/2014"
 
-Wheel I can be summarised:
+ # Global variables with starting values
+ wheel = 1
+ pointer_l = 'D'
+ pointer_n = ord(pointer_l)-65
+ code_start_l = 'J'
+ code_start_n = ord(code_start_l)-65
+ increment = 1
+ blocksize = 5
+ DEFAULT_MESSAGE = "ATTACK AT DAWN" # And why not? They will never expect it...
 
-WHEEL1 = [-1,3,-5,7,-3,2,3,-2,4,-3,-7,6,-4,1,-1,6,3,-6,2,-3,-2,-6,2,5,-2,1]
+to the top of the file.  65 is substracted since the integer value of A is 65.  Therefore, ord('A')-65 is zero.  The wheel setting is used to select which wheel is used, pointer_I is the initial wheel settings and code_start_I is the starting character.
+
+1. Analysis of the wheels
+
+The wheels have no characters on them, just a lot of connections.  One position has an arrow, or pointer, and is taken as the starting position (actually position 0).  Looking at the pictures on the first page of this article, it is clear that he connections simply connect from one position to another.  These connections indicate how one character should be substituted for another.
+
+
+The first wheel can be summarised using a Python list:
+
+ WHEEL1 = [-1,3,-5,7,-3,2,3,-2,4,-3,-7,6,-4,1,-1,6,3,-6,2,-3,-2,-6,2,5,-2,1]
 
 So if the character at the pointer is ???? it would become ???? or ??? - modulo 26 maths at work!
 
-Similarly for Wheel II:
+The second wheel is similar:
 
-WHEEL2 = [2,2,-2,-2,-8,3,9,5,-3,1,-1,2,-5,-2,2,-9,-2,8,2,2,-2,-2,8,1,-1,-8]
+ WHEEL2 = [2,2,-2,-2,-8,3,9,5,-3,1,-1,2,-5,-2,2,-9,-2,8,2,2,-2,-2,8,1,-1,-8]
 
-Again if the character at the pointer is ??? with wheel II it would become ??? or ???
+Again if the character at the pointer is ??? with wheel II it would become ??? or ???.  Add these two lines to the end of the Python file.
 
-Step 2. Those Wheels move!
-FUNCTION ???? def transform_char(char, wheel, pointer):
+2. Encrypting or decrypting a character
 
-The algorithm clearly states that the wheel is incremented (moved 1 position clockwise) after each message character is encoded. In simple terms this means that a repeated character in the message does not get encoded to the same character.
+The algorithm clearly states that the wheel is incremented (moved 1 position clockwise) after each message character is encoded. In simple terms this means that a repeated character in the message does not get encoded to the same character.  Append the code below to the end of the Python file.
+
+ # Encrypt or decrypt a single character
+ def transform_char(character, wheel, pointer):
+   character = character.upper()  # Ensure that the character is Upper Case.
+   if(65 <= ord(character) <= 90):  # Only characters A-Z can be encrypted or decrypted.    
+     char_num = ord(character) - 65  # Convert ASCII to alphabetical position of the character.
+
+     # Choose the wheel one or two offset.  Then use the pointer value.
+     if (wheel == 1):
+       offset = WHEEL1[(char_num - pointer)%26]  # Use mod with 26 to stay within circle
+     else:
+       offset = WHEEL2[(char_num - pointer)%26]  # Use mod with 26 to stay within circle
+
+     # Convert alphabetical position of the character back to ASCII
+     character = chr(65 + (char_num + offset)%26)  # Convert position back to ASCII character
+   else:
+     character = ''  # Ensure that nothing is returned if the character is not A-Z.
+   return character
 
 Getting the wheel to turn is not so difficult, again thanks to modulo 26 maths. Although, technically this function does not perform the turn, it does take the turning into consideration.
 
 char_num = ord(char)-65 #Convert the character from ASCII to a base number, A=0, B=1, etc.
-offset = WHEEL1[(char_num â?? pointer)%26] #Use MOD26 maths to turn the wheel.
+offset = WHEEL1[(char_num ?? pointer)%26] #Use MOD26 maths to turn the wheel.
 char = chr(65 + (char_num + offset)%26) #Derive the encoded character.
 
 So if the pointer was pointing to ??? then the pointer value would be 2.
@@ -74,10 +97,42 @@ Next, if the character to be encoded was ??? then the character number would be 
 
 Thus the encoded character is 5 + 7 = 12 => ????
 
-Step 3. More than 1 Character Please.
-FUNCTION ???? def encrypt(plaintext):
+3. Encrypting a string
 
-It is likely that a message of more than 1 character will be used. Thus, a way to repeatedly encode a single character and move the wheel is needed. That sounds like a loop to me:
+It is likely that a message of more than 1 character will be used. Thus, a way to repeatedly encode a single character and move the wheel is needed. 
+
+ # Encrypt a string
+ def encrypt(plaintext):
+   pointer = pointer_n  # Set the wheel to the key character.
+   cypher = ''
+   cypher += transform_char(code_start_l, wheel, pointer)  # Encrypt the Alpha Start character.
+   cypher += ' '
+   #Set the wheel to the Alpha Start character.
+   pointer = code_start_n
+   block = 0
+
+   # Encrypt each letter in the plaintext string
+   for o_char in plaintext:
+     # Substitute '.' with 'X'
+     if o_char == '.':
+       o_char = 'X'
+
+     # Encrypt this character
+     e_char = transform_char(o_char, wheel, pointer)
+
+     # Do something if the character was encrypted ok.
+     if len(e_char) > 0:
+       block += 1
+       if block > blocksize:
+         cypher += ' ' # Add a space after a block of blocksize characters.
+         block = 1   # Remembering the character that was blocksize+1.
+         
+       cypher += e_char  # Add the character to the result.
+       pointer = (pointer + increment)%26  # Turn the wheel, using mod 26 to return to zero
+   return cypher
+
+
+That sounds like a loop to me:
 
 for o_char in plaintext: #Step through each character in the message
     if o_char == '.':
@@ -93,8 +148,28 @@ for o_char in plaintext: #Step through each character in the message
 
 Notice the extra code to replace full stops with ???? characters before encoding, and how the output is formed into nice blocks of blocksize.
 
-Step 4. Now Reverse. Can we Decrypt Too?
-FUNCTION â€“ def decrypt(cypher):
+4. Decrypting a string
+
+ # Decrypt a string
+ def decrypt(cypher):
+   pointer = pointer_n  # Set the wheel to the key character.
+
+   # Extract and decrypt the Alpha Start character.
+   pointer = ord(transform_char(cypher[:1], wheel, pointer))-65
+
+   plaintext = ''
+
+   # Decrypt each letter in the cypher.
+   for e_char in cypher[1:]:
+
+     # Decrypt this character
+     o_char = transform_char(e_char, wheel, pointer)
+
+     # Do something if the character was decrypted ok.
+     if len(o_char) > 0:
+       plaintext += o_char   # Add the character to the result.
+       pointer = (pointer + increment)%26   # Turn the wheel, using mod 26 to return to zero
+   return plaintext
 
 The connection on the wheels are bi-directional. So if a character is encoded as an â€œFâ€, then with the wheel in the same position encoding an â€œFâ€ would return you the original character. Consequently, we can use the same encryption routine to decrypt. We just need a slightly different loop to feed it characters to decrypt.
 
@@ -106,10 +181,12 @@ for e_char in cypher[1:]: #Step through each character in the cypher text
 
 Yes, you will find that a lot is lost in the encryption/decryption process, specifically all spacing and punctuation. It is up to you to put that back, replacing ???? characters that do not make sense with full stops.
 
-Step 5. What about a Menu to wrap it all up.
-FUNCTION â ?? def main():
-FUNCTION â ?? def show_menu(min, max, quit):
-FUNCTION â ?? def get_choice(min, max, quit):
+5. Adding a menu
+
+
+FUNCTION  ?? def main():
+FUNCTION  ?? def show_menu(min, max, quit):
+FUNCTION  ?? def get_choice(min, max, quit):
 
 That is easy to say, but actually accounts for a lot of the Python code. The menu also allows other things to be set, like the wheel number and starting key etc.
 
@@ -178,55 +255,19 @@ Enter choice [1-7]: 6
 
 Enter Plaintext: ATTACK AT DAWN
 Encryption: ATTACK AT DAWN => M UQXZI MGAZE DK
-
 ------------------------------
-
 Now we have just received a message, lets decrypt it:
 ------------------------------
 Enter choice [1-7]: 7
 
 Enter Cypher: M UQXZI MGAZE DK
 Plaintext: M UQXZI MGAZE DK => ATTACKATDAWN
-
 ------------------------------
-
 What next?
-
 Well that depends... let me know what you think. All/any feedback is appreciated.
 
 
 
-
-
-
-
-#!/usr/bin/python
-#Filename: Py-Enigma.py
-
-#A Python implementation of the Pocket Enigma Cypher Machine.
-
-#Ian Neill (c)2014
-# - Works with Python v2.7
-
-import random
-
-VERSION = "v1.0.0"
-BUILDDATE = "01/06/2014"
-
-#WHEEL DEFINITIONS
-WHEEL1 = [-1,3,-5,7,-3,2,3,-2,4,-3,-7,6,-4,1,-1,6,3,-6,2,-3,-2,-6,2,5,-2,1]
-WHEEL2 = [2,2,-2,-2,-8,3,9,5,-3,1,-1,2,-5,-2,2,-9,-2,8,2,2,-2,-2,8,1,-1,-8]
-
-#GLOBAL VARIABLES WITH STARTING VALUES
-wheel = 1
-pointer_l = 'D'
-pointer_n = ord(pointer_l)-65
-code_start_l = 'J'
-code_start_n = ord(code_start_l)-65
-increment = 1
-blocksize = 5
-
-DEFAULT_MESSAGE = "ATTACK AT DAWN" #And why not? They will never expect it...
 
 #MAIN PROGRAM
 def main():
@@ -270,74 +311,72 @@ def main():
 
 #FUNCTIONS
 
-#Welcome Function
-def welcome(message):
-    print message
-    print "   Version,", str(VERSION), ",", str(BUILDDATE)
-    print
-    return
+ # Print a welcome message
+ def welcome(message):
+   print message
+   print "   Version,", str(VERSION), ",", str(BUILDDATE)
+   print
 
-#Show Menu
-def show_menu(min, max, quit):
-    print (30 * '-')
-    print "      P y - E N I G M A"
-    print "      M A I N - M E N U"
-    print (30 * '-')
-    print
-    if (min <= 1 <= max):
-        print " 1. Set Wheel      =", wheel
-    if (min <= 2 <= max):
-        print " 2. Set Pointer    =", pointer_l
-    if (min <= 3 <= max):
-        print " 3. Set Code Start =", code_start_l
-    if (min <= 4 <= max):
-        print " 4. Set Increment  =", increment
-    if (min <= 5 <= max):
-        print " 5. Set Block Size =", blocksize
-    if (min <= 6 <= max):
-        print " 6. Encrypt a Message"
-    if (min <= 7 <= max):
-        print " 7. Decrypt a Message"
-    if (min <= 8 <= max):
-        print " 8. Nothing Yet"
-    if (min <= 9 <= max):
-        print " 9. Nothing Yet"
-    print
-    print " " + str(quit) + ". Exit program"
-    print
-    print (30 * '-')
-    return
+ # Show Menu
+ def show_menu(min, max, quit):
+   print (30 * '-')
+   print "      P y - E N I G M A"
+   print "      M A I N - M E N U"
+   print (30 * '-')
+   print
+   if (min <= 1 <= max):
+     print " 1. Set Wheel      =", wheel
+   if (min <= 2 <= max):
+     print " 2. Set Pointer    =", pointer_l
+   if (min <= 3 <= max):
+     print " 3. Set Code Start =", code_start_l
+   if (min <= 4 <= max):
+     print " 4. Set Increment  =", increment
+   if (min <= 5 <= max):
+     print " 5. Set Block Size =", blocksize
+   if (min <= 6 <= max):
+     print " 6. Encrypt a Message"
+   if (min <= 7 <= max):
+     print " 7. Decrypt a Message"
+   if (min <= 8 <= max):
+     print " 8. Nothing Yet"
+   if (min <= 9 <= max):
+     print " 9. Nothing Yet"
+   print
+   print " " + str(quit) + ". Exit program"
+   print
+   print (30 * '-')
 
-#Get User Choice
-def get_choice(min, max, quit):
-    #Wait for valid choice in while...not.
-    choice_is_valid=False
-    while not choice_is_valid:
-        try:
-            choice = int(raw_input("Enter choice [" + str(min) + "-" + str(max) + "]: "))
-            if (min <= choice <= max or choice == quit):
-                #A valid choice will terminate the while...not loop.
-                choice_is_valid = True
-            else:
-                print"Error! Only numbers " + str(min) + "-" + str(max) + " or " + str(quit) + " are valid."
-        except ValueError as e:
-            print ("Error! %s is not a valid choice." % e.args[0].split(": ")[1])
-    return(choice)
+ #Get User Choice
+ def get_choice(min, max, quit):
+   #Wait for valid choice in while...not.
+   choice_is_valid=False
+   while not choice_is_valid:
+     try:
+       choice = int(raw_input("Enter choice [" + str(min) + "-" + str(max) + "]: "))
+       if (min <= choice <= max or choice == quit):
+         #A valid choice will terminate the while...not loop.
+         choice_is_valid = True
+       else:
+         print"Error! Only numbers "+str(min)+"-"+str(max)+"or"+str(quit)+" are valid."
+     except ValueError as e:
+       print("Error! %s is not a valid choice." % e.args[0].split(": ")[1])
+   return choice
 
-#Option 1
-def prg_choice1():
-    print
-    #Wait for valid choice in while...not.
-    choice_is_valid=False
-    while not choice_is_valid:
-        try:
-            choice = int(raw_input("Enter Coding Wheel [1 or 2]: "))
-            if (1 <= choice <= 2):
-                #A valid choice will terminate the while...not loop.
-                choice_is_valid = True
-            else:
-                print"Error! Only numbers 1 or 2 are valid."
-        except ValueError as e:
+ #Option 1
+ def prg_choice1():
+   print
+   #Wait for valid choice in while...not.
+   choice_is_valid=False
+   while not choice_is_valid:
+     try:
+       choice = int(raw_input("Enter Coding Wheel [1 or 2]: "))
+       if (1 <= choice <= 2):
+         #A valid choice will terminate the while...not loop.
+         choice_is_valid = True
+       else:
+         print"Error! Only numbers 1 or 2 are valid."
+     except ValueError as e:
             print ("Error! %s is not a valid choice." % e.args[0].split(": ")[1])
     print
     return(choice)
@@ -429,86 +468,6 @@ def prg_choice7():
     print "Plaintext:", cypher, "=>", decrypt(cypher)
     print
     return
-
-#Option 8
-def prg_choice8():
-    return
-
-#Option 9
-def prg_choice9():
-    return
-
-#Encrypt a string
-def encrypt(plaintext):
-    #Set the wheel to the key character.
-    pointer = pointer_n
-    cypher = ''
-    #Encrypt the Alpha Start character.
-    cypher += transform_char(code_start_l, wheel, pointer)
-    cypher += ' '
-    #Set the wheel to the Alpha Start character.
-    pointer = code_start_n
-    block = 0
-    for o_char in plaintext:
-        #Substitute periods with X's.
-        if o_char == '.':
-            o_char = 'X'
-        #Encrypt each letter in the plaintext.
-        e_char = transform_char(o_char, wheel, pointer)
-        #Do something if the character was encrypted ok.
-        if len(e_char) > 0:
-            block += 1
-            #Add a space after a block of blocksize characters.
-            if block > blocksize:
-                cypher += ' '
-                block = 1 #Remembering the character that was blocksize+1.
-            #Add the character to the result.
-            cypher += e_char
-            #Turn the wheel.
-            pointer = (pointer + increment)%26
-    return(cypher)
-
-#Decrypt a string
-def decrypt(cypher):
-    #Set the wheel to the key character.
-    pointer = pointer_n
-    #Extract and decrypt the Alpha Start character.
-    pointer = ord(transform_char(cypher[:1], wheel, pointer))-65
-    plaintext = ''
-    for e_char in cypher[1:]:
-        #Decrypt each letter in the cypher.
-        o_char = transform_char(e_char, wheel, pointer)
-        #Do something if the character was decrypted ok.
-        if len(o_char) > 0:
-            #Add the character to the result.
-            plaintext += o_char
-            #Turn the wheel.
-            pointer = (pointer + increment)%26
-    return(plaintext)
-
-#Encrypt/Decrypt a single character
-def transform_char(char, wheel, pointer):
-    
-    char = char.upper()  # Ensure that the character is Upper Case.
-    #Only characters A-Z can be encrypted or decrypted.
-    if(65 <= ord(char) <= 90):
-        #ASCII => Alphabetical position of the character.
-        char_num = ord(char)-65
-        if (wheel == 1):
-            #Get the Wheel1 Offset for this character with this pointer.
-            #Uses MOD maths to turn the Wheel1 List into a circle.
-            offset = WHEEL1[(char_num - pointer)%26]
-        else:
-            #Get the Wheel2 Offset for this character with this pointer.
-            #Uses MOD maths to turn the Wheel2 List into a circle.
-            offset = WHEEL2[(char_num - pointer)%26]
-        #Transformed alphabetical position of the character => ASCII.
-        #Uses MOD maths to turn the alphabet into a circle.
-        char = chr(65 + (char_num + offset)%26)
-    else:
-        #Ensure nothing is returned if the character is not A-Z.
-        char = ''
-    return(char)
 
  if __name__ == '__main__':
    main()  #Run the program if it is the primary module
