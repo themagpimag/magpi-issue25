@@ -1,12 +1,10 @@
 #!/usr/bin/python
 #Filename: Py-Enigma.py
 
-#A Python implementation of the Pocket Enigma Cypher Machine.
+#A Python implementation of the Pocket Enigma Cipher Machine.
 
 #Ian Neill (c)2014
 # - Works with Python v2.7
-
-import random
 
 VERSION = "v1.0.0"
 BUILDDATE = "01/06/2014"
@@ -46,9 +44,9 @@ def transformChar(character, selectedWheel, pointer):
 # Encrypt a string
 def encrypt(plaintext):
   pointer = pointerInt  # Set the wheel to the key character.
-  cypher = ''
-  cypher += transformChar(codeStartChar, selectedWheel, pointer)  # Encrypt the Alpha Start character.
-  cypher += ' '
+  cipher = ''
+  cipher += transformChar(codeStartChar, selectedWheel, pointer)  # Encrypt the Alpha Start character.
+  cipher += ' '
   pointer = codeStartInt # Set the wheel to the Alpha Start character.
   block = 0
 
@@ -65,23 +63,23 @@ def encrypt(plaintext):
     if len(e_char) > 0:
       block += 1
       if block > blocksize:
-        cypher += ' ' # Add a space after a block of blocksize characters.
+        cipher += ' ' # Add a space after a block of blocksize characters.
         block = 1   # Remembering the character that was blocksize+1.
          
-      cypher += e_char  # Add the character to the result.
+      cipher += e_char  # Add the character to the result.
       pointer = (pointer + increment)%26  # Turn the wheel, using mod 26 to return to zero
-  return cypher
+  return cipher
 #---------------------------------------
 # Decrypt a string
-def decrypt(cypher):
+def decrypt(cipher):
   pointer = pointerInt  # Set the wheel to the key character.
 
   # Extract and decrypt the Alpha Start character.
-  pointer = ord(transformChar(cypher[:1], selectedWheel, pointer))-65
+  pointer = ord(transformChar(cipher[:1], selectedWheel, pointer))-65
 
   plaintext = '' # Output string with no characters
-  # Decrypt each letter in the cypher.
-  for e_char in cypher[1:]:
+  # Decrypt each letter in the cipher.
+  for e_char in cipher[1:]:
     # Decrypt this character
     o_char = transformChar(e_char, selectedWheel, pointer)
 
@@ -94,14 +92,14 @@ def decrypt(cypher):
 # Welcome message
 def welcome(message):
   print(message)
-  print("   Version, %s, %s\n" % (VERSION, BUILDDATE))
+  print("   Version, %s, %s" % (VERSION, BUILDDATE))
 #---------------------------------------
 # Print the available menu options
 def showMenu(min, max, quit):
-  print(30 * '-')
+  print("\n" + 30 * '-')
   print("      P y - E N I G M A")
   print("      M A I N - M E N U")
-  print(30 * '-'+"\n")
+  print(30 * '-' + "\n")
   for i in xrange(min,max+1):
     if i == 1:
       print(" 1. Set Wheel      = %d" % selectedWheel)
@@ -124,7 +122,7 @@ def showMenu(min, max, quit):
     else:
         continue
     
-  print("\n %d. Exit program\n\n" % quit)
+  print("\n %d. Exit program\n" % quit)
   print(30 * '-')
 #---------------------------------------
 def getValue(request="Enter choice: "):
@@ -163,7 +161,7 @@ def getCharacter(min,max,request):
 # Main function
 def main():
   global selectedWheel, pointerChar, pointerInt, codeStartChar, codeStartInt, increment, blocksize
-  welcome("Py-Enigma - The Pocket Enigma Cypher Machine")
+  welcome("Py-Enigma - The Pocket Enigma Cipher Machine")
   menuMin = 1
   menuMax = 7
   menuQuit = 0
@@ -193,8 +191,8 @@ def main():
       plaintext = getValue("Enter Plaintext: ")
       print("Encryption: %s => %s" % (plaintext,encrypt(plaintext)))
     elif userChoice == 7:
-      cypher = getValue("Enter Cypher: ")
-      print("Plaintext: %s => %s" % (cypher,decrypt(cypher)))
+      cipher = getValue("Enter Cipher: ")
+      print("Plaintext: %s => %s" % (cipher,decrypt(cipher)))
     else:
       print("Error: \"%d\" is not a valid choice" % userChoice)
 
