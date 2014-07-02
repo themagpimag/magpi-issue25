@@ -1,0 +1,304 @@
+The Pocket Enigma Cipher Machine is a superbly designed toy that demonstrates some of the principles of a real Enigma Cipher Machine, as pictured on the cover of this issue.  The Enigma Cipher machine was used during World War two by the German armed forces, to send secrete messages to submarines and solders.  I obtained my Pocket version from Bletchley Park [ http://www.bletchleypark.org.uk/ ], but unfortunately it no longer appears to be on sale.  It is made only of plastic and cardboard and is substantially simpler when compared with a real Enigma cipher machine!  On the other hand, if you enjoy encryption and ciphers you will get a kick out of the Pocket Enigma.  It is not too difficult to understand either.   
+
+The Pocket Enigma Cypher Machine is not even close to an unbreakable cipher – it is a trivial cipher to break but it is fun.  Therefore, do not use it to encrypt sensitive information.  A full review of the Pocket Enigma machine, including a detailed description and further reading, can be found at:
+ http://www.savory.de/pocket_enigma.html
+
+How does it work?
+
+Each plaintext character is replaced with another character called the cipher text character.  The cipher text character is chosen according to the connection between characters printed on the wheel, where there are two wheels to choose from.
+
+In more detail, the algorithm follows:
+1. Cipher wheel (1 or 2) is chosen.  
+2. The key character is chosen.
+3. The start character is chosen.
+4. The wheel is set to the key character and the start character is encoded.
+5. The wheel is moved to the start character and the first message character is encoded.
+6. The wheel is incremented by 1 position, and the next message character is encoded.
+7. Repeat step 6 until the entire message is encoded.
+8. The encoded message is arranged such that the encoded start character is separated from encoded message.  (The encoded message is arranged in blocks of, typically, five characters.)
+
+For the message to be successfully decoded by the person that receives the message, they must be given the number of the wheel that was used to encrypt the message and the key character that was chosen.
+
+Now for the limitations:
+1. Only upper case characters can be encoded.
+2. No punctuation can be encoded, apart from full-stops which are traditionally substituted with X.
+
+With a bit of imagination the encoding algorithm can easily be modified.  For example, more wheels could be used, or the increment could be varied or even reversed.
+
+Python Pocket Enigma Cipher Machine
+
+Use a text editor such as nano or emacs to create a new Python file called Py-Enigma.py.  Then add:
+
+ #!/usr/bin/python
+
+ # Global variables with starting values
+ selectedWheel = 1
+ pointerChar = 'D'
+ pointerInt = ord(pointerChar)-65
+ codeStartChar = 'J'
+ codeStartInt = ord(codeStartChar)-65
+ increment = 1
+ blocksize = 5
+
+to the top of the file.  In this article each piece of the program is numbered and should be appended to this file, to create the final program.  The ord() function returns the numerical value of an ASCII character.  ord('A') returns 65, whereas ord('B') returns 66 etc..  Lower case characters have different integer values.  Since the cipher is case insensitive, upper case characters are used throughout the program.  The selectedWheel variable is used to select which wheel is used, pointerChar is the initial wheel settings and codeStartChar is the starting character.  Integer values of these variables are also stored to simplify manipulating the wheels within the functions that follow.  The increment is ?? and blocksize is ??.
+
+1. Analysis of the wheels
+
+The wheels have no characters on them, just a lot of connections.  One position has an arrow, or pointer, and is taken as the starting position (actually position 0).  Looking at the pictures on the first page of this article, it is clear that the connections simply connect from one position to another.  These connections indicate how one character should be substituted for another.
+
+The wheels can be summarised using two Python lists:
+
+ # Wheel definitions
+ wheel1 = [-1,3,-5,7,-3,2,3,-2,4,-3,-7,6,-4,1,-1,6,3,-6,2,-3,-2,-6,2,5,-2,1]
+ wheel2 = [2,2,-2,-2,-8,3,9,5,-3,1,-1,2,-5,-2,2,-9,-2,8,2,2,-2,-2,8,1,-1,-8]
+
+Add these two lists to the end of the Python file.  Each list has 26 entries, since there are 26 characters around the outside of the wheel.  The number in each entry corresponds to the joining line on the wheel, where a negative number implies moving to the left and a positive number implies moving to the right.
+
+The Python version of the algorithm relies on the modulo (%) operator to stay within the A--Z character range.  First, the character should be converted to an integer.  Then the offset should be applied, using the modulo operator.   For example, using 'A' and the first wheel:
+
+ intValue = ord('A') - 65  # returns 0 
+ intValue = intValue + wheel1[intValue] # returns -1
+ intValue = intValue % 26 # returns 25
+ charValue = chr(intValue + 65) # returns 'Z'
+
+If the number is bigger than the 26 character range, then the modulo operator causes the number to become less than 26.  This means that adding 1 to the value of 'Z' returns 'A':
+
+ intValue = ord('Z') - 65  # returns 25 
+ intValue = intValue + wheel1[intValue] # returns 26
+ intValue = intValue % 26 # returns 0
+ charValue = chr(intValue + 65) # returns 'A'
+
+In both of these examples, the chr() function is used to convert an integer value back into the associated ASCII character. 
+
+2. Encrypting or decrypting a character
+
+The Pocket Enigma algorithm states that the wheel should be moved 1 position clockwise after each message character is encoded.  This means that a repeated character in the message is not encrypted as the same character.  Append the code below to the end of the Python file.
+
+ # Encrypt or decrypt a single character
+ def transformChar(character, selectedWheel, pointer):
+   character = character.upper()  # Ensure that the character is Upper Case.
+   if(65 <= ord(character) <= 90):  # Only characters A-Z can be encrypted or decrypted.    
+     char_num = ord(character) - 65  # Convert ASCII to alphabetical position of the character.
+
+     # Choose the offset for wheel one or two.  Then use the pointer value.
+     if (selectedWheel == 1):
+       offset = wheel1[(char_num - pointer)%26]  # Use mod with 26 to stay within circle
+     else:
+       offset = wheel2[(char_num - pointer)%26]  # Use mod with 26 to stay within circle
+
+     # Convert alphabetical position of the character back to ASCII
+     character = chr(65 + (char_num + offset)%26)  # Convert position back to ASCII character
+   else:
+     character = ''  # Ensure that nothing is returned if the character is not A-Z.
+   return character
+
+This function takes an input character, the selected wheel number and the current pointer position.  The pointer represents the position of the wheel and is substracted from the integer value of the character before it is used to find the offset.  If a character that is not within the A--Z range is passed into the function, then it is ignored and no character is returned.
+
+3. Encrypting a string
+
+To encrypt a string, each character should be passed to the transformChar() function.  Append the code below to the Python file.
+
+ # Encrypt a string
+ def encrypt(plaintext):
+   pointer = pointerInt  # Set the wheel to the key character, using the global variable
+   cipher = ''
+   # Encrypt the Alpha Start character.
+   cipher += transformChar(codeStartChar, selectedWheel, pointer)  
+   cipher += ' '
+   pointer = codeStartInt # Set the wheel to the Alpha Start character.
+   block = 0
+
+   # Encrypt each letter in the plaintext string
+   for o_char in plaintext:
+     # Substitute '.' with 'X'
+     if o_char == '.':
+       o_char = 'X'
+
+     # Encrypt this character
+     e_char = transformChar(o_char, selectedWheel, pointer)
+
+     # Do something if the character was encrypted ok.
+     if len(e_char) > 0:
+       block += 1
+       if block > blocksize:
+         cipher += ' ' # Add a space after a block of blocksize characters.
+         block = 1   # Remembering the character that was blocksize+1.
+         
+       cipher += e_char  # Add the character to the result.
+       pointer = (pointer + increment)%26  # Turn the wheel, using mod 26 to return to zero
+   return cipher
+
+The function takes a string and returns an encrypted string.  The pointer starts from the initial value (key character) set using the global variable pointerInt.  Then the starting character is encypted and appended to the encrypted string.  The pointer value is reset to the starting character and then each character in the string is encrypted.  To retain some punctuation, each '.' is replaced with 'X'.  The encrypted output is also split into blocks that are separates by spaces.
+
+4. Decrypting a string
+
+The connections on the wheels are bi-directional.  Therefore, if a character is encoded as 'F' and the wheel is in the same position, encoding 'F' will return the original character.  Consequently, the same encryption routine can be used to decrypt a string.  Append the program at the top of the next page to the Python file.  This function takes an encrypted string and returns a decrypted string.  Notice that punctuation and spaces are not recovered during the encryption.  Therefore, the person that receives the encrypted message will need to put those back in by hand.
+
+
+
+
+
+
+
+ # Decrypt a string
+ def decrypt(cipher):
+   pointer = pointerInt  # Set the wheel to the key character.
+
+   # Extract and decrypt the Alpha Start character.
+   pointer = ord(transformChar(cipher[:1], selectedWheel, pointer))-65
+
+   plaintext = '' # Output string with no characters
+   # Decrypt each letter in the cipher.
+   for e_char in cipher[1:]:
+     # Decrypt this character
+     o_char = transformChar(e_char, selectedWheel, pointer)
+
+     # Do something if the character was decrypted ok.
+     if len(o_char) > 0:
+       plaintext += o_char   # Add the character to the result.
+       pointer = (pointer + increment)%26   # Turn the wheel, using mod 26 to return to zero
+   return plaintext
+
+5. Welcome, menu & input functions
+
+To call the encrypt and decrypt functions, a text menu provides a simple interface.  Add the code given below to the end of the Python file. 
+
+ # Welcome message
+ def welcome(message):
+   print(message)
+   print("   Version, %s, %s" % (VERSION, BUILDDATE))
+
+ # Print the available menu options
+ def showMenu(min, max, quit):
+   print("\n" + 30 * '-')
+   print("      P y - E N I G M A")
+   print("      M A I N - M E N U")
+   print(30 * '-' + "\n")
+   for i in xrange(min,max+1):
+     if i == 1:
+       print(" 1. Set Wheel      = %d" % selectedWheel)
+     elif i == 2:
+       print(" 2. Set Pointer    = %s" % pointerChar)
+     elif i == 3:
+       print(" 3. Set Code Start = %s" % codeStartChar)
+     elif i == 4:
+       print(" 4. Set Increment  = %d" % increment)
+     elif i == 5:
+       print(" 5. Set Block Size = %d" % blocksize)
+     elif i == 6:
+       print(" 6. Encrypt a Message")
+     elif i == 7:
+       print(" 7. Decrypt a Message")
+     elif i == 8:
+       print(" 8. Nothing Yet")
+     elif i == 9:
+       print(" 9. Nothing Yet")
+     else:
+        continue
+    
+   print("\n %d. Exit program\n" % quit)
+   print(30 * '-')
+
+The first function is used to report the version and build date, whereas second function prints out the menu choices.  To read values that correspond to the menu options three simple input functions are needed.  Add the functions below to the end of the Python file.
+
+ def getValue(request="Enter choice: "):
+   while 1:
+     inputValue = raw_input(request)
+     if len(inputValue) == 0:
+       print("Error: no value given")
+       continue
+     return inputValue
+
+ def getInteger(min,max,request,checkRange = True):
+   while 1:
+     inputValue = getValue(request)
+     try:
+       intValue = int(inputValue)
+     except ValueError:
+       print("Error: \"%s\" is not an integer" % inputValue)
+       continue
+     if (intValue < min or intValue > max) and checkRange:
+       print("Error: \"%d\" is outside range [%d--%d]" % (intValue,min,max))
+       continue
+     return intValue
+
+ def getCharacter(min,max,request):
+   while 1:
+     inputValue = getValue(request)
+     if len(inputValue) != 1:
+       print("Error: \"%s\" is not a single character" % inputValue)
+       continue
+     charValue = inputValue.upper()
+     if ord(charValue) < ord(min) or ord(charValue) > ord(max):
+       print("Error: \"%s\" is outside range [%s--%s]" % (charValue,min,max))
+       continue
+     return charValue
+
+These functions are used to read a value from the keyboard, read an integer value and read a character value, respectively.  The functions prevent a string without any characters from being accepted, check the type of the input string and if it is within the allowed range of numbers or characters.
+ 
+6. Finishing the program
+
+To finish the program, a function is needed to call all of the other pieces of the program.  Add the main function at the top of the next page to the end of the Python file.  Then save the file and make it executable by typing:
+
+ chmod 755 Py-Enigma.py
+
+Then run the program by typing:
+
+ ./Py-Enigma.py
+
+The program will print the menu and allow changes to the settings to be made.  If the settings are updated, then the menu is printed again with the new values.  The input functions are used to make sure that the settings do not go outside of their allowed range.  The menu can also be used to encrypt or decrypt strings, where the result is printed on the screen.
+
+
+
+
+
+ # Main function
+ def main():
+   global selectedWheel, pointerChar, pointerInt, codeStartChar, codeStartInt, increment, blocksize
+   welcome("Py-Enigma - The Pocket Enigma Cipher Machine")
+   menuMin = 1
+   menuMax = 7
+   menuQuit = 0
+
+   while 1:
+     showMenu(menuMin, menuMax, menuQuit) # Show the menu
+
+     # Get the user choice, without checking the range
+     userChoice = getInteger(0,0,"Enter choice [%d--%d]: " % (menuMin, menuMax),False)
+    
+     # Take action as per selected menu-option.
+     if userChoice == menuQuit:
+       break # Leave the while loop
+     elif userChoice == 1:
+       selectedWheel = getInteger(1,2,"Enter Coding Wheel [1 or 2]: ")
+     elif userChoice == 2:
+       pointerChar = getCharacter('A','Z',"Enter Pointer Position [A to Z]: ")
+       pointerInt = ord(pointerChar)-65
+     elif userChoice == 3:
+       codeStartChar = getCharacter('A','Z',"Enter Coding Start Position [A to Z]: ")
+       codeStartInt = ord(codeStartChar)-65
+     elif userChoice == 4:
+       increment = getInteger(-1,1,"Enter Increment [-1, 0 or 1]: ")
+     elif userChoice == 5:
+       blocksize = getInteger(1,10,"Enter Block Size [1 to 10]: ")
+     elif userChoice == 6:
+       plaintext = getValue("Enter Plaintext: ")
+       print("Encryption: %s => %s" % (plaintext,encrypt(plaintext)))
+     elif userChoice == 7:
+       cipher = getValue("Enter Cipher: ")
+       print("Plaintext: %s => %s" % (cipher,decrypt(cipher)))
+     else:
+       print("Error: \"%d\" is not a valid choice" % userChoice)
+
+   print("\nGoodbye.\n")
+
+
+ #Run the program if it is the primary module
+ if __name__ == '__main__':
+   main()
+
+The main() function starts by declaring the global variables as global.  This is necessary to prevent Python from creating a local version of the same variable when a value is assigned.  It is not needed if the values are only used.  The welcome message is printed.  Then in the while loop, the menu is printed.  The users choice is read and checked against each of the menu options.  Depending on the menu option, the required action is taken.
+
+What next?
+
+Well that depends... let me know what you think.  All/any feedback is appreciated. 
