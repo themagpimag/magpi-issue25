@@ -200,14 +200,14 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="360.080708665355" WIDTH="538.588346456693" HEIGHT="447.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="25" BACKITEM="-1">
-            <ITEXT FONTSIZE="10" CH="This is the 3rd article in the Java programming series.  The two previous articles can be found in Issues 14 and 16 of The MagPi.  In this article, the basics of classes, objects and their methods are introduced.  The article also covers the Java Class Library, which provides thousands of useful functions."/>
-            <ITEXT CH="  The article also includes a discussion of arrays. "/>
+            <ITEXT FONTSIZE="10" CH="This is the 3rd article in the Java programming series.  The two previous articles can be found in Issues 14 and 16 of The MagPi.  In this article, arrays, the basics of classes, objects and their methods are introduced.  The article also covers the Java Class Library, which provides thousands of useful functions."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Classes, objects and methods"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="First things first: in Java we don't normally write all the instructions of our program into a single very long class. Instead we divide our program into smaller sections called &quot;methods&quot;. We write a method for every task a class performs. A program usually has several classes, each one in turn has several methods (tasks). For example, we could write a class that represents Car so it has methods to move forward, turn left, and turn right, as in:"/>
+            <ITEXT CH="Programs written in Java are not normally written as one very long class."/>
+            <ITEXT FONTSIZE="10" CH=" Instead, program are typically divide into functions that are commonly referred to as &quot;methods&quot; of a class.  Ideally, there should be a method for every task that a class performs.  A program usually has several classes, each one in turn has several methods (tasks). For example, a class could be written that represents Car, which has methods to move forward, turn left, and turn right:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" public class Car {"/>
@@ -237,19 +237,21 @@
             <ITEXT FONTSIZE="9" CH=" }"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="The idea of defining this class with separated methods is that using it from another class should be simple to use and to understand. If another class calls the Car class it can tell it to move forward and to turn at will. It won't know the details on how that happens, but it'll be quite easy to understand how to use it from the other class's point of view."/>
+            <ITEXT FONTSIZE="10" CH="The idea of defining a class with separate methods that have a clearly defined purpose is that it is straightforward to understand which method to use without reading the code.   If someone else is developing another class that calls the Car class methods, the other developer can understand the function of the method just from its name."/>
+            <ITEXT CH="  Building programs with logical structure is a useful skill in any programming langauge, leading to fewer bugs and easier code reuse."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="Now, let's look in detail on how to write a method. We must write:"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="A class method should include:"/>
             <para PARENT="Body text"/>
             <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="• its visibility (&quot;public&quot; in this case means the other class can execute it); other visibilities are &quot;private&quot; (cannot be used by other classes), &quot;protected&quot; and &quot;package&quot; (we'll discuss these ones later on)."/>
+            <ITEXT FONTSIZE="10" CH="• its visibility (&quot;public&quot; in this case means the other class can execute it); other visibilities are &quot;private&quot; (cannot be used by other classes), &quot;protected&quot; and &quot;package&quot; (discussed later in this article)."/>
             <para PARENT="Body text"/>
             <tab FONTSIZE="10"/>
             <ITEXT FONTSIZE="10" CH="• the return type: (&quot;void&quot; in this case meaning no return at all); or any Java type."/>
             <para PARENT="Body text"/>
             <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="• the name of the method (any name you want). For example &quot;forward&quot;."/>
+            <ITEXT FONTSIZE="10" CH="• the name of the method, which should indicate what the method does, e.g.: &quot;forward&quot;."/>
             <para PARENT="Body text"/>
             <tab FONTSIZE="10"/>
             <ITEXT FONTSIZE="10" CH="• in between parenthesis the list of parameters (any parameters you feel necessary for the method to perform its task); &quot;double meters&quot; in the first method."/>
@@ -652,7 +654,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="128.347086614173" YPOS="500.291338549607" WIDTH="538.588346456694" HEIGHT="183.834645702361" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Cyan" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 183.835 538.588 183.835 538.588 183.835 538.588 183.835 0 183.835 0 183.835 0 183.835 0 183.835 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 183.835 538.588 183.835 538.588 183.835 538.588 183.835 0 183.835 0 183.835 0 183.835 0 183.835 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="128.347086614173" YPOS="515" WIDTH="538.588346456694" HEIGHT="180.464566929133" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Cyan" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 180.465 538.588 180.465 538.588 180.465 538.588 180.465 0 180.465 0 180.465 0 180.465 0 180.465 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 180.465 538.588 180.465 538.588 180.465 538.588 180.465 0 180.465 0 180.465 0 180.465 0 180.465 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
