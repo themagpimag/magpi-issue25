@@ -207,7 +207,7 @@
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Programs written in Java are not normally written as one very long class."/>
-            <ITEXT FONTSIZE="10" CH=" Instead, program are typically divide into functions that are commonly referred to as &quot;methods&quot; of a class.  Ideally, there should be a method for every task that a class performs.  A program usually has several classes, each one in turn has several methods (tasks). For example, a class could be written that represents Car, which has methods to move forward, turn left, and turn right:"/>
+            <ITEXT FONTSIZE="10" CH=" Instead, program are typically divide into functions that are commonly referred to as &quot;methods&quot; of a class.  Ideally, there should be a method for every task that a class performs.  A program usually has several classes, each one in turn has several methods (tasks). For example, a class could be written that represents a car that has methods to move forward, turn left, and turn right:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" public class Car {"/>
@@ -237,33 +237,51 @@
             <ITEXT FONTSIZE="9" CH=" }"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="The idea of defining a class with separate methods that have a clearly defined purpose is that it is straightforward to understand which method to use without reading the code.   If someone else is developing another class that calls the Car class methods, the other developer can understand the function of the method just from its name."/>
-            <ITEXT CH="  Building programs with logical structure is a useful skill in any programming langauge, leading to fewer bugs and easier code reuse."/>
+            <ITEXT FONTSIZE="10" CH="The idea of defining a class with separate methods that have clearly defined purposes is that it is straightforward to understand which method to use without reading the code within the method.   If someone else is developing another class that calls the "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="Car"/>
+            <ITEXT FONTSIZE="10" CH=" class methods, the other developer can understand the function of each method just from its name."/>
+            <ITEXT CH="  Building programs with logical structure is a useful skill in any programming langauge, leading to fewer bugs and more efficient programs."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="A class method should include:"/>
             <para PARENT="Body text"/>
             <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="• its visibility (&quot;public&quot; in this case means the other class can execute it); other visibilities are &quot;private&quot; (cannot be used by other classes), &quot;protected&quot; and &quot;package&quot; (discussed later in this article)."/>
+            <ITEXT FONTSIZE="10" CH="• its visibility ("/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="public"/>
+            <ITEXT FONTSIZE="10" CH=" in this case means the other class can execute it); other visibilities are "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="private"/>
+            <ITEXT FONTSIZE="10" CH=" (cannot be used by other classes), "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="protected"/>
+            <ITEXT FONTSIZE="10" CH=" and "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="package"/>
+            <ITEXT FONTSIZE="10" CH=" (discussed later in this article)."/>
             <para PARENT="Body text"/>
             <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="• the return type: (&quot;void&quot; in this case meaning no return at all); or any Java type."/>
+            <ITEXT FONTSIZE="10" CH="• the return type"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=", which might be any Java type or "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="void"/>
+            <ITEXT FONTSIZE="10" CH=" which implies no return type."/>
             <para PARENT="Body text"/>
             <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="• the name of the method, which should indicate what the method does, e.g.: &quot;forward&quot;."/>
+            <ITEXT FONTSIZE="10" CH="• the name of the method, which should indicate what the method does."/>
             <para PARENT="Body text"/>
             <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="• in between parenthesis the list of parameters (any parameters that are necessary for the method to perform its task); &quot;double meters&quot; in the first method."/>
+            <ITEXT FONTSIZE="10" CH="• in between parentheses, a list of parameters that are necessary for the method to perform its task.  For example, &quot;"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="double meters"/>
+            <ITEXT FONTSIZE="10" CH="&quot; in the first method."/>
             <para PARENT="Body text"/>
             <tab FONTSIZE="10"/>
             <ITEXT FONTSIZE="10" CH="• Finally, in between curly braces, the Java code that is executed and that performs the requested task."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="Right, but how do we use these methods?  The thing is, we can create many objects of each class. Objects, what's that? Well... each class is like a blueprint from which we can create many objects: we may have a single class &quot;Car&quot; but we can have a thousand car objects, all of them independent of each other. Each one may be doing something different, depending on what tasks we ask each one to do. To create each car object we use the instruction &quot;new&quot; as shown in the next example."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="In the example below, a CarDriver class creates two objects from the class Car and then uses them:"/>
+            <ITEXT FONTSIZE="10" CH="Once a class has been written with one or more methods, the methods can be called by instantiating an object of the class and then calling its methods.  Each class is a blueprint from which many objects can be created: there may be a single class "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="Car"/>
+            <ITEXT FONTSIZE="10" CH=" but a thousand car objects, where each of them is independent in memory.  An object of the class "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="Car"/>
+            <ITEXT FONTSIZE="10" CH=" can be created by using the instruction "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="new"/>
+            <ITEXT CH=":"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" public class CarDriver {"/>
@@ -287,31 +305,60 @@
             <ITEXT FONTSIZE="9" CH=" }"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="Simple, right? The &quot;new&quot; instruction creates an object of a class. Then, to execute tasks on the object you write the name of the object, a dot, the name of the method, and the parameters in between parenthesis. For example:"/>
+            <ITEXT FONTSIZE="10" CH="This program includes a "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="CarDriver"/>
+            <ITEXT FONTSIZE="10" CH=" class that creates two objects of the class "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="Car"/>
+            <ITEXT FONTSIZE="10" CH=" and then "/>
+            <ITEXT CH="calls the methods of the objects."/>
+            <ITEXT FONTSIZE="10" CH="  The "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="new"/>
+            <ITEXT FONTSIZE="10" CH=" instruction creates an object, where the associated class constructor is given to the right of "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="new"/>
+            <ITEXT FONTSIZE="10" CH=".  The syntax for calling the method of an object is the object name, a dot and then the method name with any parameters in parentheses:"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="10" CH=" "/>
             <para PARENT="Body text"/>
             <ITEXT CH="     car1.turnLeft(20.0);"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="executes the method turnLeft on car1 with a parameter of 20.0."/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="Challenge #1: Execute the program "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="CarDriver"/>
+            <ITEXT FONTSIZE="10" CH=". To do this put the "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="CarDriver"/>
+            <ITEXT FONTSIZE="10" CH=" class in a file called "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="CarDriver.java"/>
+            <ITEXT FONTSIZE="10" CH=" and the "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="Car"/>
+            <ITEXT FONTSIZE="10" CH=" class in a file called "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="Car.java"/>
+            <ITEXT FONTSIZE="10" CH=". Then compile both classes as shown in the first Java article.  Then run the program by typing: "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="java CarDriver"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="Challenge #1: Execute the program  CarDriver that uses the class Car. You must write both in separate files CarDriver.java and Car.java. Then, compile them as shown in the first Java article, and run them with:"/>
+            <ITEXT FONTSIZE="10" CH="Challenge #2: Add a third object of class "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="Car"/>
+            <ITEXT FONTSIZE="10" CH=" called "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="car3"/>
+            <ITEXT FONTSIZE="10" CH=".  Call its methods to move forward 10 meters, turn right 5 degrees and finally move forward 14 meters."/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH=" java CarDriver"/>
             <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="Challenge #2: Add a third car &quot;car3&quot; that will move forward 10 meters, then turn right 5 degrees, and finally move forward 14 meters."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="In some classes you can execute methods without creating objects. These are called &quot;static&quot; methods and we will explain them later on. In this case you use the name of the class instead of the name of an object. For example, the class Math has several methods that work like this: to get the absolute value of the number -12 we use:"/>
+            <ITEXT FONTSIZE="10" CH="It is possible to create a class that has methods that can be called directly, using the class name instead of an object.  These are called &quot;"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="static"/>
+            <ITEXT FONTSIZE="10" CH="&quot; methods and are explained later in this article.  The "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="Math"/>
+            <ITEXT FONTSIZE="10" CH=" class has several methods that are static.  For example, to get the absolute value of the number -12 :"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" Math.abs(-12)"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="Quite simple, right?"/>
+            <ITEXT CH="where "/>
+            <ITEXT FONT="Monaco Regular" CH="Math"/>
+            <ITEXT CH=" is the class name and "/>
+            <ITEXT FONT="Monaco Regular" CH="abs"/>
+            <ITEXT CH=" is the method name."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Organising classes and methods"/>
@@ -464,7 +511,7 @@
             <para PARENT="Code"/>
             <ITEXT CH="   public static void main(String[] args) {"/>
             <para PARENT="Code"/>
-            <ITEXT CH="     if (args.length != 3) {"/>
+            <ITEXT CH="     if (args.length != 3) {  // If less than three additional arguments are provided"/>
             <para PARENT="Code"/>
             <ITEXT CH="       System.out.println(&quot;I need three parameters: &quot;          + &quot;map-number, height and width.&quot;);"/>
             <para PARENT="Code"/>
@@ -472,11 +519,11 @@
             <para PARENT="Code"/>
             <ITEXT CH="     }"/>
             <para PARENT="Code"/>
-            <ITEXT CH="     int mapNumber = new Integer(args[0]);"/>
+            <ITEXT CH="     int mapNumber = new Integer(args[0]);  // Create an integer version of the map number"/>
             <para PARENT="Code"/>
-            <ITEXT CH="     int height = new Integer(args[1]);"/>
+            <ITEXT CH="     int height = new Integer(args[1]);  // Create an integer version of the map height"/>
             <para PARENT="Code"/>
-            <ITEXT CH="     int width = new Integer(args[2]);"/>
+            <ITEXT CH="     int width = new Integer(args[2]); // Create an integer version of the map width"/>
             <para PARENT="Code"/>
             <ITEXT CH="     Terrain land = new Terrain(mapNumber, height, width);"/>
             <para PARENT="Code"/>
@@ -501,12 +548,17 @@
             <ITEXT CH=" }"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="Challenge #5: Compile both classes (MapGenerator and Terrain) and execute it. When executing it you need to provide the map number, the length and the width. For example execute it using:"/>
+            <ITEXT CH="Challenge #5: Compile the classes "/>
+            <ITEXT FONT="Monaco Regular" CH="MapGenerator"/>
+            <ITEXT CH=" and "/>
+            <ITEXT FONT="Monaco Regular" CH="Terrain"/>
+            <ITEXT CH=".  Then execute the "/>
+            <ITEXT FONT="Monaco Regular" CH="MapGenerator"/>
+            <ITEXT CH=" program, providing the map number, the length and the width, e.g.:"/>
+            <ITEXT FONT="Monaco Regular" CH=" java MapGenerator 6 15 38"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="java MapGenerator 6 15 38"/>
-            <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="You'll see:"/>
+            <ITEXT CH="The result of the 5th challenge should be:"/>
             <para PARENT="Body text"/>
             <para PARENT="Code"/>
             <ITEXT CH=" ......t       ........................"/>
@@ -540,17 +592,26 @@
             <ITEXT CH=" .......   ....o........o.............."/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="Do you see the land (dots), the water (blanks), the rocks (o), the Forest (T and t), and the hidden treasure ($)?"/>
+            <ITEXT FONTSIZE="10" CH="where the dots represent the land, the blanks represent water, the "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="o"/>
+            <ITEXT FONTSIZE="10" CH=" characters represent rocks, "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="T"/>
+            <ITEXT FONTSIZE="10" CH=" and "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="t"/>
+            <ITEXT FONTSIZE="10" CH=" are trees and "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="$"/>
+            <ITEXT FONTSIZE="10" CH=" is the hidden treasure"/>
+            <ITEXT CH="."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="Challenge #6: Execute the program with different values to see different maps. The first number is the map number. The second and third are the size of the map (lines, columns). Try, for example:"/>
+            <ITEXT FONTSIZE="10" CH="Challenge #6: Execute the MapGenerator program with different values to see different maps.  For example:"/>
             <para PARENT="Body text"/>
             <ITEXT CH="java MapGenerator 7 15 34"/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="10" CH="Try other maps too and see how the MapGenerator class works."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="Congratulations! You've learned the basics of Classes and Methods!"/>
+            <ITEXT FONTSIZE="10" CH="Congratulations!  You have learned the basics of classes and methods!"/>
             <trail PARENT="Body text"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -601,7 +662,7 @@
         <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.34708661126" YPOS="1838.39503937032" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="42" BACKITEM="25">
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.347086614173" YPOS="1378.97637801338" WIDTH="538.588346456693" HEIGHT="54.1889763173297" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Challenge" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 54.189 538.588 54.189 538.588 54.189 538.588 54.189 0 54.189 0 54.189 0 54.189 0 54.189 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 54.189 538.588 54.189 538.588 54.189 538.588 54.189 0 54.189 0 54.189 0 54.189 0 54.189 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.347086614173" YPOS="1415.82677171417" WIDTH="538.588346456693" HEIGHT="54.1889763173297" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Challenge" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 54.189 538.588 54.189 538.588 54.189 538.588 54.189 0 54.189 0 54.189 0 54.189 0 54.189 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 54.189 538.588 54.189 538.588 54.189 538.588 54.189 0 54.189 0 54.189 0 54.189 0 54.189 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -652,7 +713,7 @@
         <PAGEOBJECT OwnPage="4" PTYPE="4" XPOS="128.34708661126" YPOS="3602.17393700811" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="42">
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.347086614173" YPOS="1321.81102357244" WIDTH="538.588346456693" HEIGHT="21.55118119" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Cyan" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 21.5512 538.588 21.5512 538.588 21.5512 538.588 21.5512 0 21.5512 0 21.5512 0 21.5512 0 21.5512 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 21.5512 538.588 21.5512 538.588 21.5512 538.588 21.5512 0 21.5512 0 21.5512 0 21.5512 0 21.5512 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.347086614174" YPOS="1373.66929128898" WIDTH="538.588346456693" HEIGHT="21.55118119" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Cyan" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 21.5512 538.588 21.5512 538.588 21.5512 538.588 21.5512 0 21.5512 0 21.5512 0 21.5512 0 21.5512 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 21.5512 538.588 21.5512 538.588 21.5512 538.588 21.5512 0 21.5512 0 21.5512 0 21.5512 0 21.5512 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -669,11 +730,11 @@
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.34708661126" YPOS="1141" WIDTH="538.5883465" HEIGHT="134" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Cyan" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 134 538.588 134 538.588 134 538.588 134 0 134 0 134 0 134 0 134 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 134 538.588 134 538.588 134 538.588 134 0 134 0 134 0 134 0 134 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.34708661126" YPOS="1165.51275590551" WIDTH="538.5883465" HEIGHT="129.329763779527" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Cyan" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 129.33 538.588 129.33 538.588 129.33 538.588 129.33 0 129.33 0 129.33 0 129.33 0 129.33 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 129.33 538.588 129.33 538.588 129.33 538.588 129.33 0 129.33 0 129.33 0 129.33 0 129.33 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.34708661126" YPOS="1440.47338582677" WIDTH="538.5883465" HEIGHT="40.8809449325989" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Challenge" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 40.8809 538.588 40.8809 538.588 40.8809 538.588 40.8809 0 40.8809 0 40.8809 0 40.8809 0 40.8809 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 40.8809 538.588 40.8809 538.588 40.8809 538.588 40.8809 0 40.8809 0 40.8809 0 40.8809 0 40.8809 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.34708661126" YPOS="1477.32377952756" WIDTH="538.5883465" HEIGHT="40.8809449325989" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Challenge" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 40.8809 538.588 40.8809 538.588 40.8809 538.588 40.8809 0 40.8809 0 40.8809 0 40.8809 0 40.8809 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 40.8809 538.588 40.8809 538.588 40.8809 538.588 40.8809 0 40.8809 0 40.8809 0 40.8809 0 40.8809 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
