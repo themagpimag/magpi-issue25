@@ -60,11 +60,11 @@
         <LAYERS NUMMER="12" LEVEL="4" NAME="Background" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff6470"/>
         <LAYERS NUMMER="13" LEVEL="13" NAME="Image" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ffaa00"/>
         <Printer firstUse="1" toFile="1" useAltPrintCommand="1" outputSeparations="0" useSpotColors="0" useColor="1" mirrorH="1" mirrorV="0" useICC="0" doGCR="1" doClip="1" setDevParam="0" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="0" colorMarks="0" includePDFMarks="1" PSLevel="3" PDLanguage="3" markOffset="3.74231782764791e-308" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
-        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="1" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" docInfoMarks="1" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+            <Fonts Name="Monaco Regular"/>
             <Subset Name="FreeSans Bold"/>
-            <Subset Name="FreeSans Oblique"/>
+            <Subset Name="FreeSans Bold Oblique"/>
             <Subset Name="FreeSans Regular"/>
-            <Subset Name="Monaco Regular"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
@@ -303,17 +303,19 @@
             <ITEXT CH="11111100000000000000000000000000"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The zeros on the right hand side of the mask indicate which bits of an address may be changed.  Note for later that the mask can also be described by the length of the 1's in the chain 255.255.255.0 is /24 in Classless Inter-Domain Routing (CIDR)."/>
+            <ITEXT CH="The zeros on the right hand side of the subnet mask indicate which bits of an address may be changed.  Note for later that the subnet mask can also be described by the length of the 1's in the chain 255.255.255.0 is &quot;/24&quot; in Classless Inter-Domain Routing (CIDR)."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Take the second example above where only the lower three bits of an address may be changed and combine the network 192.168.0.0. A bitwise AND provides the network number:"/>
+            <ITEXT CH="Take the second example above, where only the lower three bits of an address may be changed, and combine the network 192.168.0.0. A bitwise AND provides the network number:"/>
             <para PARENT="Body text"/>
             <ITEXT CH="11000000 10101000 00000000 00000000"/>
             <para PARENT="Body text"/>
             <ITEXT CH="11111111 11111111 11111111 11111000 "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Perform a bitwise OR with the twos compliment of the mask (a simple and fast digital calculation) "/>
+            <ITEXT CH="Now take the network number and perform a bitwise OR with the twos compliment of the subnet mask (a simple and fast digital calculation):"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH=" "/>
             <para PARENT="Body text"/>
             <ITEXT CH="11000000 10101000 00000000 00000000"/>
             <para PARENT="Body text"/>
@@ -352,8 +354,7 @@
             <ITEXT CH="Raspberry Pi's are manufactured by the bucket load but every Raspberry Pi is not exactly the same.  Each has been individually programmed with its own 'MAC address'. At switch on this address is used to call out on any connected network to appeal for local configuration details.  DHCP, built into the modem/router, responds to the appeal by providing the Raspberry Pi with an individual IP address, details of the local subnet mask, the address of the local gateway and finally the address of any DNS server.  With all of these values in place the Raspberry Pi can join the global internet community!"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="DHCP will loan each Raspberry Pi an IP address that is re-leased periodically as internet activity continues. The router will maintain the IP address for the Raspberry Pi even after a period when the Raspberry Pi has been switched off.   Should a device be switched off for too long the address can be given to another device. If instead the Raspberry Pi is permanently configured with an IP address this is called 'static' IP addressing (as opposed to 'dynamic' IP addressing)."/>
-            <para PARENT="Body text"/>
+            <ITEXT CH="DHCP will loan each Raspberry Pi a 'dynamic' IP address that is re-leased periodically as internet activity continues. The router will maintain the IP address for the Raspberry Pi even after a period when the Raspberry Pi has been switched off.   Should a device be switched off for too long the address can be given to another device. If instead the Raspberry Pi is permanently configured with an IP address this is called 'static' IP addressing."/>
             <para PARENT="Body text"/>
             <ITEXT CH="Network settings"/>
             <para PARENT="Body title"/>
